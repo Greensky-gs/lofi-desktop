@@ -9,14 +9,17 @@ config()
 function createWindow() {
 	// Loading stations
 	stations.ready
-	
+
 	const mainWindow = new BrowserWindow({
-		zoomToPageWidth: true,
+		show: false,
 		webPreferences: {
 			preload: path.join(__dirname, 'preload.js'),
 		},
 		icon: path.join(__dirname, 'assets/lofi_girl_logo.ico'),
 	});
+	mainWindow.maximize()
+	mainWindow.show()
+	if (mainWindow.isFullScreenable()) mainWindow.setFullScreen(true)
 
 	mainWindow.loadFile(path.join(__dirname, 'pages/main.html'));
 
