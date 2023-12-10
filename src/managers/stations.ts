@@ -1,38 +1,38 @@
-import { Database, ref, get, onValue } from 'firebase/database'
+import { Database, ref, get, onValue } from 'firebase/database';
 import { Station } from '../classes/Station';
 import { station } from '../types/station';
 
 export class Stations {
-    private ref: Database;
-    private cache: Map<string, Station> = new Map();
-    
-    constructor(reference: Database) {
-        this.ref = reference;
+	private ref: Database;
+	private cache: Map<string, Station> = new Map();
 
-        this.start()
-    }
+	constructor(reference: Database) {
+		this.ref = reference;
 
-    public get stations(): Station[] {
-        return Array.from(this.cache.values())
-    }
+		this.start();
+	}
 
-    public get ready() {
-        return this.cache.size > 50;
-    }
+	public get stations(): Station[] {
+		return Array.from(this.cache.values());
+	}
 
-    private pushStation(input: station<true>) {
-        const station = new Station(input)
-        this.cache.set(station.id, station)
-    }
-    private async fillCache() {
-        onValue(ref(this.ref, 'stations'), (snap) => {
-            const values = snap.val() as Record<string, station<true>>;
-            Object.values(values).forEach((val) => {
-                this.pushStation(val)
-            })
-        })
-    }
-    private start() {
-        this.fillCache()
-    }
+	public get ready() {
+		return this.cache.size > 50;
+	}
+
+	private pushStation(input: station<true>) {
+		const station = new Station(input);
+		this.cache.set(station.id, station);
+	}
+	private async fillCache() {
+		onValue(ref(this.ref, 'stations'), (snap) => {
+			const values = snap.val() as Record<string, station<true>>;
+			Object.values(values).forEach((val) => {
+				this.pushStation(val);
+			});
+		});
+	}
+	private start() {
+		this.fillCache();
+	}
 }

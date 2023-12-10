@@ -1,14 +1,14 @@
 // Modules to control application life and create native browser window
 import { app, BrowserWindow } from 'electron';
-import { config } from 'dotenv'
+import { config } from 'dotenv';
 import { stations } from './cache/stations';
-const path = require('path')
+const path = require('path');
 
-config()
+config();
 
 function createWindow() {
 	// Loading stations
-	stations.ready
+	stations.ready;
 
 	const mainWindow = new BrowserWindow({
 		show: false,
@@ -18,9 +18,9 @@ function createWindow() {
 		},
 		icon: path.join(__dirname, 'assets/lofi_girl_logo.ico'),
 	});
-	mainWindow.maximize()
-	mainWindow.show()
-	if (mainWindow.isFullScreenable()) mainWindow.setFullScreen(true)
+	mainWindow.maximize();
+	mainWindow.show();
+	if (mainWindow.isFullScreenable()) mainWindow.setFullScreen(true);
 
 	mainWindow.loadFile(path.join(__dirname, 'pages/loading.html'));
 
@@ -29,8 +29,8 @@ function createWindow() {
 	}
 
 	setTimeout(() => {
-		mainWindow.loadFile(path.join(__dirname, 'pages/main.html'))
-	}, 1500)
+		mainWindow.loadFile(path.join(__dirname, 'pages/main.html'));
+	}, 1500);
 }
 
 app.whenReady().then(() => {
