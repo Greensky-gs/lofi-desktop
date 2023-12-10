@@ -22,7 +22,6 @@ export class Stations {
 
     private pushStation(input: station<true>) {
         const station = new Station(input)
-        console.log(`Pushing ${station.title}`)
         this.cache.set(station.id, station)
     }
     private async fillCache() {
