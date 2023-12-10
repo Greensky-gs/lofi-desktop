@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "yarn tsc -b && node scripts/compiler.js",
-    "start": "electron . --dev"
+    "start": "yarn build && electron . --dev"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
