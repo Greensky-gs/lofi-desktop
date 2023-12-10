@@ -22,11 +22,15 @@ function createWindow() {
 	mainWindow.show()
 	if (mainWindow.isFullScreenable()) mainWindow.setFullScreen(true)
 
-	mainWindow.loadFile(path.join(__dirname, 'pages/main.html'));
+	mainWindow.loadFile(path.join(__dirname, 'pages/loading.html'));
 
 	if (process.argv.includes('--dev')) {
 		mainWindow.webContents.openDevTools();
 	}
+
+	setTimeout(() => {
+		mainWindow.loadFile(path.join(__dirname, 'pages/main.html'))
+	}, 1500)
 }
 
 app.whenReady().then(() => {

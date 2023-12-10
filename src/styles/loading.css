@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#logo {
+    animation: fadingin 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes fadingin {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
