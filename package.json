@@ -2,8 +2,9 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "src/main.js",
+  "main": "dist/main.js",
   "scripts": {
+    "build": "yarn tsc -b && node scripts/compiler.js",
     "start": "electron . --dev"
   },
   "repository": "https://github.com/electron/electron-quick-start",
