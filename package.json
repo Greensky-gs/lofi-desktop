@@ -1,11 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "lofi-desktop",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A desktop application for lofi music",
   "main": "dist/main.js",
   "scripts": {
     "build": "yarn tsc -b && node scripts/compiler.js",
-    "start": "yarn build && electron . --dev"
+    "dev": "yarn build && electron . --dev",
+    "start": "yarn build && electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
