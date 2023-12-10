@@ -19,7 +19,7 @@ const clarify = (path) => path.replace(input, output)
 let volatile = 0;
 
 const move = (path) => {
-    if (path.endsWith('.js')) return
+    if (path.endsWith('.ts')) return
     copyFileSync(path, clarify(path))
 
     volatile++
