@@ -7,7 +7,8 @@
     "build": "yarn tsc -b && node scripts/compiler.js",
     "dev": "yarn build && electron . --dev",
     "start": "yarn build && electron .",
-    "lint": "yarn prettier -w src"
+    "lint": "yarn prettier -w src",
+    "linted": "git add . && git commit -m \"refactor: ♻️ Run prettier\""
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
