@@ -1,4 +1,4 @@
-const { readdirSync, copyFileSync, existsSync, mkdirSync, lstatSync } = require('node:fs')
+const { readdirSync, copyFileSync, existsSync, mkdirSync, lstatSync, readFileSync, writeFileSync } = require('node:fs')
 const nodePath = require('node:path')
 
 const isDir = path => lstatSync(path).isDirectory()
@@ -17,6 +17,7 @@ const output = getArg('--output', 'dist')
 const clarify = (path) => path.replace(input, output)
 
 let volatile = 0;
+let desctructed = 0;
 
 const move = (path) => {
     if (path.endsWith('.ts')) return
@@ -35,11 +36,25 @@ const recurs = (path) => {
         move(path)
     }
 }
+const remove = (path) => {
+    if (existsSync(path) && isDir(path)) {
+        if (isDir(path)) readdirSync(path).forEach((el) => {
+            remove(path + '/' + el)
+        })
+    } else if (path.endsWith('.js')) {
+        const content = readFileSync(path).toString().split('\n').filter(x => !x.includes('Object.defineProperty(exports, "__esModule", { value: true });')).join('\n')
+        writeFileSync(path, content)
+
+        desctructed++;
+    }
+}
 const run = (path) => {
     recurs(path)
+    remove(`./${output}/scripts`)
 
-    console.log(`Compiled \x1b[33m${volatile}\x1b[0m files`)
+    console.log(`Compiled \x1b[33m${volatile}\x1b[0m files and modified \x1b[33m${desctructed}\x1b[0m existing files`)
     volatile = 0
+    desctructed = 0
 }
 
 if (!isDir(input)) {
