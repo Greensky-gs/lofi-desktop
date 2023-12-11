@@ -1,10 +1,3 @@
-.color_dark_theme {
-	background-color: var(--dark-background);
-}
-.color_light_theme {
-	background-color: var(--light-background);
-}
-
 .container {
 	display: flex;
 	justify-content: center;

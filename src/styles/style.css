@@ -1,5 +1,12 @@
 @import './vars.css';
 
+.color_dark_theme {
+	background-color: var(--dark-background);
+}
+.color_light_theme {
+	background-color: var(--light-background);
+}
+
 .upper_nav {
     position: fixed;
     width: 100%;
