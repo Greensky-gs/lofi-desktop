@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Love+Ya+Like+A+Sister&display=swap');
+
+:root {
+    /* Global variables */
+    --love-ya: 'Love Ya Like A Sister', cursive;
+    --dancing-script: 'Dancing Script', cursive;
+
+    /* Dark vars */
+    --dark-background: #021145;
+    --dark-upper-panel: #BC33C8;
+    --dark-bottom-panel: #AD009C;
+    --dark-song-name-shadow: rgba(206, 206, 206, 0.6);
+    --dark-search-input: #8852CD;
+    --dark-playing: #FFE0E0;
+    --dark-font-color: #EEEEEE;
+
+    /* Light vars */
+    --light-background: #EEEEEE;
+    --light-search-input: var(--dark-search-input);
+    --light-song-name-shadow: var(--dark-song-name-shadow);
+    --light-font-color: black;
+    --light-upper-panel: var(--dark-upper-panel);
+    --light-bottom-panel: var(--dark-bottom-panel);
+    --light-playing: var(--dark-playing);
+}

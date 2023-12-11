@@ -1,0 +1,29 @@
+@import './vars.css';
+
+.upper_nav {
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+}
+
+.color_dark_theme .upper_nav {
+    background-color: var(--dark-upper-panel);
+}
+.color_light_theme .upper_nav {
+    background-color: var(--light-upper-panel)
+}
+
+.dance {
+    font-family: var(--dancing-script);
+}
+.loveya {
+    font-family: var(--love-ya);
+}

@@ -1,3 +1,10 @@
+.color_dark_theme {
+	background-color: var(--dark-background);
+}
+.color_light_theme {
+	background-color: var(--light-background);
+}
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -9,6 +16,13 @@
 #logo {
 	animation: fadingin 1s linear forwards;
 	opacity: 0;
+}
+
+.color_light_theme img#logo {
+	content: url(../assets/lofi_logo_black.png)
+}
+.color_dark_theme img#logo {
+	content: url(../assets/lofi_logo_white.png)
 }
 
 @keyframes fadingin {
