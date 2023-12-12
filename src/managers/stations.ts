@@ -46,16 +46,17 @@ export class Stations {
 		});
 	}
 	private sync() {
-		const allowed: (hardStation & { feedbacks: [] })[] = Array.from(this.cache.values()).map(x => ({
+		const allowed: (hardStation & { feedbacks: []; })[] = Array.from(this.cache.values()).map(x => ({
 			title: x.softTitle,
 			emoji: x.title.split(' ').find(x => /\p{Emoji}/u.test(x)) ?? '',
 			feedbacks: [],
 			type: 'playlist',
-			url: x.url
+			url: x.url,
+			img: x.img
 		}))
 
 		const configs = require('../assets/configs.json')
-		const updated = (configs.stations as (hardStation & { feedbacks: [] })[]).filter(x => x.type === 'radio').concat(allowed)
+		const updated = (configs.stations as (hardStation & { feedbacks: []; })[]).filter(x => x.type === 'radio').concat(allowed)
 
 		writeFileSync(`./dist/assets/configs.json`, JSON.stringify({
 			...configs,

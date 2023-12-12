@@ -19,4 +19,5 @@ export type hardStation = {
 	emoji: string;
 	type: stationType;
 	title: string;
+	img: string;
 }
