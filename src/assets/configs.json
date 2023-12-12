@@ -2,21 +2,21 @@
     "stations": [
         {
             "url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-            "name": "Lofi hip hop radio - beats to relax/study to",
+            "title": "Lofi hip hop radio - beats to relax/study to",
             "type": "radio",
             "emoji": "💫",
             "feedbacks": []
         },
         {
             "url": "https://www.youtube.com/watch?v=rUxyKA_-grg",
-            "name": "Lofi hip hop radio - beats to sleep/chill to",
+            "title": "Lofi hip hop radio - beats to sleep/chill to",
             "type": "radio",
             "emoji": "🎶",
             "feedbacks": []
         },
         {
             "url": "https://www.youtube.com/watch?v=MVPTGNGiI-4",
-            "name": "Lofi synthwave radio - beats to chill/game to",
+            "title": "Lofi synthwave radio - beats to chill/game to",
             "type": "radio",
             "emoji": "🌌",
             "feedbacks": []
