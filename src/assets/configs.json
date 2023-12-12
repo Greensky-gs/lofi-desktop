@@ -1,2929 +1,2734 @@
 {
-	"stations": [
-		{
-			"url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-			"name": "Lofi hip hop radio - beats to relax/study to",
-			"type": "radio",
-			"emoji": "💫",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=rUxyKA_-grg",
-			"name": "Lofi hip hop radio - beats to sleep/chill to",
-			"type": "radio",
-			"emoji": "🎶",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=MVPTGNGiI-4",
-			"name": "Lofi synthwave radio - beats to chill/game to",
-			"type": "radio",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=lTRiuFIWV54",
-			"name": "1 A.M Study session (lofi hip hop/chill beats)",
-			"type": "playlist",
-			"emoji": "📚",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=wAPCSnAhhC8",
-			"name": "2 A.M Study session (lofi hip hop/chill beats)",
-			"type": "playlist",
-			"emoji": "📚",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_tV5LEBDs7w",
-			"name": "Cozy winter (lofi hip hop/study beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=BTYAsjAVa3I",
-			"name": "3 A.M Study session (lofi hip hop/chill beats)",
-			"type": "playlist",
-			"emoji": "📚",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zFhfksjf_mY",
-			"name": "Lazy sunday (lofi hip hop/chill beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1fueZCTYkpA",
-			"name": "Morning coffee (lofi hip hop/study beats)",
-			"type": "playlist",
-			"emoji": "☕",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A nice song to play while studying or working. You also can listen it to chill and relax",
-					"keywords": [
-						"study",
-						"work",
-						"chill",
-						"relax",
-						"background",
-						"calm",
-						"slow"
-					]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=rHh1uQndXJ4",
-			"name": "Purrple Cat - Distant worlds (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A chill music by Purrple cat to enjoy a day with a relaxing and quiet music",
-					"keywords": ["long", "quiet", "chill", "relax"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=gnZImHvA0ME",
-			"name": "Soothing breeze (asian hip hop)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A long song to play to relax or meditate on your feelings. Take a cup of tea or coffee and enjoy this asian songs",
-					"keywords": ["long", "chill", "relax"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=l98w9OSKVNA",
-			"name": "12 A.M Study session (lofi hip hop/chill beats)",
-			"type": "playlist",
-			"emoji": "📚",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A nice song to play to study or work in the day",
-					"keywords": [
-						"study",
-						"work",
-						"chill",
-						"relax",
-						"calm",
-						"long",
-						"quiet"
-					]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=EvVIjeJch-c",
-			"name": "No one's perfect - Discrete Landscapes (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🥀",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Nyx6SBixRE8",
-			"name": "Sleepless Night (lofi hip hop/study beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=qdU7RgF8exI",
-			"name": "Kyu - until we meet again (sad lofi hip hop)",
-			"type": "playlist",
-			"emoji": "🎆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=FkgGD0O5pPM",
-			"name": "Bcalm - For you (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=QU_1o5j2PhU",
-			"name": "Yasumu - until forever (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏔️",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Really nice song, I personaly liked the last one \"until forever\", very melodical",
-					"keywords": ["chill", "memories", "week-end"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=fCtr6SSGlFc",
-			"name": "Dimension 32 - mutations (sad lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🦉",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=RmMogihQids",
-			"name": "aMess - Tales from Babylon (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐪",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "An incredible music to listen when you want to relax. I loved this exotic song",
-					"keywords": ["chill", "relax", "background", "calm"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=gZGLnxVrzD0",
-			"name": "Team astro - Hidden treasure (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Gn92YKpDHfU",
-			"name": "Casiio x Sleepermane - Unexplored (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=A_boxjmXyfY",
-			"name": "DaniSogen -  The gate of serenity (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌉",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-R0UYHS8A_A",
-			"name": "Afternoon Jazz (lofi hop hop/study beats)",
-			"type": "playlist",
-			"emoji": "🎺",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_sQ_BlnGBIE",
-			"name": "Tenno - Mind temple (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛩️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zuvyVD0jtA8",
-			"name": "Yasumu - Escaping reality (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌳",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=HV6OlMPn5sI",
-			"name": "Raimu - The spirit within (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=EmxRSH_-CUM",
-			"name": "No spirit - Between worlds (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4DwxVMU7S0w",
-			"name": "Hoogway - Equation of time (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=NqWUGUNwXuU",
-			"name": "Mondo loops - Forest Kingdom (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌿",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=OE5FPbr8F6c",
-			"name": "Krynoze - Pawmises (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐾",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=arJVAbv5yBc",
-			"name": "Nothingtosay - Cold toughts (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=y--847NiTQw",
-			"name": "Osali - Evergarden (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌱",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=TURbeWK2wwg",
-			"name": "4 A.M Study session (lofi hip hop/chill beats)",
-			"type": "playlist",
-			"emoji": "📚",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=q2d-PwUISdQ",
-			"name": "Raimu - meditative flow (asian lofi hip hop)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=doxeMNXYFqk",
-			"name": "Monma - Calm lands (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=h2Hl1uNwDz4",
-			"name": "No spirit - Memories we made (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛺",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-pzxY5DtZIQ",
-			"name": "softy - The day I passed (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☕",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A relaxing song to listen in background while working",
-					"keywords": ["relax", "background", "work"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=YuD1LESzoVM",
-			"name": "SCayos - Ethereal Nights (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=FTMX-XKfm2w",
-			"name": "Team Astro - Travelers (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎒",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Nice song to play to relax when you want to think about happy memories",
-					"keywords": [
-						"chill",
-						"relax",
-						"background",
-						"memories",
-						"calm"
-					]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=RY89j1qdKvo",
-			"name": "Purrple Cat - Sweat Dreams (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Incredible song. I strongly recommend it. Personnaly, it relax and make me think about my memories",
-					"keywords": ["chill", "relax", "calm", "cool"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=S6zSCQskYl4",
-			"name": "Ivylake - Moonfern (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=DQXKM1tjJBQ",
-			"name": "Blue Wednesday - After hours (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏔️",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A relaxing music to play after being stressed or under preassure",
-					"keywords": ["chill", "relax", "sleep", "slow", "quiet"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=oPwdPTBABiQ",
-			"name": "Tenno - The Prophecy (asian lofi hip hop)",
-			"type": "playlist",
-			"emoji": "⛩️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=SmBLBgPxYO8",
-			"name": "Slo Loris - Riverside (lofi hip hop/guitar beats)",
-			"type": "playlist",
-			"emoji": "🎸",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A nice song to play while working or playing games like chess or programming",
-					"keywords": ["work", "chill", "background", "slow"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Y2NxKdbXlwM",
-			"name": "Trxxshed - Retro Colors (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-jF4LEKGFZM",
-			"name": "cxlt. x Nuver - A moment away (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=9g0xgyEHsA8",
-			"name": "So.Lo x Goson - QuietPath (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌳",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=seamoUeXD4s",
-			"name": "amies x cxlt - After All (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=p-RALlK4zzU",
-			"name": "Tonion x xander. - Stories of Synergy (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍂",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Cool music to listen the week end to enjoy a chill activity",
-					"keywords": ["chill", "relax", "calm"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=O1BnakexgSU",
-			"name": "Goson x Dreamfield - Dreams of Angels (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🕊️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=55wApgn-ThI",
-			"name": "DLJ - After Life (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Ut8rsV6HrUk",
-			"name": "møndberg - Living Free (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌾",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=fR0ZlSDUKCg",
-			"name": "Kinissue - Imperfect (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=NHh6kMiZUA4",
-			"name": "softy x Dimension 32 - Another Life (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌱",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=R4FEaeOZqAo",
-			"name": "Mondo loops x Aiguille - Nature's beauty (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎹",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Calm music to chill and relax. you can think about your memories while listening to it",
-					"keywords": ["chill", "relax", "calm", "memories"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=7vj4HLszl4w",
-			"name": "sinnr - Sunday morning (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌳",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=n5nscOfa18w",
-			"name": "Sátyr x Phlocalyst - Aiode (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌘",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=wo4Z9QOD0H4",
-			"name": "Amies - Discoveries (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=pR2jzX5L1xU",
-			"name": "Dimension 32 - Aeolia (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌕",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=XFZmBSqNjro",
-			"name": "Thibauthetraveler - Travel buddies (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌳",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=15dM62OMJE4",
-			"name": "Loafy Building - Butterflies (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🦋",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=GcUcuckNj94",
-			"name": "xander. - Forest of Dreams (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=9owT8Qh-YRA",
-			"name": "Prithvi - Timescapes Longer Nights (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Really nice song, I was absorbed by the music",
-					"keywords": ["chill", "relax"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=tVpFOmGCxBQ",
-			"name": "Ambulo - Sea forest (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=7na-xGfbOp8",
-			"name": "Plant guy - In harmony with Nature (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=jLjvS2JjosQ",
-			"name": "DaniSogen - The Maggic Unfolds (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌷",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Ov-CsgU-guk",
-			"name": "Team Astro - Three of Us (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐑",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=O9vZ6EhDT3o",
-			"name": "l'Outlander - Willpower (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏜️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=WPbCzdALF98",
-			"name": "Sleepermane - Unfolding (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=T0LBTvde71w",
-			"name": "Casiio - Far Off (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=0Z6mzrxStk4",
-			"name": "Chau Sara - Lightsaber Bar (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=pxPdsqrQByM",
-			"name": "Purrple Cat - Distant worlds II (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A good song from Purrple Cat, it follows the first chapter of Distant Worlds and offers good and vibing songs",
-					"keywords": ["chill", "relax", "sleep", "quiet"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=J1BJScem0l4",
-			"name": "Nogymx - Mirage of the Mind (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=bXpoqYhQp1o",
-			"name": "Sling x Sleepermane - Weightless (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=PegWc877xkk",
-			"name": "Kainbeats - Atlantis (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🔱",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=MuM7Pg5bdNE",
-			"name": "Eugenio izzi - Necessary Changes (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐋",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=o7MPeCOgG7k",
-			"name": "Softy - The breeze (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=VmGgTYsLiPs",
-			"name": "Elijah Lee - My Memoir (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎹",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=xO8tv8B0afo",
-			"name": "aMess - Are we okay ? (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🔮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=bcRqz_b-XNs",
-			"name": "Casiio x Donctry - Passing By (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=0atAh63X_sU",
-			"name": "Krynoze x Sweet Medicine - Tomorrow Comes (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=JQJtqS83WFI",
-			"name": "Bhxa - Ayla (lofi hipi hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛵",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=WaOZMNM6Oa4",
-			"name": "BluntOne x Baen Mow - A day in the Life (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎿",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=GWw7fYzkwGI",
-			"name": "Thibauthetraveler x reysi - Leaving this place (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=C8_viGxisos",
-			"name": "Osaki - Rooftop Memories (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☂️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Mn1QarzVA9s",
-			"name": "Lawrence Walther - Floating into serenity (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=wmr_BB5EywI",
-			"name": "HM Surf - Pool Days (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💧",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=L4UFS-00Y0o",
-			"name": "Hoogway - Thin Lines (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌾",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Lw6hwZHzgsU",
-			"name": "Nuver - Kalopsia (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💫",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=18viTxgo3mM",
-			"name": "Bcalm x Banks - Feelings Pt.2 (lofi hip hop/relaxing beats)",
-			"emoji": "🏮",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zrUvwQKAixQ",
-			"name": "Living Room - After The Rainbow (lofi hip hop/relaxing beats)",
-			"emoji": "🌈",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=g4_bl8Y_C6U",
-			"name": "kokoro - The Way Home (lofi hip hop/relaxing beats)",
-			"emoji": "🌳",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=rgq_Q9418cg",
-			"name": "Sleepermane - In Between Cycles (lofi hip hop/relaxing beats)",
-			"emoji": "🌫",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=O_x6gERAhnE",
-			"name": "stream_error - polaris (lofi hip hop/relaxing beats)",
-			"emoji": "🌌",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=XTYgwZeDNyQ",
-			"name": "H.1 x Hevi - Indigo Night (lofi hip hop/relaxing beats)",
-			"emoji": "💫",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zggkGmHp6rk",
-			"name": "Tatami Construct - Hidden World (lofi hip hop/relaxing beats)",
-			"emoji": "🌷",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=9oHxtPf_5RE",
-			"name": "Kanisan - mist, shadows & i (sad lofi hip hop)",
-			"type": "playlist",
-			"emoji": "🔮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ke5S8NNoJy8",
-			"name": "cxlt. - Your Light (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌱",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=QAKNR945cVk",
-			"name": "Phlocalyst x Mr Käfer - Roadwalks (lofi hip hop/relaxing beats",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A song to play in background while working or having fun like play a game of chess",
-					"keywords": ["chill", "relax", "calm", "background"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=cl2l2Y4_hYs",
-			"name": "Kainbeats - A walk trought the Sky (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=vny2XZLfNHg",
-			"name": "ticofaces - Lunar Isle (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=tfWI-0OptTg",
-			"name": "Mindeliq x Neele Harder - New Horizons (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌻",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=iRx5fGKVL4I",
-			"name": "Charlee Nguyen x Mondo Loops - Admidst the Seven Seas (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌊",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=wO_TWt2MWY0",
-			"name": "No Spirit - Happy Moments (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=eLkWRlPD_hY",
-			"name": "Jhove - new beginning (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🚌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=kTxUcKKwrz0",
-			"name": "aMess x Jisatsu - To the Moon and Back (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=8ViNZCNV3v0",
-			"name": "Blues Wednesday - In My Head (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌈",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=O3RgP69PaSo",
-			"name": "TABAL - Rainy Days (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☔",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4GB--JA80Cc",
-			"name": "Chau Sara - Time Travel (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-JhKm4xoXA4",
-			"name": "Spencer Hunt - Windy City (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=7Wq-esXCmA4",
-			"name": "Project AER - Journals (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Dp11kVsuulM",
-			"name": "Casiio x Sleepermane - Nomads (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌴",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Cool music to listen when you study. I recommend to play it with \"aMess - Tales from Babylon\", or \"l'Outlander - Messa\"",
-					"keywords": ["study", "work", "chill", "lazy", "quick"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=VRU7wZFbap0",
-			"name": "DaniSogen - A World of Illusion (asian lofi hip hop)",
-			"type": "playlist",
-			"emoji": "🌾",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=cSvgRKsML7o",
-			"name": "laffey - After The Rain (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌂",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=LS4VA38fGSU",
-			"name": "xander. - Cabin Fever, Pt.2 (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=agTYiuAEH_s",
-			"name": "Ornithology - Ornithology (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐦",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=D19GGG-SkBA",
-			"name": "softy x Lucid Green - Overnight (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🗻",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=UakHkEFqiGs",
-			"name": "hi jude - Sun Swells (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🕊️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ri8Y4vgvk2A",
-			"name": "juniorodeo x azula - Kids (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌱",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=As9ajCTLT9I",
-			"name": "Osaki x Thibauthetraveler - New Beginnings (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-C9ZJfE7Vjc",
-			"name": "Krynoze - A World After (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🗻",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=vMP_qct9hL4",
-			"name": "S N U G - Layover (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛺",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=YB9WbTF6fBE",
-			"name": "Ky akasha - Seeing Beauty in Everything (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌺",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=pcnbxGBsolc",
-			"name": "Hevi - When I'm Gone (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Xn0_TJ6zu3U",
-			"name": "Dimension 32 - Silent Emotions (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=NghzSmmkhKY",
-			"name": "Hoogway x Nowun - Moments To Keep (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☕",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Yym_Lw9Hkaw",
-			"name": "LESKY - Sleepovers (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💭",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=bRCtbLGb2as",
-			"name": "Blurred Figures x another silent weekend - Finding Comfort (relaxing beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=NGLZX2ysDKY",
-			"name": "Epona - Ballerina (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=0JzYS26Hg0o",
-			"name": "Laffey x softy - Belonging (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=lIsT3fQfwdU",
-			"name": "Thibauthetraveler x Lawrence Walther - Scenery (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=JuXWp-ht4co",
-			"name": "ENRA x dr niar - Blue Hour (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Ys1Gv4DMAbE",
-			"name": "Towerz x edelwize - At Long Last (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=tEq6Cpc86Zg",
-			"name": "Bcalm - Elements (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💫",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=44-ki6-g-88",
-			"name": "Pandrezz - Feelin Better (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Mu3BfD6wmPg",
-			"name": "Kupla - Kingdom in Blue (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "👑",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=O7RG-B6N1Vw",
-			"name": "Lonely days (sad lofi hip hop)",
-			"type": "playlist",
-			"emoji": "☔",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=M1j7EQsXPcc",
-			"name": "Purrple Cat - Distant worlds III (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=HPQJk6kLE-I",
-			"name": "xander. - Cabin Fever, Pt.3 (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=C68Q-z2UkI8",
-			"name": "Purrple Cat - Adventure Island (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌈",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_y571ET8QBk",
-			"name": "l'Outlander  - One Way Ticket (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✈️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=eL1S7NMHA1A",
-			"name": "Kainbeats - Blindsighted (lofi hip hop/releaxing)",
-			"type": "playlist",
-			"emoji": "🌻",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "An enjoyable music to chill on the week-end",
-					"keywords": ["chill", "relax", "quiet"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=cOUoWAaGqJY",
-			"name": "Mujo x Sweet Medicine  - Better Days (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛩️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=v68ZGCIDTvI",
-			"name": "Leavv  - Cloud Shapes (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Rkm2vYSESrQ",
-			"name": "WYS x Sweet Medicine  - The Way Back (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏜️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zDK2KJ8k-cs",
-			"name": "Squeeda  - Lost World (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛰️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=p2JHOJCuRds",
-			"name": "mell-ø - Time To Go (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪁",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ucRQph70hmc",
-			"name": "Hoogway x softy  - Alley Of Trees (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍂",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zvmSONqJ8wE",
-			"name": "Tibeauthetraveler - Distance Love (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💜",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=rCZmH-NbCFI",
-			"name": "Hevi - Before It's Late pt.2 (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎸",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=8QO_LvaEfxM",
-			"name": "Mavine - Inference (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=nP816jjX8oI",
-			"name": "iamalex x Felty - Silk (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌾",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=QBI8KfNd6G8",
-			"name": "S N U G - Quietude (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "📚",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=KOt0n0E3llw",
-			"name": "tender spring - Springtime, with friends (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🕊️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=SwiykNBkcSY",
-			"name": "Living Room - After Sunset (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌴",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=U97M6FBAmCo",
-			"name": "Oatmello - Simple Things (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=iEamJeEwJUA",
-			"name": "Mondo Loops - Forest Tales (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌿",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=VE-_L3A45jo",
-			"name": "Kyu - Dreamscapes (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛩️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=UKI93s1yVDo",
-			"name": "Yasumu - Creating Memories (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=BYKbeTdb2g4",
-			"name": "Swink - Notes From Yesterday (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏕️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=PE0lwTraRgA",
-			"name": "Jhove - Dream Tapes (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=EfPrV851cpQ",
-			"name": "Kaspa x Softy - Shifting Past (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⌛",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=MnHTL9Rl_4o",
-			"name": "DaniSogen - Enchantments (asian lofi hip jop)",
-			"type": "playlist",
-			"emoji": "⛩️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=X7ixhUbHxhg",
-			"name": "Tenno - The Inner Light (asian lofi hip jop)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=P9qCt5rUimw",
-			"name": "Amess - A place above heaven (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌅",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=o7jdVJbhcic",
-			"name": "Loafy Building - Shelter (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☔",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1Qgq636Nxso",
-			"name": "Rudy Raw - Imagenero (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=EivZwQlT8SU",
-			"name": "Kinissue - Sea Beams (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌊",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A song to play when you want to relax and just chill after an exhausting day",
-					"keywords": ["relax", "chill", "background", "calm", "slow"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=jpVG4oTa3Fk",
-			"name": "L'Outlander - Massa (middle eastern lofi hip hop)",
-			"type": "playlist",
-			"emoji": "🐪",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Nice music to play when you want to mind travel to another country. I recommend to play it before or after \"aMess - Tales from Babylon\"",
-					"keywords": ["chill", "relax", "calm", "cool"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=oaNmXmb41n8",
-			"name": "amies x cxlt. - Nocturne (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=vWzgIWwQwV4",
-			"name": "DLJ - Time Capsule (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⌛",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=BAzmZuaY_Lw",
-			"name": "WYS - The Bad Party (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎇",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1YAoucoBKMo",
-			"name": "hi jude x Towerz - The Shallows (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌊",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ZBZBzTTCO94",
-			"name": "Bert - offline (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💻",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-c36NKBke4w",
-			"name": "Nokiaa x Dontcry - Perspectives (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=RcX7FJX2Mm0",
-			"name": "goodnyght - Sleep cycles (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A nice song to play in background while doing something else, or play it the evening at bed",
-					"keywords": ["chill", "slow", "relax"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=U5mJ7o_AQmQ",
-			"name": "S N U G - Purple Skies (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💜",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=DYvZbaFF474",
-			"name": "eugenio izzi - Reflections in the moonlight (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=TvasZ3LKctY",
-			"name": "steezy prime - beyond the pines (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=724KreFpOiw",
-			"name": "xander. - Daydreaming (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Q53L9ip4Gl4",
-			"name": "Hoogway - Beauty In All Forms (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1-7Uo-alQNs",
-			"name": "Kaspa - The Story (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "📖",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=AELsPf7TJys",
-			"name": "Lilac - When I Dreamt of You (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌸",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=9L9kBlabh_s",
-			"name": "BVG x møndberg - Floating Dreams (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=VjTqCAF5F_g",
-			"name": "Sátyr x Phlocalyst - Argo (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=V9OTxxTZmDc",
-			"name": "Sleepermane x Casiio - Particles (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=uhfs3ceZ-Ho",
-			"name": "Loafy Building - High Flying (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🕊️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=l9ZEn_Z-y9M",
-			"name": "Elijah Lee - Vanishing Journey (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=fkThAW1het8",
-			"name": "Khutko - Violet (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=d-_4xUCXqXg",
-			"name": "Kainbeats - Finding Beauty (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=tXwRYCht9AM",
-			"name": "cxlt. - Somewhere In Time (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=kfnCTMQD-zQ",
-			"name": "Jhove x fourwalls - Golden Hour (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=E2yh2nFRyH8",
-			"name": "Yasumu - Mirror of Time (lofi hip hop/piano)",
-			"type": "playlist",
-			"emoji": "⌛",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=CJs3pwGXJKQ",
-			"name": "kudo - love you two (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🧡",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=8DN5ai3XJPk",
-			"name": "Peak Twilight - Departure (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🗻",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=oowTGZgbDus",
-			"name": "Kalaido - Ghosts of the Floating World (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=KYPn71uUdXk",
-			"name": "Kurt Stewart x Lomme - Pegan Hill (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍂",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=2J2ku3zXrWA",
-			"name": "M e a d o w - Days Of Tomorrow (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌇",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1pi9t3dnAXs",
-			"name": "Enluv - Cloud Studies (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=vLqTRzobidk",
-			"name": "Kupla - Melody Mountain (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Amazing music, I love the song that reminds me the cold winter and the incredible moments spent in snowy mountains (especially the song \"Under the bridge\")",
-					"keywords": ["chill", "calm", "long", "relax"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=wX-7JjsJdLE",
-			"name": "Glimlip x Louk - Can We Talk (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🚝",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=9sCo_bI3WfY",
-			"name": "Raimu - Sons of the Dew (asian lofi hip hop)",
-			"type": "playlist",
-			"emoji": "⛩️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=L8UJ2fz-pNo",
-			"name": "amies - Oblivion (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-Hl1a57X7Cg",
-			"name": "Pointy Features x Kanisan x Softy - Shine On (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "It's a relaxing music with some enrolling beats",
-					"keywords": ["chill", "relax", "calm", "background"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=TKSH6bFa7FQ",
-			"name": "Nvmb. - wilderness (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏕️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Au2R5jglcPY",
-			"name": "Sitting Duck - Wonderland Chapter II (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Al8KlHYw3lM",
-			"name": "Living Room - Rituals (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=tfpmAcdFmjw",
-			"name": "softy - Distant Images (lofi hip hop/piano)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=p25O5XivzFM",
-			"name": "Laffey - A Day At A Time (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏞️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=gZCfgTH600w",
-			"name": "l’Outlander - Homeland (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "️⛰️",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A vibing song, that I used while working, and it does a perfect background",
-					"keywords": ["chill", "background", "work"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=sDC_ssw-eWI",
-			"name": "Dillan Witherow - Before Sunrise (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=D0mCtCnRx3I",
-			"name": "Tibeauthetraveler - Motions (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💫",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=88bwGpJZiAM",
-			"name": "TABAL - Last Light (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=iP7G2pq1bq4",
-			"name": "Lenny Loops x Hoffy Beats - Tender Memories (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=C5s-BnOeS4Y",
-			"name": "Ambulo - Polar (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=uYZdwq7ikoo",
-			"name": "Project AER - Growth Patterns (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌿",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=DKR3e7s_UHw",
-			"name": "Bcalm x Banks - Feelings (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💜",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=MmW_ydnCCss",
-			"name": "WYS x Sweet Medicine - Evermore (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4UHXYPAFLgs",
-			"name": "Jhove - falling dreams (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_lxmHWCU7PY",
-			"name": "Thaehan - Hourglass (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⌛",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=AJdEQJ6xhgs",
-			"name": "S N U G x Nuver - Nightfall (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1pN4Sc42aOc",
-			"name": "Mondo Loops x Softy - Midnight Gazing (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ln1MFF0rbF4",
-			"name": "Phlocalyst - Relatives (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zC2BRxHG7is",
-			"name": "Tom Doolie - Land of Calm (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=cN3bw8IkWxY",
-			"name": "Towerz x hi jude - A Bridge Between (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌉",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=gnNGvAMCxqE",
-			"name": "Dr. Dundiff - Winter Love (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A calm music to play to relax and chill",
-					"keywords": ["quiet", "week-end", "chill", "calm"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=BOHa1EfnGlg",
-			"name": "Celestial Alignment - Precious Moments (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=2m-91UTAbY0",
-			"name": "GlobulDub - Blue Woods (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌳",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Z7U1EZC74X0",
-			"name": "Hevi - Before It's Late (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=6ihSc8VufOs",
-			"name": "Dontcry x Nokiaa - Time In Motion (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=9DtbUpSIawM",
-			"name": "TyLuv. - River Glow (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌟",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=CRayvP0BSP8",
-			"name": "BVG - Temple Garden (asian lofi hip hop)",
-			"type": "playlist",
-			"emoji": "⛩️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=kFSnq1f7s00",
-			"name": "tomcbumpz - Melodic Nostalgic (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎶",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=SnO8bTZFEjs",
-			"name": "C4C - The Pursuit of Simplicity (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏞️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=J_-kbxwmCWU",
-			"name": "fourwalls - Staring Contest (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💕",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=y0a-1BTFWi4",
-			"name": "j'san x epektase - outer space (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=w0XuZntwpF4",
-			"name": "goosetaf - Latibule (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=B450vnT44rs",
-			"name": "Ky Akasha - Memory Within A Dream (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=u87DZdy4Nbw",
-			"name": "Mujo x Sweet Medicine - Nostalgia (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=vrwG_pCf1Sc",
-			"name": "less.people - One day it’s over (lofi hip hop/piano beats)",
-			"type": "playlist",
-			"emoji": "️⛰️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=0WmlBQTFSPY",
-			"name": "Elior - Walls (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Ex9sCj4du14",
-			"name": "Kainbeats - Angelic (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌸",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=iDbk8gBMiWk",
-			"name": "Kanisan - Rüya (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-hhupUvTnyA",
-			"name": "Elijah Lee x aimless - Escapade (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=A1mg93SxcBw",
-			"name": "Jhove - Been Thinking (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌠",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=PLlydS1Ljqs",
-			"name": "Laffey - Forever Changing (lofi hip hop/calm beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ydqla2glb44",
-			"name": "lilac - Lanterns (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=7jOiZsMlPpc",
-			"name": "softy x no one’s perfect - The Beauty Around Us (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=d1ro0OdM-yI",
-			"name": "tender spring & Blurred Figures - A Friendly Warmth (lofi hip hop/sleepy beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=z6lRK67CuzU",
-			"name": "brillion. - Bedtime Stories Pt. 3 (lofi hip hop/chill beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=5M_I3Zatkpc",
-			"name": "Aylior x Sebastian Kamae - Zero (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏞️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=l__PHAF-q_8",
-			"name": "Towerz - Until Tomorrow (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌇",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=7mlCZxWZZYg",
-			"name": "Casiio x Sleepermane - Underneath (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💧",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=xlfcE02hfiU",
-			"name": "Refeeld x Project AER - Chance Encounter (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍀",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=v_LPm6P-du4",
-			"name": "chief. - Time Remembered (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏔️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=lNGD5sYC6gM",
-			"name": "BluntOne - Autumn in Budapest (lofi hip hop/soothing beats)",
-			"type": "playlist",
-			"emoji": "🍂",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=fFBnm1EogqM",
-			"name": "Miramare x Clément Matrat - Azure Blue (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☁️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=LMsqrnPMmZ4",
-			"name": "Hevi x Kainbeats - Drifting Away (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=J5ZjBZgtSsQ",
-			"name": "Allem Iversom - The Ridge (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1pDDBgE4-LA",
-			"name": "Sitting Duck - Wonderland Chapter 1 (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=KNuMnNjnOGg",
-			"name": "Ajmw - Heading Home (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=8I4f-kIIl5w",
-			"name": "ENRA - In Motion (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=oeYxT2RJjno",
-			"name": "S N U G - Moonglow (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎹",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=JwsBuk0Wqds",
-			"name": "dryhope - Kenopsia (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🚂",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=YbPZnbeDN_Q",
-			"name": "xander. - Cabin Fever (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏙️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=OYfO6NnT6w4",
-			"name": "Kanisan ft. Dario Lessing x Claudia Lessing - Edda (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌓",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Really nice song, it is inspiring and the beats are relaxing",
-					"keywords": [
-						"chill",
-						"relax",
-						"calm",
-						"memories",
-						"week-end"
-					]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Hmq7Nvd-g84",
-			"name": "Cosmic Koala x Lucid Keys - The Tale of the Druids (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=9Q7m4PJlQuE",
-			"name": "Tibeauthetraveler - Moving On (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-qXhLWb4k44",
-			"name": "Lenny Loops x Nowun - Places (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=nNJ7y6pJSQY",
-			"name": "mell-ø - thinking about you (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏕",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Bf9yR4uKOco",
-			"name": "Bcalm - Innocence (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💜",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=jPuWHkZBp48",
-			"name": "Tibeauthetraveler - Cascades (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌊",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=qJJ5v8MKtEk",
-			"name": "Mau x Kanisan - les jours d'après (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☔",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=leTtxciYRX0",
-			"name": "Sleepermane - Dreamtime (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐋",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_f71Psa963k",
-			"name": "Tibeauthetraveler x Banks - Barbados (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌅",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=3p0cInag8aM",
-			"name": "Living Room - Memories (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌴",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=LIhDDFuFIXI",
-			"name": "noni - momentary (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🚝",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=WHTjyAaS-9E",
-			"name": "Eugenio Izzi - Feel Free To Imagine (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐬",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=KKjFdk3KLh8",
-			"name": "Blumen - La Hague (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🛶",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=BYyPga-3g3k",
-			"name": "iamalex x Dillan Witherow - Beginnings (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐋",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=SNq9pPG-Qn0",
-			"name": "amies x cxlt. - Solitude (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌇",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=UPMgJeYsOLo",
-			"name": "HM Surf - Cocobolo (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🥥",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ArqZ1dnXpYs",
-			"name": "Chiccote’s Beats - Illusion (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛰️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=uVem4rbFVrE",
-			"name": "tysu x Spencer Hunt - Window seat (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=EwREEj3UZT8",
-			"name": "TABAL - Inside Space (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌱",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4uCNdTiB4Us",
-			"name": "Lilac - Florist (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Mn4xQdrczao",
-			"name": "Kupla - Life Forms (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🦋",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Vjzs4M0wAV0",
-			"name": "Mila Coolness - Silent River (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🦆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=rRKZ9XAXDKg",
-			"name": "kudo - staring through (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🗻",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zEOnXL9Jo0A",
-			"name": "Nothingtosay - Introspective (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Yu8-JBPhNr8",
-			"name": "Laffey - Summer Nights (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Fd-2C-ue0h4",
-			"name": "Flitz&Suppe x Mr. Käfer - Yōkai (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4722D_KdAa0",
-			"name": "Oatmello - Dove (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=J7w58QcrSDc",
-			"name": "Hoogway - Forever Ago (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A song to play to relax and enjoy your memories",
-					"keywords": ["chill", "relax", "calm", "slow"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=iunocgt3c3E",
-			"name": "Softy - Sometimes I Wait For You (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌇",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "An enjoyable music when you want to find yourself in your memories",
-					"keywords": [
-						"sleep",
-						"chill",
-						"relax",
-						"calm",
-						"long",
-						"quiet"
-					]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=IauSZrpfgLI",
-			"name": "Tom Doolie - Naoko (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=XGn4_-ylcaI",
-			"name": "Chris Mazuera - Dozing (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛰️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=8NRAOg1c2l0",
-			"name": "Blue Wednesday - Discovery (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=XcUoDrI2BwU",
-			"name": "Yasumu - Way of Life (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🚵",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=yBOv-4ndFGw",
-			"name": "G Mills - Tranquility (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌄",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=nV8eAWmVEk4",
-			"name": "Fatb - conscious ego (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=XyN-LascAL0",
-			"name": "Team Astro - Hush (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌑",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=mjoXkcdGPTM",
-			"name": "Mondo Loops ft. kanisan - Terrapin (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏡",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=q4V5cvQWWeY",
-			"name": "Casiio - Wondering (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1sPZhg-30ao",
-			"name": "Spencer Hunt - Sound Asleep (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=uP2X50NrKHQ",
-			"name": "dontcry x nokiaa - Odyssey (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☕",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ozS8auVro70",
-			"name": "brillion. - Bedtime Stories Pt. 2 (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=iH7bdQxXlJI",
-			"name": "Kanisan x no one's perfect - A way of existing (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏡",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4X_uoKF2Wvo",
-			"name": "jhove - before you go (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌅",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=yumRWK7XuR4",
-			"name": "Pandrezz - Relief (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏔️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=T_QWejmgwGg",
-			"name": "ENRA x Sleepermane - Tomorrows that follow (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🧺",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=l9QSIDvbVos",
-			"name": "SPEECHLESS - Future feelings (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☀️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=0h6a07yVacY",
-			"name": "Sebastian Kamae, Aylior - Vondelpark (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏞️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=bDlEVfWZKzU",
-			"name": "Two Scents - Lately (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎷",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=NvB54rswG8s",
-			"name": "Hevi x H.1 - Winter Getaway (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🧣",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=MqMM1dDbVVc",
-			"name": "Juliàn - Eternal Youth (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌅",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ui4k51d5MBE",
-			"name": "Laffey - Out Of Orbit (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=qZ33uiARMtE",
-			"name": "Lucid Keys - Fantasia (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌹",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ZK956iTVgm4",
-			"name": "Dosi x Wishes and Dreams - Arodasio (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏰",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=5wlKT2iOc_Q",
-			"name": "Krynoze x Juliàn - Finding Answers (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=a6QqkEsGxNY",
-			"name": "Lenny Loops x stream_error - Noctilucent (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=8bPGOcnCj9g",
-			"name": "Lawrence Walther x Solar Body - Back to Nature (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=E1L1I292WWY",
-			"name": "squeeda - Transform (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🦌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ixuuitBJazY",
-			"name": "Living Room - Calm Land (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌴",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=lT5lFeaInl4",
-			"name": "WYS - South Pole (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Bksv9OEj1j8",
-			"name": "WYS - North Pole (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "❄️",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A calm music to play in background to relax when you enjoy a nice warm drink",
-					"keywords": ["quiet", "slow", "calm", "background"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=8OPipsAjlqQ",
-			"name": "drkmnd x Ambulo - Meteor Shower (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🚿",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=wVgj3o9k7eY",
-			"name": "C4C x kokoro - L'aventure (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=YqcN2xmPngc",
-			"name": "Chris Mazuera x tender spring - Perspective (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌨️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=j9ziXYpFs1I",
-			"name": "WYS - Snowman (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☃️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=nXKDQflDgTo",
-			"name": "Dontcry x Glimlip - Jiro Dreams (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍣",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Lsr7bJk4zAY",
-			"name": "BluntOne - Cloud Surfing (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌤️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=kHI9hnC-pnI",
-			"name": "less.people - Online Mall Music (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "💿",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=eEXEEuSLjEo",
-			"name": "DLJ - Night Emotions (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=guhAfOxt5gg",
-			"name": "mell - ø x Ambulo (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛵",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=-0o37zLDsWo",
-			"name": "goosetaf - Perpetual (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛰️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=XoX6zS5-jOY",
-			"name": "dryhope - Contrasts (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐟",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=gl5DYoxkI20",
-			"name": "a[way] - frosen roses (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌹",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=n61ULEU7CO0",
-			"name": "Lofi Girl - Best of Lofi hip hop 2021 (lofi hip hop/study beats)",
-			"type": "playlist",
-			"emoji": "✨",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A bit long, but the music is cool and relaxing. You can listen to it to study or relax with your cat",
-					"keywords": ["long"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=i43tkaTXtwI",
-			"name": "Lofi Girl - Best of lofi hip hop 2022 (lofi hip hop/relax beats)",
-			"type": "playlist",
-			"emoji": "🎆",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A good summary of Lofi music 2022, containing some of the best ones",
-					"keywords": ["chill", "calm", "long", "memories"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1k8h_gB2qII",
-			"name": "Yestalgia - Glowing (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_r0JxTl9jLY",
-			"name": "Maiso Linua - Place of Purity (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏮",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ujazD8nQ1Gc",
-			"name": "BVG - Gilded Voyage (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌅",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=021k2Eaev2A",
-			"name": "Worldtraveller x Max Merseny - Morning Coffee (lofi hip hop/jazz beats)",
-			"type": "playlist",
-			"emoji": "🎷",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Nice song to play when you're working and looking for chilling",
-					"keywords": ["study", "work", "chill", "relax"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=LYzHIi5YZK8",
-			"name": "Swink - Like a Necessity (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎼",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Cool music to relax after a tiring day",
-					"keywords": [
-						"chill",
-						"relax",
-						"background",
-						"calm",
-						"quiet"
-					]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=6LCAUA9BJ6E",
-			"name": "Phlocalyst - End Of The Road (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌲",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=TlWYgGyNnJo",
-			"name": "Lofi Girl - 1 A.M. Chill session (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_U47ZVazUdM",
-			"name": "PBdR & Paxkalito - Kind of Red (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎷",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=b2fTwwhuGjA",
-			"name": "Loafy Building - Aquilla (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛩",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=FTRGcFMjTQI",
-			"name": "xander. - Sleepwalking (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍄",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "Relaxing beats, I personnaly enjoyed them while working, it's a good background",
-					"keywords": ["chill", "relax", "work", "background"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=k4Q3Txhwhcw",
-			"name": "Virtua x Akraa - Aether (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=1bvbsx-hpFc",
-			"name": "Lofi Girl - Best of summer 2023 (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "☀",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ldDtjQkLsss",
-			"name": "various authors - Blissful Dreams (lofi hip hop/sleep beats)",
-			"type": "playlist",
-			"emoji": "💤",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=eYQQrdQ4_w0",
-			"name": "Elijah Lee x Casiio - Phantasm (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎹",
-			"feedbacks": [
-				{
-					"user_id": "386479065307152384",
-					"comments": "A chill music to listen when you want to be calm, like during the night or a hot afternoon",
-					"keywords": ["chill", "relax", "calm", "slow"]
-				}
-			]
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=l8E0AZ2wJc0",
-			"name": "Living room - Dreamcatcher (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=L_CDJ_4OKdA",
-			"name": "Krynoze - Take A Paws (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🐾",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=7plCEb5k7OU",
-			"name": "HoKø x Damien Fleau - Jazz in Tokyo (lofi hip hop/jazz beats)",
-			"type": "playlist",
-			"emoji": "🎷",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=TjX-bp1I6Y8",
-			"name": "Pierson Booth - The Beginning (lofi hip hop/sleepy beats)",
-			"type": "playlist",
-			"emoji": "🌑",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=N7BW1SMt-D0",
-			"name": "Kinissue - The Realization (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎵",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=r8_u5eKt8sA",
-			"name": "Dimension 32 - The Legend Of Orpheus (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎸",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=Zw_dR6my7rc",
-			"name": "BVG - A Spirit's Tale (asian lofi hip hop)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=lNT4uV9gL7M",
-			"name": "Chau Sara - Down Hill (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🗻",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=KxekTWP632M",
-			"name": "Tin. x seeyouthere - Palette (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🎨",
-			"feedbacks": []
-		},
-		{
-			"name": "HoKø x Lucie Cravero - Blue Note (lofi hip hop/relaxing beats)",
-			"emoji": "⛅",
-			"url": "https://www.youtube.com/watch?v=etMNbfS1DZg",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=2I0jBDBxb-g",
-			"name": "Kabes - Spatial Journey (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "🪐",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=hdFVxOUWSJ8",
-			"name": "Downtown Binary - Aurora (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "🎆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=6bC__mwZ6EQ",
-			"name": "Downtown Binary - Astral (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "⭐",
-			"feedbacks": []
-		},
-		{
-			"name": "Foudroie - The Journey (lofi hip hop/synthwave beats)",
-			"emoji": "🌇",
-			"url": "https://www.youtube.com/watch?v=_YoRx3P8CKE",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=fI6afjoevIE",
-			"name": "slowburn - Poles Apart (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌙",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=gYPK088cPJI",
-			"name": "Jasper De Ceuster - Memory Bank (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "🎆",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=zLCV6udNmtw",
-			"name": "Sátyr x marsquake - Better Together (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=DC5xy3Kdfag",
-			"name": "Girl From Nowhere x Boy From Nowhere - Lost Journey Memories (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "🍂",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4bkMH5FgCAM",
-			"name": "Kainbeats - Path to Shing (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "⛩",
-			"feedbacks": []
-		},
-		{
-			"name": "Tibeauthetraveler x Dario Lessing x Claudia Lessing - Fairy Tales (lofi hip hop/relaxing beats)",
-			"emoji": "🏰",
-			"url": "https://www.youtube.com/watch?v=Lc6VvkRKbw4",
-			"type": "playlist",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=ATWqzbrKftk",
-			"name": "Thaehan - CREEPSHOW (lofi hip hop/spooky beats)",
-			"type": "playlist",
-			"emoji": "🎪",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=0MiR7bC9B5o",
-			"name": "Lofi Girl - Halloween 2023 🎃 (lofi hip hop/spooky beats)",
-			"type": "playlist",
-			"emoji": "🎃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=lGF1o1jdrlE",
-			"name": "inertia. - faded (lofi hip hop/sleepy beats)",
-			"type": "playlist",
-			"emoji": "🌫",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=vCNImPzI3lw",
-			"name": "Nadav Cohen - Stories from another world (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🍃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=demRm9ZAZEM",
-			"name": "Pierson Booth x Late Night Tones - Nights Like This (lofi hip hop/sleepy beats)",
-			"type": "playlist",
-			"emoji": "🌃",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4thbybn5xFA",
-			"name": "Kupla - Somewhere. Nowhere. (lofi hip hop/relaxing beats)",
-			"type": "playlist",
-			"emoji": "🏞️",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=eNSKKq34qKM",
-			"name": "Le Metroid - Black Hole (lofi hip hop/synthwave beats)",
-			"type": "playlist",
-			"emoji": "🌌",
-			"feedbacks": []
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=4nHmWE7RDAY",
-			"name": "luv pug x Spaniel Mac - Sunset (lofi hip hop/sleep beats)",
-			"type": "playlist",
-			"emoji": "☀️",
-			"feedbacks": []
-		}
-	]
+    "stations": [
+        {
+            "url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+            "name": "Lofi hip hop radio - beats to relax/study to",
+            "type": "radio",
+            "emoji": "💫",
+            "feedbacks": []
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rUxyKA_-grg",
+            "name": "Lofi hip hop radio - beats to sleep/chill to",
+            "type": "radio",
+            "emoji": "🎶",
+            "feedbacks": []
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=MVPTGNGiI-4",
+            "name": "Lofi synthwave radio - beats to chill/game to",
+            "type": "radio",
+            "emoji": "🌌",
+            "feedbacks": []
+        },
+        {
+            "title": "goosetaf - Perpetual ️ (lofi hip hop/relaxing beats)",
+            "emoji": "⛰️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-0o37zLDsWo"
+        },
+        {
+            "title": "Krynoze - A World After (lofi hip hop/relaxing beats)",
+            "emoji": "🗻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-C9ZJfE7Vjc"
+        },
+        {
+            "title": "Pointy Features x Kanisan x Softy - Shine On (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-Hl1a57X7Cg"
+        },
+        {
+            "title": "Spencer Hunt - Windy City ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☁️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-JhKm4xoXA4"
+        },
+        {
+            "title": "Lofi Girl - Afternoon Jazz (lofi hop hop/study beats)",
+            "emoji": "🎺",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-R0UYHS8A_A"
+        },
+        {
+            "title": "Nokiaa x Dontcry - Perspectives (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-c36NKBke4w"
+        },
+        {
+            "title": "Elijah Lee x aimless - Escapade (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-hhupUvTnyA"
+        },
+        {
+            "title": "cxlt. x Nuver - A moment away (lofi hip hop/relaxing beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-jF4LEKGFZM"
+        },
+        {
+            "title": "softy - The day I passed (lofi hip hop/relaxing beats)",
+            "emoji": "☕",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-pzxY5DtZIQ"
+        },
+        {
+            "title": "Lenny Loops x Nowun - Places (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=-qXhLWb4k44"
+        },
+        {
+            "title": "Worldtraveller x Max Merseny - Morning Coffee (lofi hip hop/jazz beats)",
+            "emoji": "🎷",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=021k2Eaev2A"
+        },
+        {
+            "title": "Laffey x softy - Belonging (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=0JzYS26Hg0o"
+        },
+        {
+            "title": "Lofi Girl - Halloween 023 🎃 🎃 (lofi hip hop/spooky beats)",
+            "emoji": "2023",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=0MiR7bC9B5o"
+        },
+        {
+            "title": "Elior - Walls (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=0WmlBQTFSPY"
+        },
+        {
+            "title": "Chau Sara - Lightsaber Bar (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=0Z6mzrxStk4"
+        },
+        {
+            "title": "Krynoze x Sweet Medicine - Tomorrow Comes (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=0atAh63X_sU"
+        },
+        {
+            "title": "Sebastian Kamae, Aylior - Vondelpark ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏞️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=0h6a07yVacY"
+        },
+        {
+            "title": "Kaspa - The Story (lofi hip hop/relaxing beats)",
+            "emoji": "📖",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1-7Uo-alQNs"
+        },
+        {
+            "title": "Loafy Building - Butterflies (lofi hip hop/relaxing beats)",
+            "emoji": "🦋",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=15dM62OMJE4"
+        },
+        {
+            "title": "Bcalm x Banks - Feelings Pt. 🏮 (lofi hip hop/relaxing beats)",
+            "emoji": "Pt.2",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=18viTxgo3mM"
+        },
+        {
+            "title": "Rudy Raw - Imagenero (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1Qgq636Nxso"
+        },
+        {
+            "title": "hi jude x Towerz - The Shallows (lofi hip hop/relaxing beats)",
+            "emoji": "🌊",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1YAoucoBKMo"
+        },
+        {
+            "title": "Lofi Girl - Best of summer 023 ☀ (lofi hip hop/relaxing beats)",
+            "emoji": "2023",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1bvbsx-hpFc"
+        },
+        {
+            "title": "Lofi Girl - Morning coffee (lofi hip hop/study beats)",
+            "emoji": "☕",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1fueZCTYkpA"
+        },
+        {
+            "title": "Yestalgia - Glowing (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1k8h_gB2qII"
+        },
+        {
+            "title": "Sitting Duck - Wonderland Chapter 🌄 (lofi hip hop/relaxing beats)",
+            "emoji": "1",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1pDDBgE4-LA"
+        },
+        {
+            "title": "Mondo Loops x Softy - Midnight Gazing (lofi hip hop/relaxing beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1pN4Sc42aOc"
+        },
+        {
+            "title": "Enluv - Cloud Studies (lofi hip hop/relaxing beats)",
+            "emoji": "☁",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1pi9t3dnAXs"
+        },
+        {
+            "title": "Spencer Hunt - Sound Asleep (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=1sPZhg-30ao"
+        },
+        {
+            "title": "Kabes - Spatial Journey (lofi hip hop/synthwave beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=2I0jBDBxb-g"
+        },
+        {
+            "title": "M e a d o w - Days Of Tomorrow (lofi hip hop/relaxing beats)",
+            "emoji": "🌇",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=2J2ku3zXrWA"
+        },
+        {
+            "title": "GlobulDub - Blue Woods (lofi hip hop/relaxing beats)",
+            "emoji": "🌳",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=2m-91UTAbY0"
+        },
+        {
+            "title": "Living Room - Memories (lofi hip hop/relaxing beats)",
+            "emoji": "🌴",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=3p0cInag8aM"
+        },
+        {
+            "title": "Pandrezz - Feelin Better (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=44-ki6-g-88"
+        },
+        {
+            "title": "Oatmello - Dove (lofi hip hop/relaxing beats)",
+            "emoji": "💐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4722D_KdAa0"
+        },
+        {
+            "title": "Hoogway - Equation of time (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4DwxVMU7S0w"
+        },
+        {
+            "title": "Chau Sara - Time Travel (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4GB--JA80Cc"
+        },
+        {
+            "title": "Jhove - falling dreams (lofi hip hop/relaxing beats)",
+            "emoji": "☁",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4UHXYPAFLgs"
+        },
+        {
+            "title": "jhove - before you go (lofi hip hop/relaxing beats)",
+            "emoji": "🌅",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4X_uoKF2Wvo"
+        },
+        {
+            "title": "Kainbeats - Path to Shing (lofi hip hop/relaxing beats)",
+            "emoji": "⛩",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4bkMH5FgCAM"
+        },
+        {
+            "title": "luv pug x Spaniel Mac - Sunset ️ (lofi hip hop/sleep beats)",
+            "emoji": "☀️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4nHmWE7RDAY"
+        },
+        {
+            "title": "Kupla - Somewhere. Nowhere. ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏞️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4thbybn5xFA"
+        },
+        {
+            "title": "Lilac - Florist (lofi hip hop/relaxing beats)",
+            "emoji": "💐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=4uCNdTiB4Us"
+        },
+        {
+            "title": "DLJ - After Life (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=55wApgn-ThI"
+        },
+        {
+            "title": "Aylior x Sebastian Kamae - Zero ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏞️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=5M_I3Zatkpc"
+        },
+        {
+            "title": "Krynoze x Juliàn - Finding Answers (lofi hip hop/relaxing beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=5wlKT2iOc_Q"
+        },
+        {
+            "title": "Phlocalyst - End Of The Road (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=6LCAUA9BJ6E"
+        },
+        {
+            "title": "Downtown Binary - Astral (lofi hip hop/synthwave beats)",
+            "emoji": "⭐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=6bC__mwZ6EQ"
+        },
+        {
+            "title": "Dontcry x Nokiaa - Time In Motion (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=6ihSc8VufOs"
+        },
+        {
+            "title": "xander. - Daydreaming (lofi hip hop/relaxing beats)",
+            "emoji": "🍄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=724KreFpOiw"
+        },
+        {
+            "title": "Project AER - Journals (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=7Wq-esXCmA4"
+        },
+        {
+            "title": "softy x no one’s perfect - The Beauty Around Us (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=7jOiZsMlPpc"
+        },
+        {
+            "title": "Casiio x Sleepermane - Underneath (lofi hip hop/relaxing beats)",
+            "emoji": "💧",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=7mlCZxWZZYg"
+        },
+        {
+            "title": "Plant guy - In harmony with Nature (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=7na-xGfbOp8"
+        },
+        {
+            "title": "HoKø x Damien Fleau - Jazz in Tokyo (lofi hip hop/jazz beats)",
+            "emoji": "🎷",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=7plCEb5k7OU"
+        },
+        {
+            "title": "sinnr - Sunday morning (lofi hip hop/relaxing beats)",
+            "emoji": "🌳",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=7vj4HLszl4w"
+        },
+        {
+            "title": "TABAL - Last Light (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=88bwGpJZiAM"
+        },
+        {
+            "title": "Peak Twilight - Departure (lofi hip hop/relaxing beats)",
+            "emoji": "🗻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=8DN5ai3XJPk"
+        },
+        {
+            "title": "ENRA - In Motion (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=8I4f-kIIl5w"
+        },
+        {
+            "title": "Blue Wednesday - Discovery (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=8NRAOg1c2l0"
+        },
+        {
+            "title": "drkmnd x Ambulo - Meteor Shower (lofi hip hop/relaxing beats)",
+            "emoji": "🚿",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=8OPipsAjlqQ"
+        },
+        {
+            "title": "Mavine - Inference (lofi hip hop/relaxing beats)",
+            "emoji": "☁",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=8QO_LvaEfxM"
+        },
+        {
+            "title": "Blues Wednesday - In My Head (lofi hip hop/relaxing beats)",
+            "emoji": "🌈",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=8ViNZCNV3v0"
+        },
+        {
+            "title": "Lawrence Walther x Solar Body - Back to Nature (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=8bPGOcnCj9g"
+        },
+        {
+            "title": "TyLuv. - River Glow (lofi hip hop/relaxing beats)",
+            "emoji": "🌟",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=9DtbUpSIawM"
+        },
+        {
+            "title": "BVG x møndberg - Floating Dreams (lofi hip hop/relaxing beats)",
+            "emoji": "☁",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=9L9kBlabh_s"
+        },
+        {
+            "title": "Tibeauthetraveler - Moving On (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=9Q7m4PJlQuE"
+        },
+        {
+            "title": "So.Lo x Goson - QuietPath (lofi hip hop/relaxing beats)",
+            "emoji": "🌳",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=9g0xgyEHsA8"
+        },
+        {
+            "title": "Kanisan - mist, shadows & i (sad lofi hip hop)",
+            "emoji": "🔮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=9oHxtPf_5RE"
+        },
+        {
+            "title": "Prithvi - Timescapes Longer Nights (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=9owT8Qh-YRA"
+        },
+        {
+            "title": "Raimu - Sons of the Dew ️ (asian lofi hip hop)",
+            "emoji": "⛩️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=9sCo_bI3WfY"
+        },
+        {
+            "title": "Jhove - Been Thinking (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=A1mg93SxcBw"
+        },
+        {
+            "title": "Lilac - When I Dreamt of You (lofi hip hop/relaxing beats)",
+            "emoji": "🌸",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=AELsPf7TJys"
+        },
+        {
+            "title": "S N U G x Nuver - Nightfall ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=AJdEQJ6xhgs"
+        },
+        {
+            "title": "Thaehan - CREEPSHOW (lofi hip hop/spooky beats)",
+            "emoji": "🎪",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ATWqzbrKftk"
+        },
+        {
+            "title": "DaniSogen - The gate of serenity (lofi hip hop/relaxing beats)",
+            "emoji": "🌉",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=A_boxjmXyfY"
+        },
+        {
+            "title": "Living Room - Rituals (lofi hip hop/relaxing beats)",
+            "emoji": "🏮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Al8KlHYw3lM"
+        },
+        {
+            "title": "Chiccote’s Beats - Illusion ️ (lofi hip hop/relaxing beats)",
+            "emoji": "⛰️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ArqZ1dnXpYs"
+        },
+        {
+            "title": "Osaki x Thibauthetraveler - New Beginnings (lofi hip hop/relaxing beats)",
+            "emoji": "🎐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=As9ajCTLT9I"
+        },
+        {
+            "title": "Sitting Duck - Wonderland Chapter II (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Au2R5jglcPY"
+        },
+        {
+            "title": "Ky Akasha - Memory Within A Dream (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=B450vnT44rs"
+        },
+        {
+            "title": "WYS - The Bad Party (lofi hip hop/relaxing beats)",
+            "emoji": "🎇",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=BAzmZuaY_Lw"
+        },
+        {
+            "title": "Celestial Alignment - Precious Moments (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=BOHa1EfnGlg"
+        },
+        {
+            "title": "Lofi Girl - A.M Study session 📚 (lofi hip hop/chill beats)",
+            "emoji": "3",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=BTYAsjAVa3I"
+        },
+        {
+            "title": "Swink - Notes From Yesterday ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏕️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=BYKbeTdb2g4"
+        },
+        {
+            "title": "iamalex x Dillan Witherow - Beginnings (lofi hip hop/relaxing beats)",
+            "emoji": "🐋",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=BYyPga-3g3k"
+        },
+        {
+            "title": "Bcalm - Innocence (lofi hip hop/relaxing beats)",
+            "emoji": "💜",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Bf9yR4uKOco"
+        },
+        {
+            "title": "WYS - North Pole ️ (lofi hip hop/relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Bksv9OEj1j8"
+        },
+        {
+            "title": "Ambulo - Polar ️ (lofi hip hop/relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=C5s-BnOeS4Y"
+        },
+        {
+            "title": "Purrple Cat - Adventure Island (lofi hip hop/relaxing beats)",
+            "emoji": "🌈",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=C68Q-z2UkI8"
+        },
+        {
+            "title": "Osaki - Rooftop Memories ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☂️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=C8_viGxisos"
+        },
+        {
+            "title": "kudo - love you two (lofi hip hop/relaxing beats)",
+            "emoji": "🧡",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=CJs3pwGXJKQ"
+        },
+        {
+            "title": "BVG - Temple Garden ️ (asian lofi hip hop)",
+            "emoji": "⛩️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=CRayvP0BSP8"
+        },
+        {
+            "title": "Tibeauthetraveler - Motions (lofi hip hop/relaxing beats)",
+            "emoji": "💫",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=D0mCtCnRx3I"
+        },
+        {
+            "title": "softy x Lucid Green - Overnight (lofi hip hop/relaxing beats)",
+            "emoji": "🗻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=D19GGG-SkBA"
+        },
+        {
+            "title": "Girl From Nowhere x Boy From Nowhere - Lost Journey Memories (lofi hip hop/synthwave beats)",
+            "emoji": "🍂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=DC5xy3Kdfag"
+        },
+        {
+            "title": "Bcalm x Banks - Feelings (lofi hip hop/relaxing beats)",
+            "emoji": "💜",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=DKR3e7s_UHw"
+        },
+        {
+            "title": "Blue Wednesday - After hours ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏔️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=DQXKM1tjJBQ"
+        },
+        {
+            "title": "eugenio izzi - Reflections in the moonlight ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=DYvZbaFF474"
+        },
+        {
+            "title": "Casiio x Sleepermane - Nomads (lofi hip hop/relaxing beats)",
+            "emoji": "🌴",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Dp11kVsuulM"
+        },
+        {
+            "title": "squeeda - Transform (lofi hip hop/relaxing beats)",
+            "emoji": "🦌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=E1L1I292WWY"
+        },
+        {
+            "title": "Yasumu - Mirror of Time (lofi hip hop/piano)",
+            "emoji": "⌛",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=E2yh2nFRyH8"
+        },
+        {
+            "title": "Lofi Girl x x x Chess.com - chill beats to play chess to ️ (lofi hip hop/relaxing beats)",
+            "emoji": "♟️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=EeRfSNx5RhE"
+        },
+        {
+            "title": "Kaspa x Softy - Shifting Past (lofi hip hop/relaxing beats)",
+            "emoji": "⌛",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=EfPrV851cpQ"
+        },
+        {
+            "title": "Kinissue - Sea Beams (lofi hip hop/relaxing beats)",
+            "emoji": "🌊",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=EivZwQlT8SU"
+        },
+        {
+            "title": "No spirit - Between worlds (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=EmxRSH_-CUM"
+        },
+        {
+            "title": "No one's perfect - Discrete Landscapes (lofi hip hop/relaxing beats)",
+            "emoji": "🥀",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=EvVIjeJch-c"
+        },
+        {
+            "title": "TABAL - Inside Space (lofi hip hop/relaxing beats)",
+            "emoji": "🌱",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=EwREEj3UZT8"
+        },
+        {
+            "title": "Kainbeats - Angelic (lofi hip hop/relaxing beats)",
+            "emoji": "🌸",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Ex9sCj4du14"
+        },
+        {
+            "title": "Team Astro - Travelers (lofi hip hop/relaxing beats)",
+            "emoji": "🎒",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=FTMX-XKfm2w"
+        },
+        {
+            "title": "xander. - Sleepwalking (lofi hip hop/relaxing beats)",
+            "emoji": "🍄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=FTRGcFMjTQI"
+        },
+        {
+            "title": "Flitz&Suppe x Mr. Käfer - Yōkai (lofi hip hop/relaxing beats)",
+            "emoji": "🏮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Fd-2C-ue0h4"
+        },
+        {
+            "title": "Bcalm - For you (lofi hip hop/relaxing beats)",
+            "emoji": "🏮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=FkgGD0O5pPM"
+        },
+        {
+            "title": "slowburn - Old Feelings (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=FpUSATXmzgY"
+        },
+        {
+            "title": "Thibauthetraveler x reysi - Leaving this place (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=GWw7fYzkwGI"
+        },
+        {
+            "title": "xander. - Forest of Dreams (lofi hip hop/relaxing beats)",
+            "emoji": "🍄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=GcUcuckNj94"
+        },
+        {
+            "title": "Casiio x Sleepermane - Unexplored (lofi hip hop/relaxing beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Gn92YKpDHfU"
+        },
+        {
+            "title": "xander. - Cabin Fever, Pt. 🍄 (lofi hip hop/relaxing beats)",
+            "emoji": "Pt.3",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=HPQJk6kLE-I"
+        },
+        {
+            "title": "Raimu - The spirit within (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=HV6OlMPn5sI"
+        },
+        {
+            "title": "Cosmic Koala x Lucid Keys - The Tale of the Druids (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Hmq7Nvd-g84"
+        },
+        {
+            "title": "Tom Doolie - Naoko (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=IauSZrpfgLI"
+        },
+        {
+            "title": "Nogymx - Mirage of the Mind (lofi hip hop/relaxing beats)",
+            "emoji": "🎨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=J1BJScem0l4"
+        },
+        {
+            "title": "Allem Iversom - The Ridge (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=J5ZjBZgtSsQ"
+        },
+        {
+            "title": "Hoogway - Forever Ago (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=J7w58QcrSDc"
+        },
+        {
+            "title": "Bhxa - Ayla (lofi hipi hop/relaxing beats)",
+            "emoji": "⛵",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=JQJtqS83WFI"
+        },
+        {
+            "title": "fourwalls - Staring Contest (lofi hip hop/relaxing beats)",
+            "emoji": "💕",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=J_-kbxwmCWU"
+        },
+        {
+            "title": "ENRA x dr niar - Blue Hour (lofi hip hop/relaxing beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=JuXWp-ht4co"
+        },
+        {
+            "title": "dryhope - Kenopsia (lofi hip hop/relaxing beats)",
+            "emoji": "🚂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=JwsBuk0Wqds"
+        },
+        {
+            "title": "Blumen - La Hague (lofi hip hop/relaxing beats)",
+            "emoji": "🛶",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=KKjFdk3KLh8"
+        },
+        {
+            "title": "Ajmw - Heading Home (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=KNuMnNjnOGg"
+        },
+        {
+            "title": "tender spring - Springtime, with friends ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🕊️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=KOt0n0E3llw"
+        },
+        {
+            "title": "Kurt Stewart x Lomme - Pegan Hill (lofi hip hop/relaxing beats)",
+            "emoji": "🍂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=KYPn71uUdXk"
+        },
+        {
+            "title": "Tin. x seeyouthere - Palette (lofi hip hop/relaxing beats)",
+            "emoji": "🎨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=KxekTWP632M"
+        },
+        {
+            "title": "Hoogway - Thin Lines (lofi hip hop/relaxing beats)",
+            "emoji": "🌾",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=L4UFS-00Y0o"
+        },
+        {
+            "title": "amies - Oblivion (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=L8UJ2fz-pNo"
+        },
+        {
+            "title": "noni - momentary (lofi hip hop/relaxing beats)",
+            "emoji": "🚝",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=LIhDDFuFIXI"
+        },
+        {
+            "title": "Hevi x Kainbeats - Drifting Away (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=LMsqrnPMmZ4"
+        },
+        {
+            "title": "xander. - Cabin Fever, Pt. 🏠 (lofi hip hop/relaxing beats)",
+            "emoji": "Pt.2",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=LS4VA38fGSU"
+        },
+        {
+            "title": "Swink - Like a Necessity (lofi hip hop/relaxing beats)",
+            "emoji": "🎼",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=LYzHIi5YZK8"
+        },
+        {
+            "title": "Krynoze - Take A Paws (lofi hip hop/relaxing beats)",
+            "emoji": "🐾",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=L_CDJ_4OKdA"
+        },
+        {
+            "title": "Tibeauthetraveler x Dario Lessing x Claudia Lessing - Fairy Tales (lofi hip hop/relaxing beats)",
+            "emoji": "🏰",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Lc6VvkRKbw4"
+        },
+        {
+            "title": "BluntOne - Cloud Surfing ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🌤️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Lsr7bJk4zAY"
+        },
+        {
+            "title": "Nuver - Kalopsia (lofi hip hop/relaxing beats)",
+            "emoji": "💫",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Lw6hwZHzgsU"
+        },
+        {
+            "title": "Purrple Cat - Distant worlds III (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=M1j7EQsXPcc"
+        },
+        {
+            "title": "WYS x Sweet Medicine - Evermore (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=MmW_ydnCCss"
+        },
+        {
+            "title": "Lawrence Walther - Floating into serenity ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☁️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Mn1QarzVA9s"
+        },
+        {
+            "title": "Kupla - Life Forms (lofi hip hop/relaxing beats)",
+            "emoji": "🦋",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Mn4xQdrczao"
+        },
+        {
+            "title": "DaniSogen - Enchantments ️ (asian lofi hip jop)",
+            "emoji": "⛩️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=MnHTL9Rl_4o"
+        },
+        {
+            "title": "Juliàn - Eternal Youth (lofi hip hop/relaxing beats)",
+            "emoji": "🌅",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=MqMM1dDbVVc"
+        },
+        {
+            "title": "Kupla - Kingdom in Blue (lofi hip hop/relaxing beats)",
+            "emoji": "👑",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Mu3BfD6wmPg"
+        },
+        {
+            "title": "Eugenio izzi - Necessary Changes (lofi hip hop/relaxing beats)",
+            "emoji": "🐋",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=MuM7Pg5bdNE"
+        },
+        {
+            "title": "Kinissue - The Realization (lofi hip hop/relaxing beats)",
+            "emoji": "🎵",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=N7BW1SMt-D0"
+        },
+        {
+            "title": "Epona - Ballerina (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=NGLZX2ysDKY"
+        },
+        {
+            "title": "softy x Dimension 2 - Another Life 🌱 (lofi hip hop/relaxing beats)",
+            "emoji": "🌱",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=NHh6kMiZUA4"
+        },
+        {
+            "title": "Hoogway x Nowun - Moments To Keep (lofi hip hop/relaxing beats)",
+            "emoji": "☕",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=NghzSmmkhKY"
+        },
+        {
+            "title": "Mondo loops - Forest Kingdom (lofi hip hop/relaxing beats)",
+            "emoji": "🌿",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=NqWUGUNwXuU"
+        },
+        {
+            "title": "Hevi x H. - Winter Getaway 🧣 (lofi hip hop/relaxing beats)",
+            "emoji": "🧣",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=NvB54rswG8s"
+        },
+        {
+            "title": "Lofi Girl - Sleepless Night (lofi hip hop/study beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Nyx6SBixRE8"
+        },
+        {
+            "title": "Goson x Dreamfield - Dreams of Angels ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🕊️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=O1BnakexgSU"
+        },
+        {
+            "title": "TABAL - Rainy Days (lofi hip hop/relaxing beats)",
+            "emoji": "☔",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=O3RgP69PaSo"
+        },
+        {
+            "title": "Lofi Girl - Lonely days (sad lofi hip hop)",
+            "emoji": "☔",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=O7RG-B6N1Vw"
+        },
+        {
+            "title": "l'Outlander - Willpower ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏜️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=O9vZ6EhDT3o"
+        },
+        {
+            "title": "Krynoze - Pawmises (lofi hip hop/relaxing beats)",
+            "emoji": "🐾",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=OE5FPbr8F6c"
+        },
+        {
+            "title": "Kanisan ft. Dario Lessing x Claudia Lessing - Edda (lofi hip hop/relaxing beats)",
+            "emoji": "🌓",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=OYfO6NnT6w4"
+        },
+        {
+            "title": "stream_error - polaris (lofi hip hop/relaxing beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=O_x6gERAhnE"
+        },
+        {
+            "title": "Team Astro - Three of Us (lofi hip hop/relaxing beats)",
+            "emoji": "🐑",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Ov-CsgU-guk"
+        },
+        {
+            "title": "Amess - A place above heaven (lofi hip hop/relaxing beats)",
+            "emoji": "🌅",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=P9qCt5rUimw"
+        },
+        {
+            "title": "Mondo Loops - Golden Age (lofi hip hop/relaxing beats)",
+            "emoji": "🎬",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=PAcDMso01Nw"
+        },
+        {
+            "title": "Jhove - Dream Tapes (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=PE0lwTraRgA"
+        },
+        {
+            "title": "Laffey - Forever Changing (lofi hip hop/calm beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=PLlydS1Ljqs"
+        },
+        {
+            "title": "Kainbeats - Atlantis (lofi hip hop/relaxing beats)",
+            "emoji": "🔱",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=PegWc877xkk"
+        },
+        {
+            "title": "Hoogway - Beauty In All Forms (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Q53L9ip4Gl4"
+        },
+        {
+            "title": "Phlocalyst x Mr Käfer - Roadwalks (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=QAKNR945cVk"
+        },
+        {
+            "title": "S N U G - Quietude (lofi hip hop/relaxing beats)",
+            "emoji": "📚",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=QBI8KfNd6G8"
+        },
+        {
+            "title": "Yasumu - until forever ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏔️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=QU_1o5j2PhU"
+        },
+        {
+            "title": "Mondo loops x Aiguille - Nature's beauty (lofi hip hop/relaxing beats)",
+            "emoji": "🎹",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=R4FEaeOZqAo"
+        },
+        {
+            "title": "Purrple Cat - Sweat Dreams (lofi hip hop/relaxing beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=RY89j1qdKvo"
+        },
+        {
+            "title": "goodnyght - Sleep cycles (lofi hip hop/relaxing beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=RcX7FJX2Mm0"
+        },
+        {
+            "title": "WYS x Sweet Medicine - The Way Back ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏜️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Rkm2vYSESrQ"
+        },
+        {
+            "title": "aMess - Tales from Babylon (lofi hip hop/relaxing beats)",
+            "emoji": "🐪",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=RmMogihQids"
+        },
+        {
+            "title": "Ivylake - Moonfern (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=S6zSCQskYl4"
+        },
+        {
+            "title": "amies x cxlt. - Solitude (lofi hip hop/relaxing beats)",
+            "emoji": "🌇",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=SNq9pPG-Qn0"
+        },
+        {
+            "title": "Slo Loris - Riverside (lofi hip hop/guitar beats)",
+            "emoji": "🎸",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=SmBLBgPxYO8"
+        },
+        {
+            "title": "CC - The Pursuit of Simplicity 🏞️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏞️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=SnO8bTZFEjs"
+        },
+        {
+            "title": "Living Room - After Sunset (lofi hip hop/relaxing beats)",
+            "emoji": "🌴",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=SwiykNBkcSY"
+        },
+        {
+            "title": "Casiio - Far Off (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=T0LBTvde71w"
+        },
+        {
+            "title": "Nvmb. - wilderness ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏕️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=TKSH6bFa7FQ"
+        },
+        {
+            "title": "Lofi Girl - A.M Study session 📚 (lofi hip hop/chill beats)",
+            "emoji": "4",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=TURbeWK2wwg"
+        },
+        {
+            "title": "ENRA x Sleepermane - Tomorrows that follow (lofi hip hop/relaxing beats)",
+            "emoji": "🧺",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=T_QWejmgwGg"
+        },
+        {
+            "title": "Pierson Booth - The Beginning (lofi hip hop/sleepy beats)",
+            "emoji": "🌑",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=TjX-bp1I6Y8"
+        },
+        {
+            "title": "Lofi Girl - A.M. Chill session 🌌 (lofi hip hop/synthwave beats)",
+            "emoji": "1",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=TlWYgGyNnJo"
+        },
+        {
+            "title": "steezy prime - beyond the pines (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=TvasZ3LKctY"
+        },
+        {
+            "title": "S N U G - Purple Skies (lofi hip hop/relaxing beats)",
+            "emoji": "💜",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=U5mJ7o_AQmQ"
+        },
+        {
+            "title": "Oatmello - Simple Things (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=U97M6FBAmCo"
+        },
+        {
+            "title": "Yasumu - Creating Memories (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=UKI93s1yVDo"
+        },
+        {
+            "title": "HM Surf - Cocobolo (lofi hip hop/relaxing beats)",
+            "emoji": "🥥",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=UPMgJeYsOLo"
+        },
+        {
+            "title": "hi jude - Sun Swells ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🕊️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=UakHkEFqiGs"
+        },
+        {
+            "title": "møndberg - Living Free (lofi hip hop/relaxing beats)",
+            "emoji": "🌾",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Ut8rsV6HrUk"
+        },
+        {
+            "title": "Sleepermane x Casiio - Particles (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=V9OTxxTZmDc"
+        },
+        {
+            "title": "Kyu - Dreamscapes ️ (lofi hip hop/relaxing beats)",
+            "emoji": "⛩️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=VE-_L3A45jo"
+        },
+        {
+            "title": "DaniSogen - A World of Illusion (asian lofi hip hop)",
+            "emoji": "🌾",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=VRU7wZFbap0"
+        },
+        {
+            "title": "Sátyr x Phlocalyst - Argo (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=VjTqCAF5F_g"
+        },
+        {
+            "title": "Mila Coolness - Silent River (lofi hip hop/relaxing beats)",
+            "emoji": "🦆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Vjzs4M0wAV0"
+        },
+        {
+            "title": "Elijah Lee - My Memoir (lofi hip hop/relaxing beats)",
+            "emoji": "🎹",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=VmGgTYsLiPs"
+        },
+        {
+            "title": "Eugenio Izzi - Feel Free To Imagine (lofi hip hop/relaxing beats)",
+            "emoji": "🐬",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=WHTjyAaS-9E"
+        },
+        {
+            "title": "Sleepermane - Unfolding (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=WPbCzdALF98"
+        },
+        {
+            "title": "BluntOne x Baen Mow - A day in the Life (lofi hip hop/relaxing beats)",
+            "emoji": "🎿",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=WaOZMNM6Oa4"
+        },
+        {
+            "title": "Tenno - The Inner Light (asian lofi hip jop)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=X7ixhUbHxhg"
+        },
+        {
+            "title": "Thibauthetraveler - Travel buddies (lofi hip hop/relaxing beats)",
+            "emoji": "🌳",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=XFZmBSqNjro"
+        },
+        {
+            "title": "Chris Mazuera - Dozing ️ (lofi hip hop/relaxing beats)",
+            "emoji": "⛰️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=XGn4_-ylcaI"
+        },
+        {
+            "title": "H. x Hevi - Indigo Night 💫 (lofi hip hop/relaxing beats)",
+            "emoji": "💫",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=XTYgwZeDNyQ"
+        },
+        {
+            "title": "Yasumu - Way of Life (lofi hip hop/relaxing beats)",
+            "emoji": "🚵",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=XcUoDrI2BwU"
+        },
+        {
+            "title": "Dimension 2 - Silent Emotions 🐠 (lofi hip hop/relaxing beats)",
+            "emoji": "🐠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Xn0_TJ6zu3U"
+        },
+        {
+            "title": "dryhope - Contrasts (lofi hip hop/relaxing beats)",
+            "emoji": "🐟",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=XoX6zS5-jOY"
+        },
+        {
+            "title": "Team Astro - Hush (lofi hip hop/relaxing beats)",
+            "emoji": "🌑",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=XyN-LascAL0"
+        },
+        {
+            "title": "Trxxshed - Retro Colors (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Y2NxKdbXlwM"
+        },
+        {
+            "title": "Ky akasha - Seeing Beauty in Everything (lofi hip hop/relaxing beats)",
+            "emoji": "🌺",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=YB9WbTF6fBE"
+        },
+        {
+            "title": "xander. - Cabin Fever ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏙️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=YbPZnbeDN_Q"
+        },
+        {
+            "title": "Chris Mazuera x tender spring - Perspective ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🌨️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=YqcN2xmPngc"
+        },
+        {
+            "title": "Towerz x edelwize - At Long Last (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Ys1Gv4DMAbE"
+        },
+        {
+            "title": "Laffey - Summer Nights (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Yu8-JBPhNr8"
+        },
+        {
+            "title": "SCayos - Ethereal Nights (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=YuD1LESzoVM"
+        },
+        {
+            "title": "LESKY - Sleepovers (lofi hip hop/relaxing beats)",
+            "emoji": "💭",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Yym_Lw9Hkaw"
+        },
+        {
+            "title": "Hevi - Before It's Late (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Z7U1EZC74X0"
+        },
+        {
+            "title": "Bert - offline (lofi hip hop/relaxing beats)",
+            "emoji": "💻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ZBZBzTTCO94"
+        },
+        {
+            "title": "azayaka - Keeping Time (lofi hip hop/relaxing beats)",
+            "emoji": "🌳",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ZC0GPn1_0ls"
+        },
+        {
+            "title": "Dosi x Wishes and Dreams - Arodasio (lofi hip hop/relaxing beats)",
+            "emoji": "🏰",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ZK956iTVgm4"
+        },
+        {
+            "title": "KioKo - Enchanted Forest (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ZNHUy-J-HLc"
+        },
+        {
+            "title": "BVG - A Spirit's Tale (asian lofi hip hop)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=Zw_dR6my7rc"
+        },
+        {
+            "title": "PBdR x & x Paxkalito - Kind of Red (lofi hip hop/relaxing beats)",
+            "emoji": "🎷",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_U47ZVazUdM"
+        },
+        {
+            "title": "Foudroie - The Journey (lofi hip hop/synthwave beats)",
+            "emoji": "🌇",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_YoRx3P8CKE"
+        },
+        {
+            "title": "Tibeauthetraveler x Banks - Barbados (lofi hip hop/relaxing beats)",
+            "emoji": "🌅",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_f71Psa963k"
+        },
+        {
+            "title": "Thaehan - Hourglass (lofi hip hop/relaxing beats)",
+            "emoji": "⌛",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_lxmHWCU7PY"
+        },
+        {
+            "title": "Maiso Linua - Place of Purity (lofi hip hop/relaxing beats)",
+            "emoji": "🏮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_r0JxTl9jLY"
+        },
+        {
+            "title": "Tenno - Mind temple ️ (lofi hip hop/relaxing beats)",
+            "emoji": "⛩️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_sQ_BlnGBIE"
+        },
+        {
+            "title": "Lofi Girl - Cozy winter ️ (lofi hip hop/relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_tV5LEBDs7w"
+        },
+        {
+            "title": "l'Outlander - One Way Ticket ️ (lofi hip hop/relaxing beats)",
+            "emoji": "✈️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=_y571ET8QBk"
+        },
+        {
+            "title": "Lenny Loops x stream_error - Noctilucent (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=a6QqkEsGxNY"
+        },
+        {
+            "title": "Tenno - Sleeping Soul (lofi hip hop/relaxing beats)",
+            "emoji": "🍂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=a_PS6YssI80"
+        },
+        {
+            "title": "Ornithology - Ornithology (lofi hip hop/relaxing beats)",
+            "emoji": "🐦",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=agTYiuAEH_s"
+        },
+        {
+            "title": "Nothingtosay - Cold toughts ️ (lofi hip hop/relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=arJVAbv5yBc"
+        },
+        {
+            "title": "Loafy Building - Aquilla (lofi hip hop/relaxing beats)",
+            "emoji": "⛩",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=b2fTwwhuGjA"
+        },
+        {
+            "title": "Two Scents - Lately (lofi hip hop/relaxing beats)",
+            "emoji": "🎷",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=bDlEVfWZKzU"
+        },
+        {
+            "title": "Blurred Figures x another silent weekend - Finding Comfort ️ (relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=bRCtbLGb2as"
+        },
+        {
+            "title": "Sling x Sleepermane - Weightless (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=bXpoqYhQp1o"
+        },
+        {
+            "title": "Casiio x Donctry - Passing By ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=bcRqz_b-XNs"
+        },
+        {
+            "title": "Towerz x hi jude - A Bridge Between (lofi hip hop/relaxing beats)",
+            "emoji": "🌉",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=cN3bw8IkWxY"
+        },
+        {
+            "title": "Mujo x Sweet Medicine - Better Days ️ (lofi hip hop/relaxing beats)",
+            "emoji": "⛩️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=cOUoWAaGqJY"
+        },
+        {
+            "title": "laffey - After The Rain (lofi hip hop/relaxing beats)",
+            "emoji": "🌂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=cSvgRKsML7o"
+        },
+        {
+            "title": "Kainbeats - A walk trought the Sky ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☁️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=cl2l2Y4_hYs"
+        },
+        {
+            "title": "Kainbeats - Finding Beauty (lofi hip hop/relaxing beats)",
+            "emoji": "☁",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=d-_4xUCXqXg"
+        },
+        {
+            "title": "tender spring x & x Blurred Figures - A Friendly Warmth (lofi hip hop/sleepy beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=d1ro0OdM-yI"
+        },
+        {
+            "title": "Pierson Booth x Late Night Tones - Nights Like This (lofi hip hop/sleepy beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=demRm9ZAZEM"
+        },
+        {
+            "title": "Monma - Calm lands (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=doxeMNXYFqk"
+        },
+        {
+            "title": "DLJ - Night Emotions (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=eEXEEuSLjEo"
+        },
+        {
+            "title": "Kainbeats - Blindsighted (lofi hip hop/releaxing)",
+            "emoji": "🌻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=eL1S7NMHA1A"
+        },
+        {
+            "title": "Jhove - new beginning (lofi hip hop/relaxing beats)",
+            "emoji": "🚌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=eLkWRlPD_hY"
+        },
+        {
+            "title": "Le Metroid - Black Hole (lofi hip hop/synthwave beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=eNSKKq34qKM"
+        },
+        {
+            "title": "Elijah Lee x Casiio - Phantasm (lofi hip hop/relaxing beats)",
+            "emoji": "🎹",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=eYQQrdQ4_w0"
+        },
+        {
+            "title": "HoKø x Lucie Cravero - Blue Note (lofi hip hop/relaxing beats)",
+            "emoji": "⛅",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=etMNbfS1DZg"
+        },
+        {
+            "title": "Dimension 2 - mutations 🦉 (sad lofi hip hop/relaxing beats)",
+            "emoji": "🦉",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=fCtr6SSGlFc"
+        },
+        {
+            "title": "Miramare x Clément Matrat - Azure Blue ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☁️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=fFBnm1EogqM"
+        },
+        {
+            "title": "slowburn - Poles Apart (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=fI6afjoevIE"
+        },
+        {
+            "title": "Kinissue - Imperfect (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=fR0ZlSDUKCg"
+        },
+        {
+            "title": "Khutko - Violet (lofi hip hop/relaxing beats)",
+            "emoji": "🌆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=fkThAW1het8"
+        },
+        {
+            "title": "kokoro - The Way Home (lofi hip hop/relaxing beats)",
+            "emoji": "🌳",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=g4_bl8Y_C6U"
+        },
+        {
+            "title": "Jasper De Ceuster - Memory Bank (lofi hip hop/synthwave beats)",
+            "emoji": "🎆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=gYPK088cPJI"
+        },
+        {
+            "title": "l’Outlander - Homeland ️️ (lofi hip hop/relaxing beats)",
+            "emoji": "️⛰️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=gZCfgTH600w"
+        },
+        {
+            "title": "Team astro - Hidden treasure ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=gZGLnxVrzD0"
+        },
+        {
+            "title": "a[way] - frosen roses (lofi hip hop/relaxing beats)",
+            "emoji": "🌹",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=gl5DYoxkI20"
+        },
+        {
+            "title": "Dr. Dundiff - Winter Love ️ (lofi hip hop/relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=gnNGvAMCxqE"
+        },
+        {
+            "title": "Lofi Girl - Soothing breeze (asian hip hop)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=gnZImHvA0ME"
+        },
+        {
+            "title": "mell - ø x Ambulo (lofi hip hop/relaxing beats)",
+            "emoji": "⛵",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=guhAfOxt5gg"
+        },
+        {
+            "title": "No spirit - Memories we made (lofi hip hop/relaxing beats)",
+            "emoji": "⛺",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=h2Hl1uNwDz4"
+        },
+        {
+            "title": "Downtown Binary - Aurora (lofi hip hop/synthwave beats)",
+            "emoji": "🎆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=hdFVxOUWSJ8"
+        },
+        {
+            "title": "Lofi Girl - Best of lofi hip hop 022 🎆 (lofi hip hop/relax beats)",
+            "emoji": "2022",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=i43tkaTXtwI"
+        },
+        {
+            "title": "Kanisan - Rüya (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=iDbk8gBMiWk"
+        },
+        {
+            "title": "Mondo Loops - Forest Tales (lofi hip hop/relaxing beats)",
+            "emoji": "🌿",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=iEamJeEwJUA"
+        },
+        {
+            "title": "Kanisan x no one's perfect - A way of existing (lofi hip hop/relaxing beats)",
+            "emoji": "🏡",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=iH7bdQxXlJI"
+        },
+        {
+            "title": "Lenny Loops x Hoffy Beats - Tender Memories ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=iP7G2pq1bq4"
+        },
+        {
+            "title": "Charlee Nguyen x Mondo Loops - Admidst the Seven Seas (lofi hip hop/relaxing beats)",
+            "emoji": "🌊",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=iRx5fGKVL4I"
+        },
+        {
+            "title": "Softy - Sometimes I Wait For You (lofi hip hop/relaxing beats)",
+            "emoji": "🌇",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=iunocgt3c3E"
+        },
+        {
+            "title": "Living Room - Calm Land (lofi hip hop/relaxing beats)",
+            "emoji": "🌴",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ixuuitBJazY"
+        },
+        {
+            "title": "WYS - Snowman ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☃️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=j9ziXYpFs1I"
+        },
+        {
+            "title": "DaniSogen - The Maggic Unfolds (lofi hip hop/relaxing beats)",
+            "emoji": "🌷",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=jLjvS2JjosQ"
+        },
+        {
+            "title": "Tibeauthetraveler - Cascades (lofi hip hop/relaxing beats)",
+            "emoji": "🌊",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=jPuWHkZBp48"
+        },
+        {
+            "title": "L'Outlander - Massa (middle eastern lofi hip hop)",
+            "emoji": "🐪",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=jpVG4oTa3Fk"
+        },
+        {
+            "title": "Virtua x Akraa - Aether (lofi hip hop/synthwave beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=k4Q3Txhwhcw"
+        },
+        {
+            "title": "tomcbumpz - Melodic Nostalgic (lofi hip hop/relaxing beats)",
+            "emoji": "🎶",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=kFSnq1f7s00"
+        },
+        {
+            "title": "less.people - Online Mall Music (lofi hip hop/relaxing beats)",
+            "emoji": "💿",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=kHI9hnC-pnI"
+        },
+        {
+            "title": "aMess x Jisatsu - To the Moon and Back (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=kTxUcKKwrz0"
+        },
+        {
+            "title": "cxlt. - Your Light (lofi hip hop/relaxing beats)",
+            "emoji": "🌱",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ke5S8NNoJy8"
+        },
+        {
+            "title": "Jhove x fourwalls - Golden Hour (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=kfnCTMQD-zQ"
+        },
+        {
+            "title": "Living room - Dreamcatcher (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=l8E0AZ2wJc0"
+        },
+        {
+            "title": "Lofi Girl - 2 A.M Study session 📚 (lofi hip hop/chill beats)",
+            "emoji": "12",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=l98w9OSKVNA"
+        },
+        {
+            "title": "SPEECHLESS - Future feelings ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☀️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=l9QSIDvbVos"
+        },
+        {
+            "title": "Elijah Lee - Vanishing Journey (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=l9ZEn_Z-y9M"
+        },
+        {
+            "title": "inertia. - faded (lofi hip hop/sleepy beats)",
+            "emoji": "🌫",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=lGF1o1jdrlE"
+        },
+        {
+            "title": "Thibauthetraveler x Lawrence Walther - Scenery (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=lIsT3fQfwdU"
+        },
+        {
+            "title": "BluntOne - Autumn in Budapest (lofi hip hop/soothing beats)",
+            "emoji": "🍂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=lNGD5sYC6gM"
+        },
+        {
+            "title": "Chau Sara - Down Hill (lofi hip hop/relaxing beats)",
+            "emoji": "🗻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=lNT4uV9gL7M"
+        },
+        {
+            "title": "WYS - South Pole ️ (lofi hip hop/relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=lT5lFeaInl4"
+        },
+        {
+            "title": "Lofi Girl - A.M Study session 📚 (lofi hip hop/chill beats)",
+            "emoji": "1",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=lTRiuFIWV54"
+        },
+        {
+            "title": "Towerz - Until Tomorrow (lofi hip hop/relaxing beats)",
+            "emoji": "🌇",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=l__PHAF-q_8"
+        },
+        {
+            "title": "various authors - Blissful Dreams (lofi hip hop/sleep beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ldDtjQkLsss"
+        },
+        {
+            "title": "Sleepermane - Dreamtime (lofi hip hop/relaxing beats)",
+            "emoji": "🐋",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=leTtxciYRX0"
+        },
+        {
+            "title": "Phlocalyst - Relatives (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ln1MFF0rbF4"
+        },
+        {
+            "title": "Mondo Loops ft. kanisan - Terrapin (lofi hip hop/relaxing beats)",
+            "emoji": "🏡",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=mjoXkcdGPTM"
+        },
+        {
+            "title": "Sátyr x Phlocalyst - Aiode (lofi hip hop/relaxing beats)",
+            "emoji": "🌘",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=n5nscOfa18w"
+        },
+        {
+            "title": "Lofi Girl - Best of Lofi hip hop 021 ✨ (lofi hip hop/study beats)",
+            "emoji": "2021",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=n61ULEU7CO0"
+        },
+        {
+            "title": "mell - ø thinking about you (lofi hip hop/relaxing beats)",
+            "emoji": "🏕",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=nNJ7y6pJSQY"
+        },
+        {
+            "title": "iamalex x Felty - Silk (lofi hip hop/relaxing beats)",
+            "emoji": "🌾",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=nP816jjX8oI"
+        },
+        {
+            "title": "Fatb - conscious ego (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=nV8eAWmVEk4"
+        },
+        {
+            "title": "Dontcry x Glimlip - Jiro Dreams (lofi hip hop/relaxing beats)",
+            "emoji": "🍣",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=nXKDQflDgTo"
+        },
+        {
+            "title": "Softy - The breeze (lofi hip hop/relaxing beats)",
+            "emoji": "⛄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=o7MPeCOgG7k"
+        },
+        {
+            "title": "Loafy Building - Shelter (lofi hip hop/relaxing beats)",
+            "emoji": "☔",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=o7jdVJbhcic"
+        },
+        {
+            "title": "Tenno - The Prophecy ️ (asian lofi hip hop)",
+            "emoji": "⛩️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=oPwdPTBABiQ"
+        },
+        {
+            "title": "amies x cxlt. - Nocturne (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=oaNmXmb41n8"
+        },
+        {
+            "title": "S N U G - Moonglow (lofi hip hop/relaxing beats)",
+            "emoji": "🎹",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=oeYxT2RJjno"
+        },
+        {
+            "title": "Kalaido - Ghosts of the Floating World (lofi hip hop/relaxing beats)",
+            "emoji": "🏮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=oowTGZgbDus"
+        },
+        {
+            "title": "brillion. - Bedtime Stories Pt. 🌙 (lofi hip hop/relaxing beats)",
+            "emoji": "2",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ozS8auVro70"
+        },
+        {
+            "title": "Tonion x xander. - Stories of Synergy (lofi hip hop/relaxing beats)",
+            "emoji": "🍂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=p-RALlK4zzU"
+        },
+        {
+            "title": "Laffey - A Day At A Time ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏞️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=p25O5XivzFM"
+        },
+        {
+            "title": "mell - ø Time To Go (lofi hip hop/relaxing beats)",
+            "emoji": "🪁",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=p2JHOJCuRds"
+        },
+        {
+            "title": "Dimension 2 - Aeolia 🌕 (lofi hip hop/relaxing beats)",
+            "emoji": "🌕",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=pR2jzX5L1xU"
+        },
+        {
+            "title": "Gerardo Millán - Quantum Serenity (lofi hip hop/synthwave beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=pb39n_bEHyA"
+        },
+        {
+            "title": "Hevi - When I'm Gone (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=pcnbxGBsolc"
+        },
+        {
+            "title": "Purrple Cat - Distant worlds II (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=pxPdsqrQByM"
+        },
+        {
+            "title": "Raimu - meditative flow (asian lofi hip hop)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=q2d-PwUISdQ"
+        },
+        {
+            "title": "Casiio - Wondering (lofi hip hop/relaxing beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=q4V5cvQWWeY"
+        },
+        {
+            "title": "Mau x Kanisan - les jours d'après (lofi hip hop/relaxing beats)",
+            "emoji": "☔",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=qJJ5v8MKtEk"
+        },
+        {
+            "title": "Lucid Keys - Fantasia (lofi hip hop/relaxing beats)",
+            "emoji": "🌹",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=qZ33uiARMtE"
+        },
+        {
+            "title": "Kyu - until we meet again (sad lofi hip hop)",
+            "emoji": "🎆",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=qdU7RgF8exI"
+        },
+        {
+            "title": "Alto x x x Lenny Loops x x x Two Scents - The Ocean (lofi hip hop/relaxing beats)",
+            "emoji": "🌊",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=qmt00E-llhY"
+        },
+        {
+            "title": "Dimension 2 - The Legend Of Orpheus 🎸 (lofi hip hop/relaxing beats)",
+            "emoji": "🎸",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=r8_u5eKt8sA"
+        },
+        {
+            "title": "Hevi - Before It's Late pt. 🎸 (lofi hip hop/relaxing beats)",
+            "emoji": "pt.2",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=rCZmH-NbCFI"
+        },
+        {
+            "title": "Purrple Cat - Distant worlds (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=rHh1uQndXJ4"
+        },
+        {
+            "title": "kudo - staring through (lofi hip hop/relaxing beats)",
+            "emoji": "🗻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=rRKZ9XAXDKg"
+        },
+        {
+            "title": "Sleepermane - In Between Cycles (lofi hip hop/relaxing beats)",
+            "emoji": "🌫",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=rgq_Q9418cg"
+        },
+        {
+            "title": "juniorodeo x azula - Kids (lofi hip hop/relaxing beats)",
+            "emoji": "🌱",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ri8Y4vgvk2A"
+        },
+        {
+            "title": "Dillan Witherow - Before Sunrise (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=sDC_ssw-eWI"
+        },
+        {
+            "title": "amies x cxlt - After All (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=seamoUeXD4s"
+        },
+        {
+            "title": "Bcalm - Elements (lofi hip hop/relaxing beats)",
+            "emoji": "💫",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=tEq6Cpc86Zg"
+        },
+        {
+            "title": "Ambulo - Sea forest (lofi hip hop/relaxing beats)",
+            "emoji": "🐠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=tVpFOmGCxBQ"
+        },
+        {
+            "title": "cxlt. - Somewhere In Time (lofi hip hop/relaxing beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=tXwRYCht9AM"
+        },
+        {
+            "title": "Mindeliq x Neele Harder - New Horizons (lofi hip hop/relaxing beats)",
+            "emoji": "🌻",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=tfWI-0OptTg"
+        },
+        {
+            "title": "softy - Distant Images (lofi hip hop/piano)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=tfpmAcdFmjw"
+        },
+        {
+            "title": "Mujo x Sweet Medicine - Nostalgia (lofi hip hop/relaxing beats)",
+            "emoji": "✨",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=u87DZdy4Nbw"
+        },
+        {
+            "title": "dontcry x nokiaa - Odyssey (lofi hip hop/relaxing beats)",
+            "emoji": "☕",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=uP2X50NrKHQ"
+        },
+        {
+            "title": "tysu x Spencer Hunt - Window seat (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=uVem4rbFVrE"
+        },
+        {
+            "title": "Project AER - Growth Patterns (lofi hip hop/relaxing beats)",
+            "emoji": "🌿",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=uYZdwq7ikoo"
+        },
+        {
+            "title": "Hoogway x softy - Alley Of Trees (lofi hip hop/relaxing beats)",
+            "emoji": "🍂",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ucRQph70hmc"
+        },
+        {
+            "title": "Loafy Building - High Flying ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🕊️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=uhfs3ceZ-Ho"
+        },
+        {
+            "title": "Laffey - Out Of Orbit (lofi hip hop/relaxing beats)",
+            "emoji": "🪐",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ui4k51d5MBE"
+        },
+        {
+            "title": "BVG - Gilded Voyage (lofi hip hop/relaxing beats)",
+            "emoji": "🌅",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ujazD8nQ1Gc"
+        },
+        {
+            "title": "Leavv - Cloud Shapes (lofi hip hop/relaxing beats)",
+            "emoji": "🌠",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=v68ZGCIDTvI"
+        },
+        {
+            "title": "Nadav Cohen - Stories from another world (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=vCNImPzI3lw"
+        },
+        {
+            "title": "Kupla - Melody Mountain ️ (lofi hip hop/relaxing beats)",
+            "emoji": "❄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=vLqTRzobidk"
+        },
+        {
+            "title": "S N U G - Layover (lofi hip hop/relaxing beats)",
+            "emoji": "⛺",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=vMP_qct9hL4"
+        },
+        {
+            "title": "DLJ - Time Capsule (lofi hip hop/relaxing beats)",
+            "emoji": "⌛",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=vWzgIWwQwV4"
+        },
+        {
+            "title": "chief. - Time Remembered ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏔️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=v_LPm6P-du4"
+        },
+        {
+            "title": "ticofaces - Lunar Isle (lofi hip hop/relaxing beats)",
+            "emoji": "🌙",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=vny2XZLfNHg"
+        },
+        {
+            "title": "less.people - One day it’s over ️️ (lofi hip hop/piano beats)",
+            "emoji": "️⛰️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=vrwG_pCf1Sc"
+        },
+        {
+            "title": "goosetaf - Latibule (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=w0XuZntwpF4"
+        },
+        {
+            "title": "Lofi Girl - A.M Study session 📚 (lofi hip hop/chill beats)",
+            "emoji": "2",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=wAPCSnAhhC8"
+        },
+        {
+            "title": "No Spirit - Happy Moments ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☄️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=wO_TWt2MWY0"
+        },
+        {
+            "title": "CC x kokoro - L'aventure 🌲 (lofi hip hop/relaxing beats)",
+            "emoji": "🌲",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=wVgj3o9k7eY"
+        },
+        {
+            "title": "Glimlip x Louk - Can We Talk (lofi hip hop/relaxing beats)",
+            "emoji": "🚝",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=wX-7JjsJdLE"
+        },
+        {
+            "title": "HM Surf - Pool Days (lofi hip hop/relaxing beats)",
+            "emoji": "💧",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=wmr_BB5EywI"
+        },
+        {
+            "title": "Amies - Discoveries ️ (lofi hip hop/relaxing beats)",
+            "emoji": "☁️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=wo4Z9QOD0H4"
+        },
+        {
+            "title": "aMess - Are we okay ? (lofi hip hop/relaxing beats)",
+            "emoji": "🔮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=xO8tv8B0afo"
+        },
+        {
+            "title": "Refeeld x Project AER - Chance Encounter (lofi hip hop/relaxing beats)",
+            "emoji": "🍀",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=xlfcE02hfiU"
+        },
+        {
+            "title": "Osali - Evergarden (lofi hip hop/relaxing beats)",
+            "emoji": "🌱",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=y--847NiTQw"
+        },
+        {
+            "title": "j'san x epektase - outer space (lofi hip hop/relaxing beats)",
+            "emoji": "🌌",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=y0a-1BTFWi4"
+        },
+        {
+            "title": "G Mills - Tranquility (lofi hip hop/relaxing beats)",
+            "emoji": "🌄",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=yBOv-4ndFGw"
+        },
+        {
+            "title": "lilac - Lanterns (lofi hip hop/relaxing beats)",
+            "emoji": "🏮",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=ydqla2glb44"
+        },
+        {
+            "title": "Pandrezz - Relief ️ (lofi hip hop/relaxing beats)",
+            "emoji": "🏔️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=yumRWK7XuR4"
+        },
+        {
+            "title": "brillion. - Bedtime Stories Pt. 🌙 (lofi hip hop/chill beats)",
+            "emoji": "3",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=z6lRK67CuzU"
+        },
+        {
+            "title": "Tom Doolie - Land of Calm (lofi hip hop/relaxing beats)",
+            "emoji": "🍃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zC2BRxHG7is"
+        },
+        {
+            "title": "Squeeda - Lost World ️ (lofi hip hop/relaxing beats)",
+            "emoji": "⛰️",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zDK2KJ8k-cs"
+        },
+        {
+            "title": "Nothingtosay - Introspective (lofi hip hop/relaxing beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zEOnXL9Jo0A"
+        },
+        {
+            "title": "Lofi Girl - Lazy sunday (lofi hip hop/chill beats)",
+            "emoji": "💤",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zFhfksjf_mY"
+        },
+        {
+            "title": "Sátyr x marsquake - Better Together (lofi hip hop/relaxing beats)",
+            "emoji": "🌃",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zLCV6udNmtw"
+        },
+        {
+            "title": "Tatami Construct - Hidden World (lofi hip hop/relaxing beats)",
+            "emoji": "🌷",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zggkGmHp6rk"
+        },
+        {
+            "title": "Living Room - After The Rainbow (lofi hip hop/relaxing beats)",
+            "emoji": "🌈",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zrUvwQKAixQ"
+        },
+        {
+            "title": "Yasumu - Escaping reality (lofi hip hop/relaxing beats)",
+            "emoji": "🌳",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zuvyVD0jtA8"
+        },
+        {
+            "title": "Tibeauthetraveler - Distance Love (lofi hip hop/relaxing beats)",
+            "emoji": "💜",
+            "feedbacks": [],
+            "type": "playlist",
+            "url": "https://www.youtube.com/watch?v=zvmSONqJ8wE"
+        }
+    ]
 }
