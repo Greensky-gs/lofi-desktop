@@ -10,14 +10,8 @@
     "lint": "yarn prettier -w src",
     "linted": "git add . && git commit -m \"refactor: ♻️ Run prettier\""
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
+  "repository": "https://github.com/Greensky-gs/lofi-desktop",
+  "keywords": [],
   "author": "Greensky-gs",
   "license": "CC0-1.0",
   "devDependencies": {
