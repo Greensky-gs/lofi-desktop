@@ -15,7 +15,9 @@ export class Station {
 	}
 
 	public get fullTitle() {
-		return `${this.authors.join(' x ')} - ${this.title} (${this.beats})`.replace(/ +/g, ' ');
+		return `${this.authors.join(' x ')} - ${this.title} (${
+			this.beats
+		})`.replace(/ +/g, ' ');
 	}
 	/**
 	 * Returns title without emoji

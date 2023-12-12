@@ -1,43 +1,43 @@
 #container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 5%;
-    margin-left: 1%;
-    margin-right: -3%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 5%;
+	margin-left: 1%;
+	margin-right: -3%;
 }
 
 .color_dark_theme .shadower {
-    background-color: var(--dark-song-name-shadow);
+	background-color: var(--dark-song-name-shadow);
 }
 .color_light_theme .shadower {
-    background-color: var(--light-song-name-shadow);
+	background-color: var(--light-song-name-shadow);
 }
 
 .song .shadower {
-    margin-top: -8%;
-    border-radius: 9.3px;
+	margin-top: -8%;
+	border-radius: 9.3px;
 }
 .song {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-family: var(--love-ya);
-    width: 30%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1.25%;
-    height: 110px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    flex-direction: column;
-    border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-family: var(--love-ya);
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1.25%;
+	height: 110px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	flex-direction: column;
+	border-radius: 12px;
 }
 
 .song p {
-    margin-left: 2%;
-    text-align: center;
-    z-index: 1;
+	margin-left: 2%;
+	text-align: center;
+	z-index: 1;
 }

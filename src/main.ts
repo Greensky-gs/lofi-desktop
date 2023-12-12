@@ -28,18 +28,18 @@ function createWindow() {
 	mainWindow.maximize();
 	mainWindow.show();
 	if (mainWindow.isFullScreenable()) mainWindow.setFullScreen(true);
-	
+
 	const animationMinTime = 2000;
-	const animationStart = Date.now()
+	const animationStart = Date.now();
 	mainWindow.loadFile(path.join(__dirname, 'pages/loading.html'));
 
-	stations.onLaunch(async() => {
-		const animationEnd = Date.now()
+	stations.onLaunch(async () => {
+		const animationEnd = Date.now();
 		const diff = animationEnd - animationStart;
-		if (diff < animationMinTime) await wait(animationMinTime - diff)
+		if (diff < animationMinTime) await wait(animationMinTime - diff);
 
 		mainWindow.loadFile(path.join(__dirname, 'pages/main.html'));
-	})
+	});
 }
 
 app.whenReady().then(() => {
@@ -54,10 +54,10 @@ app.on('window-all-closed', function () {
 	if (process.platform !== 'darwin') app.quit();
 });
 app.on('browser-window-focus', function () {
-    globalShortcut.register("CommandOrControl+R", () => {});
-    globalShortcut.register("F5", () => {});
+	globalShortcut.register('CommandOrControl+R', () => {});
+	globalShortcut.register('F5', () => {});
 });
 app.on('browser-window-blur', function () {
-    globalShortcut.unregister('CommandOrControl+R');
-    globalShortcut.unregister('F5');
+	globalShortcut.unregister('CommandOrControl+R');
+	globalShortcut.unregister('F5');
 });

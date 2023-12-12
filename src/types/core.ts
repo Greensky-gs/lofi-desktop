@@ -4,9 +4,9 @@ export type If<C extends boolean, A extends any, B = any> = C extends true
 		? B
 		: never;
 export enum ColorTheme {
-	Dark = "color_dark_theme",
-	Light = "color_light_theme"
+	Dark = 'color_dark_theme',
+	Light = 'color_light_theme',
 }
 export enum StorageKeys {
-	Theme = "lofi_theme"
+	Theme = 'lofi_theme',
 }

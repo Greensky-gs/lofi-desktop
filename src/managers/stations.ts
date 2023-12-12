@@ -18,7 +18,7 @@ export class Stations {
 
 	public onLaunch(callback: stationsManagerLaunchCall) {
 		this._launchCall = callback;
-		return this
+		return this;
 	}
 
 	public get stations(): Station[] {
@@ -41,27 +41,40 @@ export class Stations {
 			});
 
 			setTimeout(() => {
-				this.sync()
-			}, 1000)
+				this.sync();
+			}, 1000);
 		});
 	}
 	private sync() {
-		const allowed: (hardStation & { feedbacks: []; })[] = Array.from(this.cache.values()).map(x => ({
+		const allowed: (hardStation & { feedbacks: [] })[] = Array.from(
+			this.cache.values(),
+		).map((x) => ({
 			title: x.softTitle,
-			emoji: x.title.split(' ').find(x => /\p{Emoji}/u.test(x)) ?? '',
+			emoji: x.title.split(' ').find((x) => /\p{Emoji}/u.test(x)) ?? '',
 			feedbacks: [],
 			type: 'playlist',
 			url: x.url,
-			img: x.img
-		}))
+			img: x.img,
+		}));
 
-		const configs = require('../assets/configs.json')
-		const updated = (configs.stations as (hardStation & { feedbacks: []; })[]).filter(x => x.type === 'radio').concat(allowed)
+		const configs = require('../assets/configs.json');
+		const updated = (
+			configs.stations as (hardStation & { feedbacks: [] })[]
+		)
+			.filter((x) => x.type === 'radio')
+			.concat(allowed);
 
-		writeFileSync(`./dist/assets/configs.json`, JSON.stringify({
-			...configs,
-			stations: updated
-		}, null, 4))
+		writeFileSync(
+			`./dist/assets/configs.json`,
+			JSON.stringify(
+				{
+					...configs,
+					stations: updated,
+				},
+				null,
+				4,
+			),
+		);
 
 		this._ready = true;
 		if (!!this._launchCall) this._launchCall();

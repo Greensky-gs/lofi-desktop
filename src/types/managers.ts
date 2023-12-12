@@ -1,1 +1,1 @@
-export type stationsManagerLaunchCall = () => void | unknown
+export type stationsManagerLaunchCall = () => void | unknown;

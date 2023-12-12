@@ -12,10 +12,10 @@
 }
 
 .color_light_theme img#logo {
-	content: url(../assets/lofi_logo_black.png)
+	content: url(../assets/lofi_logo_black.png);
 }
 .color_dark_theme img#logo {
-	content: url(../assets/lofi_logo_white.png)
+	content: url(../assets/lofi_logo_white.png);
 }
 
 @keyframes fadingin {

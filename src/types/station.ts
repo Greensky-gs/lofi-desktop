@@ -13,11 +13,11 @@ export type station<Raw extends boolean = false> = {
 	tracks: If<Raw, string, tracksType>;
 	url: string;
 };
-export type stationType = 'radio' | 'playlist'
+export type stationType = 'radio' | 'playlist';
 export type hardStation = {
 	url: string;
 	emoji: string;
 	type: stationType;
 	title: string;
 	img: string;
-}
+};
