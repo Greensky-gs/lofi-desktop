@@ -15,7 +15,13 @@ export class Station {
 	}
 
 	public get fullTitle() {
-		return `${this.authors.join(' x ')} - ${this.title} (${this.beats})`;
+		return `${this.authors.join(' x ')} - ${this.title} (${this.beats})`.replace(/ +/g, ' ');
+	}
+	/**
+	 * Returns title without emoji
+	 */
+	public get softTitle() {
+		return this.fullTitle.replace(/\p{Emoji}/u, '').replace(/ +/g, ' ');
 	}
 	public get title() {
 		return this.datas.title;
