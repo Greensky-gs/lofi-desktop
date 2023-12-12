@@ -30,11 +30,13 @@ const callback = (stations: hardStation[]) => {
 
 			const maxLine = 75;
 			shadower.style.width = `${
-				Math.min(maxLine, title.length) * 7 + 30
+				Math.min(maxLine, title.length) * 7 + 40
 			}px`;
+			const lines = Math.ceil(title.length / maxLine);
 			shadower.style.height = `${
-				Math.ceil(title.length / maxLine) * 45
+				lines * 35
 			}px`;
+			shadower.style.marginTop = `${(lines - 1) * -2 - 8}%`
 
 			div.appendChild(shadower);
 			container.appendChild(div);

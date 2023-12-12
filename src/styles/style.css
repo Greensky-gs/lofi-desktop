@@ -23,6 +23,7 @@
 	justify-content: center;
 	color: white;
 	font-size: x-large;
+	z-index: 2;
 }
 
 .color_dark_theme .upper_nav {
@@ -46,10 +47,15 @@ img#theme_icon {
 	width: 4%;
 	margin-right: 0.5%;
 	filter: brightness(0);
+	z-index: 3;
 }
 .color_dark_theme img#theme_icon {
 	content: url(../assets/light_theme_icon.png);
 }
 .color_light_theme img#theme_icon {
 	content: url(../assets/dark_theme_icon.png);
+}
+
+body {
+	transition: background-color 0.2s ease-in-out;
 }
