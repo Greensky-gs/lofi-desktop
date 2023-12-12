@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, globalShortcut } from 'electron';
 import { config } from 'dotenv';
 import { stations } from './cache/stations';
 import { wait } from './utils/toolbox';
@@ -15,6 +15,7 @@ function createWindow() {
 		show: false,
 		autoHideMenuBar: true,
 		enableLargerThanScreen: true,
+		roundedCorners: true,
 		webPreferences: {
 			preload: path.join(__dirname, 'preload.js'),
 		},
@@ -51,4 +52,12 @@ app.whenReady().then(() => {
 
 app.on('window-all-closed', function () {
 	if (process.platform !== 'darwin') app.quit();
+});
+app.on('browser-window-focus', function () {
+    globalShortcut.register("CommandOrControl+R", () => {});
+    globalShortcut.register("F5", () => {});
+});
+app.on('browser-window-blur', function () {
+    globalShortcut.unregister('CommandOrControl+R');
+    globalShortcut.unregister('F5');
 });
