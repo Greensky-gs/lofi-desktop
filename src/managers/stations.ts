@@ -2,10 +2,13 @@ import { Database, ref, get, onValue } from 'firebase/database';
 import { Station } from '../classes/Station';
 import { hardStation, station } from '../types/station';
 import { writeFileSync } from 'node:fs';
+import { stationsManagerLaunchCall } from '../types/managers';
 
 export class Stations {
 	private ref: Database;
 	private cache: Map<string, Station> = new Map();
+	private _launchCall: stationsManagerLaunchCall;
+	private _ready = false;
 
 	constructor(reference: Database) {
 		this.ref = reference;
@@ -13,12 +16,17 @@ export class Stations {
 		this.start();
 	}
 
+	public onLaunch(callback: stationsManagerLaunchCall) {
+		this._launchCall = callback;
+		return this
+	}
+
 	public get stations(): Station[] {
 		return Array.from(this.cache.values());
 	}
 
 	public get ready() {
-		return this.cache.size > 50;
+		return this._ready;
 	}
 
 	private pushStation(input: station<true>) {
@@ -53,6 +61,9 @@ export class Stations {
 			...configs,
 			stations: updated
 		}, null, 4))
+
+		this._ready = true;
+		if (!!this._launchCall) this._launchCall();
 	}
 	private start() {
 		this.fillCache();

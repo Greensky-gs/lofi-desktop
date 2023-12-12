@@ -2,6 +2,7 @@
 import { app, BrowserWindow } from 'electron';
 import { config } from 'dotenv';
 import { stations } from './cache/stations';
+import { wait } from './utils/toolbox';
 const path = require('path');
 
 config();
@@ -18,19 +19,25 @@ function createWindow() {
 		},
 		icon: path.join(__dirname, 'assets/lofi_girl_logo.ico'),
 	});
-	mainWindow.maximize();
-	mainWindow.show();
-	if (mainWindow.isFullScreenable()) mainWindow.setFullScreen(true);
-
-	mainWindow.loadFile(path.join(__dirname, 'pages/loading.html'));
-
 	if (process.argv.includes('--dev')) {
 		mainWindow.webContents.openDevTools();
 	}
 
-	setTimeout(() => {
+	mainWindow.maximize();
+	mainWindow.show();
+	if (mainWindow.isFullScreenable()) mainWindow.setFullScreen(true);
+	
+	const animationMinTime = 2000;
+	const animationStart = Date.now()
+	mainWindow.loadFile(path.join(__dirname, 'pages/loading.html'));
+
+	stations.onLaunch(async() => {
+		const animationEnd = Date.now()
+		const diff = animationEnd - animationStart;
+		if (diff < animationMinTime) await wait(animationMinTime - diff)
+
 		mainWindow.loadFile(path.join(__dirname, 'pages/main.html'));
-	}, 1500);
+	})
 }
 
 app.whenReady().then(() => {
