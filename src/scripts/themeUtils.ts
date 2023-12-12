@@ -14,7 +14,7 @@ const switchTheme = (reload: boolean = true) => {
 
 	localStorage.setItem(
 		'lofi_theme',
-		themes[themes.indexOf(theme) + (1 % themes.length)],
+		themes[(themes.indexOf(theme) + 1) % themes.length],
 	);
 
 	if (reload) loadTheme();

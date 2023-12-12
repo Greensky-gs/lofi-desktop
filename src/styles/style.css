@@ -38,3 +38,18 @@
 .loveya {
 	font-family: var(--love-ya);
 }
+
+img#theme_icon {
+	position: fixed;
+	right:0;
+	opacity: 0.8;
+	width: 4%;
+	margin-right: 0.5%;
+	filter: brightness(0);
+}
+.color_dark_theme img#theme_icon {
+	content: url(../assets/light_theme_icon.png);
+}
+.color_light_theme img#theme_icon {
+	content: url(../assets/dark_theme_icon.png);
+}
