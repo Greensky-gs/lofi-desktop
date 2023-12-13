@@ -49,3 +49,22 @@
 	text-align: center;
 	z-index: 1;
 }
+
+.popup {
+    display: flex;
+    position: fixed;
+    /* top: 0; */
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+    margin-bottom: auto;
+    background-color: white;
+	font-family: var(--love-ya);
+}

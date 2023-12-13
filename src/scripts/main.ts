@@ -6,8 +6,58 @@ const shuffle = <T = any>(array: T[]): T[] => {
 		.sort((a, b) => (b[1] as number) - (a[1] as number))
 		.map((x) => x[0] as T);
 };
+const parseAuthors = (station: hardStation) => station.title.split(' - ')[0].split(/ x /)
+const popup = (station: hardStation) => {
+	const div = document.createElement('div')
+
+	const popupContainer = document.getElementsByClassName('popup_container')[0]
+	if (!popupContainer) return
+
+	div.classList.add('popup')
+	const img = document.createElement('img')
+	img.src = station.img
+	img.classList.add('popup_img')
+
+	div.appendChild(img)
+
+	const title = `${station.title.replace(' (', ` ${station.emoji} (`)}`
+	const titleP = document.createElement('p')
+	titleP.innerText = title
+	titleP.classList.add('popup_title')
+
+	div.appendChild(titleP)
+
+	const authorsContainer = document.createElement('div')
+	authorsContainer.classList.add('popup_authors')
+	const authors = parseAuthors(station);
+
+	for (const [author, index] of authors.map((a, i) => [a, i])) {
+		const node = document.createElement('p')
+		node.innerText = author as string
+		node.classList.add('popup_author')
+		authorsContainer.appendChild(node)
+	}
+
+	div.appendChild(authorsContainer)
+
+	unpopup()
+	popupContainer.appendChild(div)
+}
+const unpopup = () => {
+	const popupContainer = document.getElementsByClassName('popup_container')[0]
+	if (!popupContainer) return
+
+	popupContainer.firstChild?.remove()
+}
 const callback = (stations: hardStation[]) => {
 	const container = document.getElementById('container');
+
+	document.addEventListener('click', (ev) => {
+		const popupContainer = document.getElementsByClassName('popup_container')[0]
+		if (!popupContainer) return
+
+		if (popupContainer.contains(ev.target as Node)) return
+	})
 
 	shuffle(stations.filter((x) => x.type === 'playlist')).forEach(
 		(station) => {
@@ -50,6 +100,8 @@ const callback = (stations: hardStation[]) => {
 			btnContainer.appendChild(addToPlaylist);
 
 			div.appendChild(btnContainer);
+
+			div.onclick = () => popup(station)
 			container.appendChild(div);
 		},
 	);
