@@ -37,11 +37,11 @@
 	box-shadow: var(--shadow-color) 5px 5px 2px;
 }
 .song_btn_container {
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
 	margin-top: 2%;
 }
 .song p {
