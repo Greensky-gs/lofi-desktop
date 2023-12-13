@@ -42,8 +42,16 @@ const remove = (path) => {
             remove(path + '/' + el)
         })
     } else if (path.endsWith('.js')) {
-        const content = readFileSync(path).toString().split('\n').filter(x => !x.includes('Object.defineProperty(exports, "__esModule", { value: true });')).join('\n')
-        writeFileSync(path, content)
+        const content = readFileSync(path).toString().split('\n').filter(x => !x.includes('Object.defineProperty(exports, "__esModule", { value: true });'))
+        const findImports = content.filter(x => x.includes('require(')).map(x => ([x, x.split(' ')[1]]))
+
+        let final = content.filter(x => !findImports.some(y => y[0] === x)).join('\n')
+        findImports.forEach(([imp, constant]) => {
+            const regex = new RegExp(`\\(\\d+\\, ${constant}\\.([a-zA-Z]{1,255})\\)`, 'g')
+            final = final.replace(regex, '$1')
+        })
+
+        writeFileSync(path, final)
 
         desctructed++;
     }
