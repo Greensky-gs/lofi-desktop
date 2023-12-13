@@ -39,6 +39,19 @@ const callback = (stations: hardStation[]) => {
 			shadower.style.marginTop = `${(lines - 1) * -2 - 8}%`
 
 			div.appendChild(shadower);
+
+			const btnContainer = document.createElement('div')
+			btnContainer.classList.add('song_btn_container')
+
+			const play = document.createElement('img')
+			play.classList.add('play_btn', 'clickable')
+			const addToPlaylist = document.createElement('img')
+			addToPlaylist.classList.add('add_pl_btn', 'clickable')
+
+			btnContainer.appendChild(play)
+			btnContainer.appendChild(addToPlaylist)
+			
+			div.appendChild(btnContainer)
 			container.appendChild(div);
 		},
 	);

@@ -4,10 +4,12 @@
 	/* Global variables */
 	--love-ya: 'Love Ya Like A Sister', cursive;
 	--dancing-script: 'Dancing Script', cursive;
+	--shadow-color: rgba(5, 3, 3, 0.658);
 
 	/* Dark vars */
 	--dark-background: #021145;
 	--dark-upper-panel: #bc33c8;
+	--dark-upper-panel-grade: #791c81;
 	--dark-bottom-panel: #ad009c;
 	--dark-song-name-shadow: rgba(206, 206, 206, 0.53);
 	--dark-search-input: #8852cd;
@@ -20,6 +22,7 @@
 	--light-song-name-shadow: var(--dark-song-name-shadow);
 	--light-font-color: black;
 	--light-upper-panel: var(--dark-upper-panel);
+	--light-upper-panel-grade: var(--dark-upper-panel-grade);
 	--light-bottom-panel: var(--dark-bottom-panel);
 	--light-playing: var(--dark-playing);
 }

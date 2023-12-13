@@ -27,10 +27,16 @@
 }
 
 .color_dark_theme .upper_nav {
-	background-color: var(--dark-upper-panel);
+	background-image: linear-gradient(
+		var(--dark-upper-panel),
+		var(--dark-upper-panel-grade)
+	);
 }
 .color_light_theme .upper_nav {
-	background-color: var(--light-upper-panel);
+	background-image: linear-gradient(
+		var(--light-upper-panel),
+		var(--light-upper-panel-grade)
+	);
 }
 
 .dance {
@@ -54,6 +60,15 @@ img#theme_icon {
 }
 .color_light_theme img#theme_icon {
 	content: url(../assets/dark_theme_icon.png);
+}
+
+.play_btn {
+	content: url(../assets/play_icon.png);
+	width: 5vh;
+}
+.add_pl_btn {
+	content: url(../assets/add_to_playlist.png);
+	width: 5vh;
 }
 
 .clickable:hover {
