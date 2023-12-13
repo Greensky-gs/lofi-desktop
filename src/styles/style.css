@@ -56,6 +56,10 @@ img#theme_icon {
 	content: url(../assets/dark_theme_icon.png);
 }
 
+.clickable:hover {
+	cursor: pointer;
+}
+
 body {
 	transition: background-color 0.2s ease-in-out;
 }
