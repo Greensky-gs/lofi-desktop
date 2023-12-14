@@ -1,4 +1,5 @@
 @import './popup.css';
+@import './style.css';
 
 #container {
 	display: flex;

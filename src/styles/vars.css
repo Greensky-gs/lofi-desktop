@@ -5,6 +5,7 @@
 	--love-ya: 'Love Ya Like A Sister', cursive;
 	--dancing-script: 'Dancing Script', cursive;
 	--shadow-color: rgba(5, 3, 3, 0.658);
+	--popup-shadow-color: rgba(20, 20, 20, 0.45);
 
 	/* Dark vars */
 	--dark-background: #021145;
@@ -15,6 +16,7 @@
 	--dark-search-input: #8852cd;
 	--dark-playing: #ffe0e0;
 	--dark-font-color: #eeeeee;
+	--dark-popup-color: #0a0047;
 
 	/* Light vars */
 	--light-background: #eeeeee;
@@ -25,4 +27,5 @@
 	--light-upper-panel-grade: var(--dark-upper-panel-grade);
 	--light-bottom-panel: var(--dark-bottom-panel);
 	--light-playing: var(--dark-playing);
+	--light-popup-color: #ffe7e7;
 }
