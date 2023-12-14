@@ -9,7 +9,6 @@ const shuffle = <T = any>(array: T[]): T[] => {
 const parseAuthors = (station: hardStation) =>
 	station.title.split(' - ')[0].split(/ x /);
 const blacker = (action: 'enable' | 'disable') => {
-
 	if (action === 'enable') {
 		const exists = !!document.getElementsByClassName('popup_blacker')[0];
 
@@ -39,7 +38,7 @@ const popup = (station: hardStation) => {
 	const imgContainer = document.createElement('div');
 	imgContainer.classList.add('popup_img_container');
 
-	imgContainer.style.backgroundImage = `url("${station.img}")`
+	imgContainer.style.backgroundImage = `url("${station.img}")`;
 	div.appendChild(imgContainer);
 
 	const title = `${station.title.replace(' (', ` ${station.emoji} (`)}`;
@@ -60,7 +59,7 @@ const popup = (station: hardStation) => {
 		authorsContainer.appendChild(node);
 	}
 
-	div.setAttribute('creation', Date.now().toString())
+	div.setAttribute('creation', Date.now().toString());
 
 	div.appendChild(authorsContainer);
 	popupContainer.appendChild(div);
@@ -121,9 +120,9 @@ const callback = (stations: hardStation[]) => {
 		const popupContainer = document.getElementsByClassName('popup')[0];
 		if (!popupContainer) return;
 
-		const creation = parseInt(popupContainer.getAttribute('creation'))
-		const diff = Date.now() - creation
-		if (diff <= 100) return
+		const creation = parseInt(popupContainer.getAttribute('creation'));
+		const diff = Date.now() - creation;
+		if (diff <= 100) return;
 
 		const contains = popupContainer.contains(ev.target as Node);
 		if (contains) return;

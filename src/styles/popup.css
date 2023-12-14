@@ -1,55 +1,55 @@
 @import './animations.css';
 
 .color_dark_theme .popup {
-    background-color: var(--dark-popup-color);
-    color: var(--dark-font-color)
+	background-color: var(--dark-popup-color);
+	color: var(--dark-font-color);
 }
 .color_light_theme .popup {
-    background-color: var(--light-popup-color);
-    color: var(--light-font-color)
+	background-color: var(--light-popup-color);
+	color: var(--light-font-color);
 }
 
 .popup {
-    display: flex;
-    position: fixed;
-    left: 0;
-    right: 0;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    flex-direction: column;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: auto;
-    font-family: var(--love-ya);
-    border-radius: 20px;
-    height: 50vh;
-    opacity: 0;
-    animation: fadingin 1s ease-in-out forwards;
+	display: flex;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	flex-direction: column;
+	align-items: center;
+	z-index: 5;
+	margin-bottom: auto;
+	font-family: var(--love-ya);
+	border-radius: 20px;
+	height: 50vh;
+	opacity: 0;
+	animation: fadingin 1s ease-in-out forwards;
 }
 .popup_blacker {
-    z-index: 4;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: var(--popup-shadow-color);
-    top: 0;
-    left: 0;
+	z-index: 4;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: var(--popup-shadow-color);
+	top: 0;
+	left: 0;
 }
 .popup_img_container {
-    width: 100%;
-    background-size: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 50%;
+	width: 100%;
+	background-size: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 50%;
 }
 
 .popup_authors {
-    text-align: center;
-    margin-top: 10px;
+	text-align: center;
+	margin-top: 10px;
 }
 .popup_authors:before {
-    content: "Auteurs";
-    font-size: x-large;
+	content: 'Auteurs';
+	font-size: x-large;
 }
