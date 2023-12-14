@@ -1,3 +1,5 @@
+@import './animations.css';
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -7,7 +9,6 @@
 }
 
 #logo {
-	animation: fadingin 1s linear forwards;
 	opacity: 0;
 }
 
@@ -16,13 +17,4 @@
 }
 .color_dark_theme img#logo {
 	content: url(../assets/lofi_logo_white.png);
-}
-
-@keyframes fadingin {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
 }
