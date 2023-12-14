@@ -1,4 +1,10 @@
+import { importFile } from '../types/definitions';
 import { hardStation } from '../types/station';
+
+importFile('theme.js', 'js')
+importFile('themeUtils.js', 'js')
+importFile('style.css', 'css')
+importFile('main.css', 'css')
 
 const shuffle = <T = any>(array: T[]): T[] => {
 	return array
@@ -14,11 +20,16 @@ const popup = (station: hardStation) => {
 	if (!popupContainer) return
 
 	div.classList.add('popup')
+
+	const imgContainer = document.createElement('div')
+	imgContainer.classList.add('popup_img_container')
+
 	const img = document.createElement('img')
 	img.src = station.img
 	img.classList.add('popup_img')
 
-	div.appendChild(img)
+	imgContainer.appendChild(img)
+	div.appendChild(imgContainer)
 
 	const title = `${station.title.replace(' (', ` ${station.emoji} (`)}`
 	const titleP = document.createElement('p')
@@ -49,17 +60,8 @@ const unpopup = () => {
 
 	popupContainer.firstChild?.remove()
 }
-const callback = (stations: hardStation[]) => {
-	const container = document.getElementById('container');
-
-	document.addEventListener('click', (ev) => {
-		const popupContainer = document.getElementsByClassName('popup_container')[0]
-		if (!popupContainer) return
-
-		if (popupContainer.contains(ev.target as Node)) return
-	})
-
-	shuffle(stations.filter((x) => x.type === 'playlist')).forEach(
+const loadStations = (stations: hardStation[], container: HTMLElement) => {
+	stations.forEach(
 		(station) => {
 			const div = document.createElement('div');
 			div.classList.add('song');
@@ -104,7 +106,19 @@ const callback = (stations: hardStation[]) => {
 			div.onclick = () => popup(station)
 			container.appendChild(div);
 		},
-	);
+	)
+}
+const callback = (stations: hardStation[]) => {
+	const container = document.getElementById('container');
+
+	document.addEventListener('click', (ev) => {
+		const popupContainer = document.getElementsByClassName('popup_container')[0]
+		if (!popupContainer) return
+
+		if (popupContainer.contains(ev.target as Node)) return
+	})
+
+	loadStations(shuffle(stations.filter((x) => x.type === 'playlist')), container);
 };
 
 eval(`import('../assets/configs.json', {
