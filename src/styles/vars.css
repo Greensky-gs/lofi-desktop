@@ -17,6 +17,7 @@
 	--dark-playing: #ffe0e0;
 	--dark-font-color: #eeeeee;
 	--dark-popup-color: #0a0047;
+	--dark-bottom-panel-grade: #7f0273;
 
 	/* Light vars */
 	--light-background: #eeeeee;
@@ -28,4 +29,5 @@
 	--light-bottom-panel: var(--dark-bottom-panel);
 	--light-playing: var(--dark-playing);
 	--light-popup-color: #ffe7e7;
+	--light-bottom-panel-grade: var(--dark-bottom-panel-grade)
 }

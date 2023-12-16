@@ -1,5 +1,6 @@
 @import './popup.css';
 @import './style.css';
+@import './bottom_nav.css';
 
 #container {
 	display: flex;
