@@ -1,16 +1,22 @@
+import { importFile, loadSearch } from "../types/definitions";
+
+importFile('loads.js', 'js');
+
 (() => {
     const bottomNav = document.getElementsByClassName('bottom_nav')[0]
     if (!bottomNav) return
 
     const iconsContainer = document.createElement('div')
     iconsContainer.classList.add('bottom_icons_container')
-    const icons = [["playlists_icon", "playlists.png"], ["home_icon", "home.png"], ["glass_icon", "loupe.png"]]
+    const icons: [string, string, () => void][] = [["playlists_icon", "playlists.png", null], ["home_icon", "home.png", null], ["glass_icon", "loupe.png", loadSearch]]
 
-    for (const [icon, path] of icons) {
+    for (const [icon, path, loader] of icons) {
         const img = document.createElement('img')
         img.style.content = `url(../assets/${path})`
 
         img.classList.add('bottom_icon', 'clickable', icon)
+
+        img.onclick = () => loader()
 
         iconsContainer.appendChild(img)
     }

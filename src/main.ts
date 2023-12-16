@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-import { app, BrowserWindow, globalShortcut } from 'electron';
+import { app, BrowserWindow, globalShortcut, IpcRenderer } from 'electron';
 import { config } from 'dotenv';
 import { stations } from './cache/stations';
 import { wait } from './utils/toolbox';
@@ -39,6 +39,10 @@ function createWindow() {
 		if (diff < animationMinTime) await wait(animationMinTime - diff);
 
 		mainWindow.loadFile(path.join(__dirname, 'pages/main.html'));
+
+		mainWindow.webContents.on('did-finish-load', ( )=> {
+			mainWindow.webContents.send('data-fetched', stations.hardStations)
+		})
 	});
 }
 
@@ -61,3 +65,12 @@ app.on('browser-window-blur', function () {
 	globalShortcut.unregister('CommandOrControl+R');
 	globalShortcut.unregister('F5');
 });
+
+declare global {
+	interface Window {
+	  	electron: {
+			ipcRenderer: IpcRenderer;
+		}
+	}
+}
+   

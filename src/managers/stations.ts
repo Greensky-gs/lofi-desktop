@@ -28,6 +28,18 @@ export class Stations {
 	public get ready() {
 		return this._ready;
 	}
+	public get hardStations(): (hardStation & { feedbacks: [] })[] {
+		return Array.from(
+			this.cache.values(),
+		).map((x) => ({
+			title: x.softTitle,
+			emoji: x.title.split(' ').find((x) => /\p{Emoji}/u.test(x)) ?? '',
+			feedbacks: [],
+			type: 'playlist',
+			url: x.url,
+			img: x.img,
+		}));
+	}
 
 	private pushStation(input: station<true>) {
 		const station = new Station(input);
@@ -46,16 +58,7 @@ export class Stations {
 		});
 	}
 	private sync() {
-		const allowed: (hardStation & { feedbacks: [] })[] = Array.from(
-			this.cache.values(),
-		).map((x) => ({
-			title: x.softTitle,
-			emoji: x.title.split(' ').find((x) => /\p{Emoji}/u.test(x)) ?? '',
-			feedbacks: [],
-			type: 'playlist',
-			url: x.url,
-			img: x.img,
-		}));
+		const allowed = this.hardStations
 
 		const configs = require('../assets/configs.json');
 		const updated = (

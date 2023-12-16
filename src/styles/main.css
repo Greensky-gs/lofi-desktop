@@ -2,7 +2,7 @@
 @import './style.css';
 @import './bottom_nav.css';
 
-#container {
+.stations_container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;

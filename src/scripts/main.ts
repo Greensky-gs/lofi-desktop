@@ -1,4 +1,4 @@
-import { importFile, loadStations, unpopup } from '../types/definitions';
+import { importFile, loadStations, unpopup, loadMain } from '../types/definitions';
 import { hardStation } from '../types/station';
 
 importFile('popup.js', 'js')
@@ -15,6 +15,7 @@ const parseAuthors = (station: hardStation) =>
 
 
 const callback = (stations: hardStation[]) => {
+	console.log(stations)
 	const container = document.getElementById('container');
 
 	document.addEventListener('click', (ev) => {
@@ -30,16 +31,11 @@ const callback = (stations: hardStation[]) => {
 		unpopup();
 	});
 
-	loadStations(
-		shuffle(stations.filter((x) => x.type === 'playlist')),
-		container,
+	loadMain(
+		shuffle(stations.filter((x) => x.type === 'playlist'))
 	);
 };
 
-eval(`import('../assets/configs.json', {
-    assert: {
-        type: "json"
-    }
-}).then((res) => {
-    callback(res.default.stations);
-})`);
+window.electron.ipcRenderer.on('data-fetched', (event, data: hardStation[]) => {
+	callback(data)
+})
