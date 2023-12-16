@@ -49,6 +49,9 @@ const remove = (path) => {
         findImports.forEach(([imp, constant]) => {
             const regex = new RegExp(`\\(\\d+\\, ${constant}\\.([a-zA-Z]{1,255})\\)`, 'g')
             final = final.replace(regex, '$1')
+
+            const secondRegex = new RegExp(`${constant}\\.([a-zA-Z]{1,255})`, 'g')
+            final = final.replace(secondRegex, '$1')
         })
 
         writeFileSync(path, final)
