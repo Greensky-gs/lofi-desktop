@@ -7,6 +7,8 @@
     height: 7vh;
     z-index: 3;
     left: 0;
+    display: flex;
+    justify-content: center;
 }
 .bottom_nav:hover {
     opacity: 1;
@@ -17,4 +19,13 @@
 }
 .color_light_theme .bottom_nav {
     background-image: linear-gradient(var(--light-bottom-panel), var(--light-bottom-panel-grade));
+}
+.bottom_icon {
+    filter: brightness(0);
+    scale: 0.6;
+}
+.bottom_icons_container {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
 }

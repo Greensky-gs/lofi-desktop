@@ -2,6 +2,7 @@ import { popup, unpopup } from '../types/definitions';
 import { hardStation } from '../types/station';
 
 importFile('popup.js', 'js')
+importFile('navs.js', 'js')
 
 const shuffle = <T = any>(array: T[]): T[] => {
 	return array
