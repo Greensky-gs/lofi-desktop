@@ -1,4 +1,4 @@
-import { importFile, loadSearch } from "../types/definitions";
+import { importFile, loadMain, loadSearch } from "../types/definitions";
 
 importFile('loads.js', 'js');
 
@@ -8,7 +8,7 @@ importFile('loads.js', 'js');
 
     const iconsContainer = document.createElement('div')
     iconsContainer.classList.add('bottom_icons_container')
-    const icons: [string, string, () => void][] = [["playlists_icon", "playlists.png", null], ["home_icon", "home.png", null], ["glass_icon", "loupe.png", loadSearch]]
+    const icons: [string, string, () => void][] = [["playlists_icon", "playlists.png", null], ["home_icon", "home.png", () => loadMain(window.stations)], ["glass_icon", "loupe.png", () => loadSearch()]]
 
     for (const [icon, path, loader] of icons) {
         const img = document.createElement('img')

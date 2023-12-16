@@ -1,11 +1,14 @@
 @import './popup.css';
 @import './style.css';
 @import './bottom_nav.css';
+@import './search.css';
 
 .stations_container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+#container {
 	margin-top: 5%;
 	margin-left: 1%;
 	margin-right: -3%;

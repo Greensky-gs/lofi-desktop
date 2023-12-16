@@ -15,7 +15,6 @@ const parseAuthors = (station: hardStation) =>
 
 
 const callback = (stations: hardStation[]) => {
-	console.log(stations)
 	const container = document.getElementById('container');
 
 	document.addEventListener('click', (ev) => {
@@ -37,5 +36,6 @@ const callback = (stations: hardStation[]) => {
 };
 
 window.electron.ipcRenderer.on('data-fetched', (event, data: hardStation[]) => {
+	window.stations = data
 	callback(data)
 })
