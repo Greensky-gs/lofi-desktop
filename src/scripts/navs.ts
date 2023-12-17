@@ -30,12 +30,16 @@ importFile('loads.js', 'js');
 (() => {
 	const upperNav = document.getElementsByClassName('upper_nav')[0];
 	if (!upperNav) return;
+	console.log(upperNav)
 
 	const withIcon = (upperNav.getAttribute('displayIcon') ?? '1') === '1';
 
 	const title = document.createElement('h3');
 	title.innerText = 'Lofi Mobile';
 	title.classList.add('dance');
+
+	console.log(upperNav)
+	console.log(withIcon)
 
 	upperNav.appendChild(title);
 
