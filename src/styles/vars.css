@@ -6,6 +6,7 @@
 	--dancing-script: 'Dancing Script', cursive;
 	--shadow-color: rgba(5, 3, 3, 0.658);
 	--popup-shadow-color: rgba(20, 20, 20, 0.45);
+	--search-caret: #6e6e6e;
 
 	/* Dark vars */
 	--dark-background: #021145;
@@ -18,6 +19,7 @@
 	--dark-font-color: #eeeeee;
 	--dark-popup-color: #0a0047;
 	--dark-bottom-panel-grade: #7f0273;
+	--dark-search-input-grade: #420097;
 
 	/* Light vars */
 	--light-background: #eeeeee;
@@ -30,4 +32,5 @@
 	--light-playing: var(--dark-playing);
 	--light-popup-color: #ffe7e7;
 	--light-bottom-panel-grade: var(--dark-bottom-panel-grade)
+	--light-search-input-grade: var(--dark-search-input-grade)
 }

@@ -9,6 +9,9 @@ const loadSearch = () => {
 	const sp = document.createElement('div')
 	sp.style.height = '8vh'
 
+	const img = document.createElement('img')
+	img.classList.add('search_img')
+
     const stationsContainer = document.createElement('div')
     stationsContainer.classList.add('stations_container')
 
@@ -17,6 +20,7 @@ const loadSearch = () => {
     searchInput.classList.add('search_input')
 	searchInput.placeholder = "Entrez un nom"
 
+	container.appendChild(img)
     container.appendChild(searchInput)
 	container.appendChild(sp)
     container.appendChild(stationsContainer)
