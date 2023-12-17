@@ -1,37 +1,45 @@
 .color_dark_theme .search_input {
-    background-image: linear-gradient(to bottom right, var(--dark-search-input), var(--dark-search-input-grade));
+	background-image: linear-gradient(
+		to bottom right,
+		var(--dark-search-input),
+		var(--dark-search-input-grade)
+	);
 }
 .color_light_theme .search_input {
-    background-image: linear-gradient(to bottom right, var(--light-search-input), var(--light-search-input-grade));
+	background-image: linear-gradient(
+		to bottom right,
+		var(--light-search-input),
+		var(--light-search-input-grade)
+	);
 }
 
 .search_input {
-    border: none;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    height: 8vh;
-    font-size: 5vh;
-    font-family: var(--love-ya);
-    padding-left: 6%;
-    z-index: 2;
-    top: 0;
-    margin-top: 7.01vh;
-    caret-color: var(--search-caret);
-    transform: translateX(-100%);
-    animation: comeFromTop 0.75s ease-out forwards;
+	border: none;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	height: 8vh;
+	font-size: 5vh;
+	font-family: var(--love-ya);
+	padding-left: 6%;
+	z-index: 2;
+	top: 0;
+	margin-top: 7.01vh;
+	caret-color: var(--search-caret);
+	transform: translateX(-100%);
+	animation: comeFromTop 0.75s ease-out forwards;
 }
 .search_input:focus {
-    outline: none;
+	outline: none;
 }
 .search_img {
-    content: url(../assets/loupe.png);
-    z-index: 4;
-    position: absolute;
-    scale: 0.55;
-    filter: grayscale(1);
-    top: 0;
-    left: 0;
-    margin-top: 5.5vh;
-    animation: comeFromTop 0.75s ease-out forwards;
+	content: url(../assets/loupe.png);
+	z-index: 4;
+	position: absolute;
+	scale: 0.55;
+	filter: grayscale(1);
+	top: 0;
+	left: 0;
+	margin-top: 5.5vh;
+	animation: comeFromTop 0.75s ease-out forwards;
 }

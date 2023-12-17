@@ -1,53 +1,61 @@
-import { popup } from "../types/definitions"
-import { hardStation } from "../types/station"
+import { popup } from '../types/definitions';
+import { hardStation } from '../types/station';
 
 const loadSearch = () => {
-    const container = document.getElementById('container')
-    Array.from(container.childNodes).map(x => x.remove())
-    container.classList.remove('stations_container')
+	const container = document.getElementById('container');
+	Array.from(container.childNodes).map((x) => x.remove());
+	container.classList.remove('stations_container');
 
-	const sp = document.createElement('div')
-	sp.style.height = '8vh'
+	const sp = document.createElement('div');
+	sp.style.height = '8vh';
 
-	const img = document.createElement('img')
-	img.classList.add('search_img')
+	const img = document.createElement('img');
+	img.classList.add('search_img');
 
-    const stationsContainer = document.createElement('div')
-    stationsContainer.classList.add('stations_container')
+	const stationsContainer = document.createElement('div');
+	stationsContainer.classList.add('stations_container');
 
-    const searchInput = document.createElement('input')
-    searchInput.type = 'text'
-    searchInput.classList.add('search_input')
-	searchInput.placeholder = "Entrez un nom"
+	const searchInput = document.createElement('input');
+	searchInput.type = 'text';
+	searchInput.classList.add('search_input');
+	searchInput.placeholder = 'Entrez un nom';
 
-	container.appendChild(img)
-    container.appendChild(searchInput)
-	container.appendChild(sp)
-    container.appendChild(stationsContainer)
+	container.appendChild(img);
+	container.appendChild(searchInput);
+	container.appendChild(sp);
+	container.appendChild(stationsContainer);
 
 	const loadEvent = () => {
 		searchInput.addEventListener('input', () => {
-			const search = searchInput.value?.toLowerCase()
-			const t = (x: hardStation) => x.title.split('(')[0]
-			const b = (x: hardStation) => (x.title.split('(')[1].split('/')[1] ?? x.title.split('(')[1]).replace(')', '')
-			const validated = window.stations.filter(x => t(x).toLowerCase().includes(search) || search?.includes(t(x)	.toLowerCase()) || b(x).includes(search))
+			const search = searchInput.value?.toLowerCase();
+			const t = (x: hardStation) => x.title.split('(')[0];
+			const b = (x: hardStation) =>
+				(
+					x.title.split('(')[1].split('/')[1] ?? x.title.split('(')[1]
+				).replace(')', '');
+			const validated = window.stations.filter(
+				(x) =>
+					t(x).toLowerCase().includes(search) ||
+					search?.includes(t(x).toLowerCase()) ||
+					b(x).includes(search),
+			);
 
-			loadStations(validated, stationsContainer)
-		})
-	}
+			loadStations(validated, stationsContainer);
+		});
+	};
 
-	loadStations(window.stations, stationsContainer)
-	loadEvent()
-}
+	loadStations(window.stations, stationsContainer);
+	loadEvent();
+};
 const loadMain = (stations: hardStation[]) => {
-    const container = document.getElementById('container')
-    Array.from(container.childNodes).map(x => x.remove())
-    
-    loadStations(stations, container)
-}
+	const container = document.getElementById('container');
+	Array.from(container.childNodes).map((x) => x.remove());
+
+	loadStations(stations, container);
+};
 const loadStations = (stations: hardStation[], container: HTMLElement) => {
-    container.classList.add('stations_container')
-	Array.from(container.childNodes).map(x => x.remove())
+	container.classList.add('stations_container');
+	Array.from(container.childNodes).map((x) => x.remove());
 
 	stations.forEach((station) => {
 		const div = document.createElement('div');
@@ -89,5 +97,5 @@ const loadStations = (stations: hardStation[], container: HTMLElement) => {
 		container.appendChild(div);
 	});
 
-    return container
+	return container;
 };

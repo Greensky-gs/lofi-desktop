@@ -1,8 +1,13 @@
-import { importFile, loadStations, unpopup, loadMain } from '../types/definitions';
+import {
+	importFile,
+	loadStations,
+	unpopup,
+	loadMain,
+} from '../types/definitions';
 import { hardStation } from '../types/station';
 
-importFile('popup.js', 'js')
-importFile('navs.js', 'js')
+importFile('popup.js', 'js');
+importFile('navs.js', 'js');
 
 const shuffle = <T = any>(array: T[]): T[] => {
 	return array
@@ -12,7 +17,6 @@ const shuffle = <T = any>(array: T[]): T[] => {
 };
 const parseAuthors = (station: hardStation) =>
 	station.title.split(' - ')[0].split(/ x /);
-
 
 const callback = (stations: hardStation[]) => {
 	const container = document.getElementById('container');
@@ -30,12 +34,10 @@ const callback = (stations: hardStation[]) => {
 		unpopup();
 	});
 
-	loadMain(
-		shuffle(stations.filter((x) => x.type === 'playlist'))
-	);
+	loadMain(shuffle(stations.filter((x) => x.type === 'playlist')));
 };
 
 window.electron.ipcRenderer.on('data-fetched', (event, data: hardStation[]) => {
-	window.stations = data
-	callback(data)
-})
+	window.stations = data;
+	callback(data);
+});

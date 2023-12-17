@@ -1,5 +1,5 @@
-import { parseAuthors } from "../types/definitions";
-import { hardStation } from "../types/station";
+import { parseAuthors } from '../types/definitions';
+import { hardStation } from '../types/station';
 
 const blacker = (action: 'enable' | 'disable') => {
 	if (action === 'enable') {
@@ -19,7 +19,7 @@ const blacker = (action: 'enable' | 'disable') => {
 	}
 };
 const popup = (station: hardStation) => {
-    const div = document.createElement('div');
+	const div = document.createElement('div');
 
 	const popupContainer =
 		document.getElementsByClassName('popup_container')[0];
@@ -53,10 +53,10 @@ const popup = (station: hardStation) => {
 	}
 	div.appendChild(authorsContainer);
 
-    const iconsContainer = document.createElement('div')
-    iconsContainer.classList.add('popup_icons')
+	const iconsContainer = document.createElement('div');
+	iconsContainer.classList.add('popup_icons');
 
-    const play = document.createElement('img');
+	const play = document.createElement('img');
 	play.classList.add('play_btn', 'clickable');
 	const addToPlaylist = document.createElement('img');
 	addToPlaylist.classList.add('add_pl_btn', 'clickable');
@@ -69,7 +69,7 @@ const popup = (station: hardStation) => {
 	div.setAttribute('creation', Date.now().toString());
 
 	popupContainer.appendChild(div);
-}
+};
 const unpopup = () => {
 	const popupContainer =
 		document.getElementsByClassName('popup_container')[0];

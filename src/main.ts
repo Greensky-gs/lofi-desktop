@@ -41,9 +41,9 @@ function createWindow() {
 
 		mainWindow.loadFile(path.join(__dirname, 'pages/main.html'));
 
-		mainWindow.webContents.on('did-finish-load', ( )=> {
-			mainWindow.webContents.send('data-fetched', stations.hardStations)
-		})
+		mainWindow.webContents.on('did-finish-load', () => {
+			mainWindow.webContents.send('data-fetched', stations.hardStations);
+		});
 	});
 }
 
@@ -69,10 +69,9 @@ app.on('browser-window-blur', function () {
 
 declare global {
 	interface Window {
-	  	electron: {
+		electron: {
 			ipcRenderer: IpcRenderer;
 		};
 		stations: hardStation[];
 	}
 }
-   

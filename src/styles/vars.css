@@ -32,5 +32,5 @@
 	--light-playing: var(--dark-playing);
 	--light-popup-color: #ffe7e7;
 	--light-bottom-panel-grade: var(--dark-bottom-panel-grade)
-	--light-search-input-grade: var(--dark-search-input-grade)
+		--light-search-input-grade: var(--dark-search-input-grade);
 }

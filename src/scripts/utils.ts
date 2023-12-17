@@ -1,5 +1,5 @@
-import { hardStation } from "../types/station";
-import { popup } from "../types/definitions";
+import { hardStation } from '../types/station';
+import { popup } from '../types/definitions';
 
 const importFile = (filePath: string, fileType: 'css' | 'js') => {
 	const dict: Record<

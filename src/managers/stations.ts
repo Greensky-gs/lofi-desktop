@@ -29,9 +29,7 @@ export class Stations {
 		return this._ready;
 	}
 	public get hardStations(): (hardStation & { feedbacks: [] })[] {
-		return Array.from(
-			this.cache.values(),
-		).map((x) => ({
+		return Array.from(this.cache.values()).map((x) => ({
 			title: x.softTitle,
 			emoji: x.title.split(' ').find((x) => /\p{Emoji}/u.test(x)) ?? '',
 			feedbacks: [],
@@ -58,7 +56,7 @@ export class Stations {
 		});
 	}
 	private sync() {
-		const allowed = this.hardStations
+		const allowed = this.hardStations;
 
 		const configs = require('../assets/configs.json');
 		const updated = (
