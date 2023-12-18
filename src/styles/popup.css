@@ -1,10 +1,12 @@
 @import './animations.css';
 
-.color_dark_theme .popup {
+.color_dark_theme .popup,
+.color_dark_theme .confirm_popup {
 	background-color: var(--dark-popup-color);
 	color: var(--dark-font-color);
 }
-.color_light_theme .popup {
+.color_light_theme .popup,
+.color_light_theme .confirm_popup {
 	background-color: var(--light-popup-color);
 	color: var(--light-font-color);
 }
@@ -36,6 +38,7 @@
 	background-color: var(--popup-shadow-color);
 	top: 0;
 	left: 0;
+	animation: fadingin 1s ease-in-out forwards;
 }
 .popup_img_container {
 	width: 100%;
@@ -62,4 +65,55 @@
 	width: 41%;
 	justify-content: space-between;
 	margin-top: 2.5%;
+}
+.confirm_popup {
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 35vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 35%;
+    margin: auto;
+    padding: 1%;
+    font-family: var(--love-ya);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+	animation: fadingin 1s ease-in-out forwards;
+}
+.confirm_choices {
+    position: absolute;
+    bottom: 21%;
+	display: flex;
+	width: 76%;
+	justify-content: space-between;
+}
+.confirm_btn {
+    border-radius: 35px;
+    border: none;
+    font-family: inherit;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size: x-large;
+	transition: scale 0.5s ease-in;
+}
+.confirm_yes {
+	background-color: var(--yes-btn);
+}
+.confirm_no {
+	background-color: var(--no-btn);
+}
+.confirm_title {
+    font-size: 1.8em;
+    font-family: var(--dancing-script);
+}
+.confirm_btn:hover {
+    scale: 1.05;
 }

@@ -1,4 +1,4 @@
-import { importFile, loadMain, loadSearch } from '../types/definitions';
+import { importFile, loadMain, loadPlaylists, loadSearch } from '../types/definitions';
 
 importFile('loads.js', 'js');
 
@@ -9,7 +9,7 @@ importFile('loads.js', 'js');
 	const iconsContainer = document.createElement('div');
 	iconsContainer.classList.add('bottom_icons_container');
 	const icons: [string, string, () => void][] = [
-		['playlists_icon', 'playlists.png', null],
+		['playlists_icon', 'playlists.png', () => loadPlaylists()],
 		['home_icon', 'home.png', () => loadMain(window.stations)],
 		['glass_icon', 'loupe.png', () => loadSearch()],
 	];
@@ -30,7 +30,6 @@ importFile('loads.js', 'js');
 (() => {
 	const upperNav = document.getElementsByClassName('upper_nav')[0];
 	if (!upperNav) return;
-	console.log(upperNav)
 
 	const withIcon = (upperNav.getAttribute('displayIcon') ?? '1') === '1';
 
@@ -38,8 +37,6 @@ importFile('loads.js', 'js');
 	title.innerText = 'Lofi Mobile';
 	title.classList.add('dance');
 
-	console.log(upperNav)
-	console.log(withIcon)
 
 	upperNav.appendChild(title);
 

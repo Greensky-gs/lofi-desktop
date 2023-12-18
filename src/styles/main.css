@@ -2,6 +2,7 @@
 @import './style.css';
 @import './bottom_nav.css';
 @import './search.css';
+@import './playlists.css';
 
 .stations_container {
 	display: flex;

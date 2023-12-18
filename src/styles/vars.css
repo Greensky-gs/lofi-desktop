@@ -7,6 +7,9 @@
 	--shadow-color: rgba(5, 3, 3, 0.658);
 	--popup-shadow-color: rgba(20, 20, 20, 0.45);
 	--search-caret: #6e6e6e;
+	--create-error-message: #c73d07;
+	--yes-btn: #00e14b;
+	--no-btn: #e73a0e;
 
 	/* Dark vars */
 	--dark-background: #021145;
@@ -20,6 +23,7 @@
 	--dark-popup-color: #0a0047;
 	--dark-bottom-panel-grade: #7f0273;
 	--dark-search-input-grade: #420097;
+	--dark-create-pl-color: #d0d7ff;
 
 	/* Light vars */
 	--light-background: #eeeeee;
@@ -31,6 +35,7 @@
 	--light-bottom-panel: var(--dark-bottom-panel);
 	--light-playing: var(--dark-playing);
 	--light-popup-color: #ffe7e7;
-	--light-bottom-panel-grade: var(--dark-bottom-panel-grade)
-		--light-search-input-grade: var(--dark-search-input-grade);
+	--light-bottom-panel-grade: var(--dark-bottom-panel-grade);
+	--light-search-input-grade: var(--dark-search-input-grade);
+	--light-create-pl-color: #221e24;
 }
