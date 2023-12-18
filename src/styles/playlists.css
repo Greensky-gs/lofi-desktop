@@ -1,127 +1,129 @@
 .playlist_create {
-    content: url(../assets/plus.png);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    margin-left: 1vh;
-    margin-top: 0.5vh;
+	content: url(../assets/plus.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	margin-left: 1vh;
+	margin-top: 0.5vh;
 }
 .back_btn {
-    content: url(../assets/back.png);
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 0.5vh;
-    margin-left: 1vh;
-    z-index: 5;
+	content: url(../assets/back.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 0.5vh;
+	margin-left: 1vh;
+	z-index: 5;
 }
 .create_playlist {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 10vh;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 30vh;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 10vh;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30vh;
 }
 .create_input {
-    width: 29%;
-    height: 40%;
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-size: 3em;
-    font-family: var(--love-ya);
+	width: 29%;
+	height: 40%;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-size: 3em;
+	font-family: var(--love-ya);
 }
 .color_dark_theme .create_input {
-    border-bottom: var(--dark-create-pl-color) 1px solid;
-    color: var(--dark-create-pl-color)
+	border-bottom: var(--dark-create-pl-color) 1px solid;
+	color: var(--dark-create-pl-color);
 }
 .color_light_theme .create_input {
-    border-bottom: var(--light-create-pl-color) 1px solid;
-    color: var(--light-create-pl-color)
+	border-bottom: var(--light-create-pl-color) 1px solid;
+	color: var(--light-create-pl-color);
 }
 .create_button {
-    border: none;
-    border-radius: 35px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: x-large;
-    font-family: var(--love-ya);
+	border: none;
+	border-radius: 35px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: x-large;
+	font-family: var(--love-ya);
 }
 .color_dark_theme .create_button {
-    background-color: var(--dark-search-input);
+	background-color: var(--dark-search-input);
 }
 .color_light_theme .create_button {
-    background-color: var(--light-search-input);
+	background-color: var(--light-search-input);
 }
 .create_message {
-    color: var(--create-error-message);
-    font-family: var(--love-ya);
-    position: relative;
-    font-size: large;
-    margin-top: -2%;
+	color: var(--create-error-message);
+	font-family: var(--love-ya);
+	position: relative;
+	font-size: large;
+	margin-top: -2%;
 }
 .playlists_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: -5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: -5%;
 }
 .playlist {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 40%;
-    font-family: var(--love-ya);
-    display: flex;
-    justify-content: center;
-    font-size: large;
-    height: 10vh;
-    border-radius: 10px;
-    box-shadow: var(--shadow-color) 5px 5px 2px;
-    margin-bottom: 4%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 40%;
+	font-family: var(--love-ya);
+	display: flex;
+	justify-content: center;
+	font-size: large;
+	height: 10vh;
+	border-radius: 10px;
+	box-shadow: var(--shadow-color) 5px 5px 2px;
+	margin-bottom: 4%;
 }
 .playlist_songs_container {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 .color_dark_theme .playlist_title {
-    color: var(--dark-font-color);
+	color: var(--dark-font-color);
 }
 .color_light_theme .playlist_title {
-    color: var(--light-font-color);
+	color: var(--light-font-color);
 }
 .playlist_title {
-    font-family: var(--love-ya);
-    font-size: 2.5vh;
+	font-family: var(--love-ya);
+	font-size: 2.5vh;
 }
 .remove_pl_btn {
-    content: url(../assets/playlist_remove.png);
-    filter: brightness(0);
+	content: url(../assets/playlist_remove.png);
+	filter: brightness(0);
 }
 
 .playlist_title_buttons {
-    opacity: 0;
-    transform: translateX(-80%);
-    transition: opacity 1s ease-out 0.3s, transform 1.5s ease 0s;
-    margin-right: 5%;
+	opacity: 0;
+	transform: translateX(-80%);
+	transition:
+		opacity 1s ease-out 0.3s,
+		transform 1.5s ease 0s;
+	margin-right: 5%;
 }
 .playlist_title_buttons img {
-    filter: brightness(0);
-    scale: 0.7;
+	filter: brightness(0);
+	scale: 0.7;
 }
 .playlist_title_buttons:hover {
-    opacity: 1;
-    transform: translateX(0);
+	opacity: 1;
+	transform: translateX(0);
 }
 .playlist_title_section {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }

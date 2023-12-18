@@ -1,4 +1,9 @@
-import { importFile, loadMain, loadPlaylists, loadSearch } from '../types/definitions';
+import {
+	importFile,
+	loadMain,
+	loadPlaylists,
+	loadSearch,
+} from '../types/definitions';
 
 importFile('loads.js', 'js');
 
@@ -36,7 +41,6 @@ importFile('loads.js', 'js');
 	const title = document.createElement('h3');
 	title.innerText = 'Lofi Mobile';
 	title.classList.add('dance');
-
 
 	upperNav.appendChild(title);
 

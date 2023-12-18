@@ -85,51 +85,66 @@ const loadStations = (stations: hardStation[], container: HTMLElement) => {
 	});
 };
 const confirmation = (title: string, message: string): Promise<boolean> => {
-	const start = Date.now()
+	const start = Date.now();
 
 	return new Promise((resolve) => {
-		blacker('enable')
-		const element = document.createElement('div')
-		element.classList.add('confirm_popup')
+		blacker('enable');
+		const element = document.createElement('div');
+		element.classList.add('confirm_popup');
 
-		const t = document.createElement('p')
-		t.innerText = title
-		t.classList.add('confirm_title')
+		const t = document.createElement('p');
+		t.innerText = title;
+		t.classList.add('confirm_title');
 
-		const m = document.createElement('p')
-		m.innerText = message
-		m.classList.add('confirm_message')
+		const m = document.createElement('p');
+		m.innerText = message;
+		m.classList.add('confirm_message');
 
-		const choices = document.createElement('div')
+		const choices = document.createElement('div');
 		choices.classList.add('confirm_choices');
 
-		choices.append(...([['Oui', () => end(true), ['confirm_yes', 'clickable', 'confirm_btn']], ['Non', () => end(false), ['confirm_no', 'clickable', 'confirm_btn']]] as [string, () => void, string[]][]).map(([ msg, action, classes ]) => {
-			const btn = document.createElement('button')
-			btn.classList.add(...classes)
-			btn.append(document.createTextNode(msg))
+		choices.append(
+			...(
+				[
+					[
+						'Oui',
+						() => end(true),
+						['confirm_yes', 'clickable', 'confirm_btn'],
+					],
+					[
+						'Non',
+						() => end(false),
+						['confirm_no', 'clickable', 'confirm_btn'],
+					],
+				] as [string, () => void, string[]][]
+			).map(([msg, action, classes]) => {
+				const btn = document.createElement('button');
+				btn.classList.add(...classes);
+				btn.append(document.createTextNode(msg));
 
-			btn.onclick = () => action()
-			return btn
-		}))
+				btn.onclick = () => action();
+				return btn;
+			}),
+		);
 
-		element.append(t, m, choices)
+		element.append(t, m, choices);
 
-		document.getElementById('container').appendChild(element)
+		document.getElementById('container').appendChild(element);
 
 		const listenerCallback = (event: MouseEvent) => {
-			if (Date.now() - start < 1000) return
+			if (Date.now() - start < 1000) return;
 
 			if (!element.contains(event.target as Node)) {
-				end(false)
+				end(false);
 			}
-		}
-		document.addEventListener('click', listenerCallback)
+		};
+		document.addEventListener('click', listenerCallback);
 
 		const end = (res: boolean) => {
-			document.removeEventListener('click', listenerCallback)
-			element.remove()
+			document.removeEventListener('click', listenerCallback);
+			element.remove();
 			blacker('disable');
-			resolve(res)
-		}
-	})
-}
+			resolve(res);
+		};
+	});
+};

@@ -6,7 +6,7 @@ import {
 } from '../types/definitions';
 import { hardStation } from '../types/station';
 
-importFile('playlists.js', 'js')
+importFile('playlists.js', 'js');
 importFile('popup.js', 'js');
 importFile('navs.js', 'js');
 
