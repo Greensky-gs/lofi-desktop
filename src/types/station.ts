@@ -12,6 +12,7 @@ export type station<Raw extends boolean = false> = {
 	title: string;
 	tracks: If<Raw, string, tracksType>;
 	url: string;
+	downloadURL: string;
 };
 export type stationType = 'radio' | 'playlist';
 export type hardStation = {
@@ -20,4 +21,5 @@ export type hardStation = {
 	type: stationType;
 	title: string;
 	img: string;
+	downloadURL: string;
 };

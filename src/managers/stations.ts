@@ -3,12 +3,15 @@ import { Station } from '../classes/Station';
 import { hardStation, station } from '../types/station';
 import { writeFileSync } from 'node:fs';
 import { stationsManagerLaunchCall } from '../types/managers';
+import { FirebaseStorage, getDownloadURL, ref as storeRef } from 'firebase/storage';
 
 export class Stations {
 	private ref: Database;
 	private cache: Map<string, Station> = new Map();
 	private _launchCall: stationsManagerLaunchCall;
 	private _ready = false;
+	private readyCount = 0;
+	private refs: Record<string, string>
 
 	constructor(reference: Database) {
 		this.ref = reference;
@@ -36,6 +39,7 @@ export class Stations {
 			type: 'playlist',
 			url: x.url,
 			img: x.img,
+			downloadURL: x.downloadURL
 		}));
 	}
 
@@ -44,16 +48,31 @@ export class Stations {
 		this.cache.set(station.id, station);
 	}
 	private async fillCache() {
-		onValue(ref(this.ref, 'stations'), (snap) => {
+		onValue(ref(this.ref, 'stations'), async(snap) => {
 			const values = snap.val() as Record<string, station<true>>;
 			Object.values(values).forEach((val) => {
-				this.pushStation(val);
+				this.pushStation(val)
 			});
 
 			setTimeout(() => {
-				this.sync();
-			}, 1000);
+				this.readyCount++
+				this.checkReady()
+			}, 500);
 		});
+		onValue(ref(this.ref, 'refs'), (snap) => {
+			this.refs = snap.val() as Record<string, string>;
+
+			this.readyCount++
+			this.checkReady()
+		})
+	}
+	private checkReady() {
+		if (this.readyCount === 2) {
+			Object.entries(this.refs).forEach(([id, r]) => {
+				this.cache.get(id).downloadURL = r
+			})
+			this.sync();
+		}
 	}
 	private sync() {
 		const allowed = this.hardStations;
