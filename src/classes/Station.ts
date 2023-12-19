@@ -47,11 +47,11 @@ export class Station {
 		return this.datas.beats;
 	}
 	public get downloadURL() {
-		return this.datas.downloadURL
+		return this.datas.downloadURL;
 	}
 
 	public set downloadURL(value: string) {
-		this.datas.downloadURL = value
+		this.datas.downloadURL = value;
 	}
 
 	public toJSON() {

@@ -75,7 +75,7 @@ const loadStations = (stations: hardStation[], container: HTMLElement) => {
 		const addToPlaylistButton = document.createElement('img');
 		addToPlaylistButton.classList.add('add_pl_btn', 'clickable');
 
-		addToPlaylistButton.onclick = () => addToPlaylist(station)
+		addToPlaylistButton.onclick = () => addToPlaylist(station);
 
 		btnContainer.appendChild(play);
 		btnContainer.appendChild(addToPlaylistButton);

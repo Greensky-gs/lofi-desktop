@@ -15,7 +15,7 @@ const blacker = (action: 'enable' | 'disable') => {
 		const blacker = document.getElementById('popup_blacker');
 		if (!blacker) return;
 
-		blacker.parentElement.removeChild(blacker)
+		blacker.parentElement.removeChild(blacker);
 	}
 };
 const popup = (station: hardStation) => {
@@ -57,8 +57,8 @@ const popup = (station: hardStation) => {
 	play.classList.add('play_btn', 'clickable');
 	const addToPlaylistButton = document.createElement('img');
 	addToPlaylistButton.classList.add('add_pl_btn', 'clickable');
-	
-	addToPlaylistButton.onclick = () => addToPlaylist(station)
+
+	addToPlaylistButton.onclick = () => addToPlaylist(station);
 
 	iconsContainer.appendChild(play);
 	iconsContainer.appendChild(addToPlaylistButton);
@@ -67,13 +67,12 @@ const popup = (station: hardStation) => {
 
 	div.setAttribute('creation', Date.now().toString());
 
-	document.getElementById('container').append(div)
+	document.getElementById('container').append(div);
 };
 const unpopup = () => {
-	const popupContainer =
-	document.getElementsByClassName('popup')[0];
+	const popupContainer = document.getElementsByClassName('popup')[0];
 	if (!popupContainer) return;
 	blacker('disable');
 
-	popupContainer.parentElement.removeChild(popupContainer)
+	popupContainer.parentElement.removeChild(popupContainer);
 };

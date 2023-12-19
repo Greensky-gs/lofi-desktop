@@ -11,21 +11,21 @@
 	color: var(--light-font-color);
 }
 .popup {
-    display: flex;
-    position: fixed;
-    left: 25%;
-    right: 25%;
-    width: auto;
-    flex-direction: column;
-    align-items: center;
-    z-index: 5;
-    font-family: var(--love-ya);
-    border-radius: 20px;
-    opacity: 0;
-    animation: fadingin 1s ease-in-out forwards;
-    bottom: 25%;
-    top: 25%;
-    height: auto;
+	display: flex;
+	position: fixed;
+	left: 25%;
+	right: 25%;
+	width: auto;
+	flex-direction: column;
+	align-items: center;
+	z-index: 5;
+	font-family: var(--love-ya);
+	border-radius: 20px;
+	opacity: 0;
+	animation: fadingin 1s ease-in-out forwards;
+	bottom: 25%;
+	top: 25%;
+	height: auto;
 }
 .popup_blacker {
 	z-index: 4;

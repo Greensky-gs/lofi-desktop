@@ -22,5 +22,8 @@ export const confirmation = (
 	message: string,
 ): Promise<boolean> => new Promise(() => {});
 export const deleteList = (name: string): 'dont exists' | 'ok' => 'ok';
-export const addToPlaylist = (station: hardStation) => {}
-export const appendList = (playlist: hardPlaylistType, station: hardStation) => {}
+export const addToPlaylist = (station: hardStation) => {};
+export const appendList = (
+	playlist: hardPlaylistType,
+	station: hardStation,
+) => {};

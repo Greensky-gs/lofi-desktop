@@ -15,7 +15,7 @@ import { stationsLoadOptions } from '../types/core';
 const loadSearch = () => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
-	clearContainer(container)
+	clearContainer(container);
 
 	const sp = document.createElement('div');
 	sp.style.height = '8vh';
@@ -84,7 +84,7 @@ const loadPlaylists = () => {
 
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
-	clearContainer(container)
+	clearContainer(container);
 
 	const playlists = getPlaylists();
 	const playlistsContainer = document.createElement('div');
@@ -128,7 +128,7 @@ const loadStations = ({
 	buttons,
 	...options
 }: stationsLoadOptions) => {
-	clearContainer(container)
+	clearContainer(container);
 	if (options?.containerClass)
 		container.classList.add(options?.containerClass);
 	Array.from(container.childNodes).map((x) => x.remove());
@@ -167,17 +167,18 @@ const loadStations = ({
 				},
 				{
 					classes: ['add_pl_btn', 'clickable'],
-					onclick: () => addToPlaylist(station)
+					onclick: () => addToPlaylist(station),
 				},
 			];
 		buttons.forEach((btn) => {
 			const el = document.createElement('img');
 			el.classList.add(...btn.classes);
 
-			if (!!btn.onclick) el.onclick = (event) => {
-				event.stopPropagation()
-				btn.onclick(station)
-			};
+			if (!!btn.onclick)
+				el.onclick = (event) => {
+					event.stopPropagation();
+					btn.onclick(station);
+				};
 
 			btnContainer.appendChild(el);
 		});
@@ -191,7 +192,7 @@ const loadStations = ({
 const loadCreatePlaylist = (message?: string) => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
-	clearContainer(container)
+	clearContainer(container);
 
 	const back = document.createElement('img');
 	back.classList.add('clickable', 'back_btn');
@@ -239,7 +240,7 @@ const loadCreatePlaylist = (message?: string) => {
 const loadPlaylist = (playlist: hardPlaylistType) => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
-	clearContainer(container)
+	clearContainer(container);
 
 	const title = document.createElement('p');
 	title.classList.add('playlist_title');
@@ -294,40 +295,43 @@ const loadPlaylist = (playlist: hardPlaylistType) => {
 
 	container.append(back, titleDiv, songs);
 };
-const clearContainer = (c: HTMLElement) => c.classList.forEach(x => c.classList.remove(x))
+const clearContainer = (c: HTMLElement) =>
+	c.classList.forEach((x) => c.classList.remove(x));
 const addToPlaylist = (station: hardStation) => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
-	clearContainer(container)
-	container.classList.add('add_pl_container')
+	clearContainer(container);
+	container.classList.add('add_pl_container');
 
-	const title = document.createElement('p')
-	title.innerText = 'Ajouter à une playlist'
-	title.classList.add('add_to_pl_title')
+	const title = document.createElement('p');
+	title.innerText = 'Ajouter à une playlist';
+	title.classList.add('add_to_pl_title');
 
 	const playlists = getPlaylists().map(hardPlaylist);
 
-	const choice = document.createElement('select')
-	playlists.filter(x => !x.stations.some(y => y.url === station.url)).map(x => {
-		const opt = document.createElement('option')
-		opt.text = x.name;
-		opt.value = x.name;
+	const choice = document.createElement('select');
+	playlists
+		.filter((x) => !x.stations.some((y) => y.url === station.url))
+		.map((x) => {
+			const opt = document.createElement('option');
+			opt.text = x.name;
+			opt.value = x.name;
 
-		choice.options.add(opt)
-	})
-	choice.classList.add('add_to_pl_selector')
+			choice.options.add(opt);
+		});
+	choice.classList.add('add_to_pl_selector');
 
-	const button = document.createElement('button')
-	button.classList.add('add_pl_button')
-	button.append(document.createTextNode('Ajouter'))
+	const button = document.createElement('button');
+	button.classList.add('add_pl_button');
+	button.append(document.createTextNode('Ajouter'));
 
 	button.onclick = () => {
-		const plName = choice.value
-		const playlist = playlists.find(x => x.name === plName)
+		const plName = choice.value;
+		const playlist = playlists.find((x) => x.name === plName);
 
-		appendList(playlist, station)
-		loadPlaylist(playlist)
-	}
+		appendList(playlist, station);
+		loadPlaylist(playlist);
+	};
 
-	container.append(title, choice, button)
-}
+	container.append(title, choice, button);
+};
