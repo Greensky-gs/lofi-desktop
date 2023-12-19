@@ -15,7 +15,7 @@ import { stationsLoadOptions } from '../types/core';
 const loadSearch = () => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
-	container.classList.remove('stations_container');
+	clearContainer(container)
 
 	const sp = document.createElement('div');
 	sp.style.height = '8vh';
@@ -167,13 +167,17 @@ const loadStations = ({
 				},
 				{
 					classes: ['add_pl_btn', 'clickable'],
+					onclick: () => addToPlaylist(station)
 				},
 			];
 		buttons.forEach((btn) => {
 			const el = document.createElement('img');
 			el.classList.add(...btn.classes);
 
-			if (!!btn.onclick) el.onclick = () => btn.onclick(station);
+			if (!!btn.onclick) el.onclick = (event) => {
+				event.stopPropagation()
+				btn.onclick(station)
+			};
 
 			btnContainer.appendChild(el);
 		});
