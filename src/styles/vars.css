@@ -24,6 +24,7 @@
 	--dark-bottom-panel-grade: #7f0273;
 	--dark-search-input-grade: #420097;
 	--dark-create-pl-color: #d0d7ff;
+	--dark-select-opt: #8700bd;
 
 	/* Light vars */
 	--light-background: #eeeeee;
@@ -38,4 +39,5 @@
 	--light-bottom-panel-grade: var(--dark-bottom-panel-grade);
 	--light-search-input-grade: var(--dark-search-input-grade);
 	--light-create-pl-color: #221e24;
+	--light-select-opt: var(--dark-select-opt);
 }

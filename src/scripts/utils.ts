@@ -1,5 +1,5 @@
 import { hardStation } from '../types/station';
-import { blacker, popup } from '../types/definitions';
+import { addToPlaylist, blacker, popup } from '../types/definitions';
 
 const importFile = (filePath: string, fileType: 'css' | 'js') => {
 	const dict: Record<
@@ -72,11 +72,13 @@ const loadStations = (stations: hardStation[], container: HTMLElement) => {
 
 		const play = document.createElement('img');
 		play.classList.add('play_btn', 'clickable');
-		const addToPlaylist = document.createElement('img');
-		addToPlaylist.classList.add('add_pl_btn', 'clickable');
+		const addToPlaylistButton = document.createElement('img');
+		addToPlaylistButton.classList.add('add_pl_btn', 'clickable');
+
+		addToPlaylistButton.onclick = () => addToPlaylist(station)
 
 		btnContainer.appendChild(play);
-		btnContainer.appendChild(addToPlaylist);
+		btnContainer.appendChild(addToPlaylistButton);
 
 		div.appendChild(btnContainer);
 

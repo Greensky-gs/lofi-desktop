@@ -1,3 +1,4 @@
+import { hardStation } from '../types/station';
 import { hardPlaylist as hardPlaylistType, playlist } from '../types/playlists';
 
 const getPlaylists = () => {
@@ -71,3 +72,7 @@ const deleteList = (name: string) => {
 
 	return 'ok';
 };
+const appendList = (list: hardPlaylistType, station: hardStation) => {
+	list.stations.push(station)
+	savePlaylist(list)
+}

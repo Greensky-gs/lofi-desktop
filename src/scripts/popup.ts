@@ -1,4 +1,4 @@
-import { parseAuthors } from '../types/definitions';
+import { addToPlaylist, parseAuthors } from '../types/definitions';
 import { hardStation } from '../types/station';
 
 const blacker = (action: 'enable' | 'disable') => {
@@ -10,20 +10,17 @@ const blacker = (action: 'enable' | 'disable') => {
 		blacker.id = 'popup_blacker';
 		blacker.classList.add('popup_blacker');
 
-		document.getElementsByTagName('body')[0].appendChild(blacker);
+		document.getElementById('container').appendChild(blacker);
 	} else {
 		const blacker = document.getElementById('popup_blacker');
 		if (!blacker) return;
 
-		document.getElementsByTagName('body')[0].removeChild(blacker);
+		blacker.parentElement.removeChild(blacker)
 	}
 };
 const popup = (station: hardStation) => {
 	const div = document.createElement('div');
 
-	const popupContainer =
-		document.getElementsByClassName('popup_container')[0];
-	if (!popupContainer) return;
 	blacker('enable');
 
 	div.classList.add('popup');
@@ -58,23 +55,25 @@ const popup = (station: hardStation) => {
 
 	const play = document.createElement('img');
 	play.classList.add('play_btn', 'clickable');
-	const addToPlaylist = document.createElement('img');
-	addToPlaylist.classList.add('add_pl_btn', 'clickable');
+	const addToPlaylistButton = document.createElement('img');
+	addToPlaylistButton.classList.add('add_pl_btn', 'clickable');
+	
+	addToPlaylistButton.onclick = () => addToPlaylist(station)
 
 	iconsContainer.appendChild(play);
-	iconsContainer.appendChild(addToPlaylist);
+	iconsContainer.appendChild(addToPlaylistButton);
 
 	div.appendChild(iconsContainer);
 
 	div.setAttribute('creation', Date.now().toString());
 
-	popupContainer.appendChild(div);
+	document.getElementById('container').append(div)
 };
 const unpopup = () => {
 	const popupContainer =
-		document.getElementsByClassName('popup_container')[0];
+	document.getElementsByClassName('popup')[0];
 	if (!popupContainer) return;
 	blacker('disable');
 
-	popupContainer.firstChild?.remove();
+	popupContainer.parentElement.removeChild(popupContainer)
 };
