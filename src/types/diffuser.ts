@@ -1,0 +1,1 @@
+export type diffuserState = 'playing' | 'idle' | 'paused'

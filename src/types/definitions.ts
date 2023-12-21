@@ -27,3 +27,25 @@ export const appendList = (
 	playlist: hardPlaylistType,
 	station: hardStation,
 ) => {};
+export class Diffuser {
+	constructor() {}
+
+	public render() {}
+	public play(url: string) {}
+	public pause() {}
+
+	public get playing() {
+		return true as boolean
+	}
+	public get idle() {
+		return true as boolean
+	}
+	public setVolume(value: number) {}
+	public get current(){
+		return 0
+	}
+	public get duration() {return 0}
+	public get url() {
+		return ''
+	}
+}

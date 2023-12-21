@@ -164,6 +164,7 @@ const loadStations = ({
 			buttons = [
 				{
 					classes: ['play_btn', 'clickable'],
+					onclick: () => window.diffuser.play(station.downloadURL)
 				},
 				{
 					classes: ['add_pl_btn', 'clickable'],

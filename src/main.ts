@@ -4,6 +4,7 @@ import { config } from 'dotenv';
 import { stations } from './cache/stations';
 import { wait } from './utils/toolbox';
 import { hardStation } from './types/station';
+import { Diffuser } from './types/definitions';
 const path = require('path');
 
 config();
@@ -73,5 +74,6 @@ declare global {
 			ipcRenderer: IpcRenderer;
 		};
 		stations: hardStation[];
+		diffuser: Diffuser;
 	}
 }
