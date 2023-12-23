@@ -12,7 +12,7 @@ const getArg = (key, def) => {
 }
 
 const input = getArg('--input', "src")
-const output = getArg('--output', 'dist')
+const output = getArg('--output', 'out')
 
 const clarify = (path) => path.replace(input, output)
 

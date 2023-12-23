@@ -7,7 +7,7 @@ import { hardStation } from './types/station';
 import { Diffuser } from './types/definitions';
 const path = require('path');
 
-config();
+config({ path: path.join(__dirname, '../.env') });
 
 function createWindow() {
 	// Loading stations

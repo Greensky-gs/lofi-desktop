@@ -8,6 +8,7 @@ import {
 	getDownloadURL,
 	ref as storeRef,
 } from 'firebase/storage';
+import { join } from 'path'
 
 export class Stations {
 	private ref: Database;
@@ -90,7 +91,7 @@ export class Stations {
 			.concat(allowed);
 
 		writeFileSync(
-			`./dist/assets/configs.json`,
+			join(__dirname, '../assets/configs.json'),
 			JSON.stringify(
 				{
 					...configs,

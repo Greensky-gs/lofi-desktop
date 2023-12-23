@@ -2,13 +2,14 @@
   "name": "lofi-desktop",
   "version": "1.0.0",
   "description": "A desktop application for lofi music",
-  "main": "dist/main.js",
+  "main": "out/main.js",
   "scripts": {
     "build": "yarn tsc -b && node scripts/compiler.js",
     "dev": "yarn build && electron . --dev",
     "start": "yarn build && electron .",
     "lint": "yarn prettier -w src",
-    "linted": "git add . && git commit -m \"refactor: ♻️ Run prettier\""
+    "linted": "git add . && git commit -m \"refactor: ♻️ Run prettier\"",
+    "dist": "electron-builder"
   },
   "repository": "https://github.com/Greensky-gs/lofi-desktop",
   "keywords": [],
@@ -23,5 +24,8 @@
     "firebase": "^10.7.1",
     "tsc": "^2.0.4",
     "typescript": "^5.3.3"
+  },
+  "build": {
+    "appId": "com.draverindustries.lofimobile"
   }
 }

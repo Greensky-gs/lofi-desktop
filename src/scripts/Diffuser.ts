@@ -75,8 +75,9 @@ class Diffuser {
 		}
 	}
 	public play(url: string, appendMode: appendMode = 'never') {
-		if (this.audio) {
-			if (!!this.station) appendSystemList(getSystemList(), this.station);
+		const system = getSystemList();
+		if (this.audio && system.stations[0].downloadURL !== this.station.downloadURL) {
+			if (!!this.station) appendSystemList(system, this.station);
 			this.audio.pause();
 		}
 		this.handleAppend(url, appendMode);
