@@ -7,6 +7,7 @@ import {
 	getPlaylists,
 	hardPlaylist,
 	importFile,
+	popList,
 	popup,
 	shuffle,
 } from '../types/definitions';
@@ -345,7 +346,13 @@ const loadPlaylist = (playlist: hardPlaylistType) => {
 		containerClass: 'playlist_songs_container',
 		buttons: [
 			{ classes: ['play_btn', 'clickable'], onclick: (station) => {window.diffuser.play(station.downloadURL); loadMain(window.stations)} },
-			{ classes: ['remove_pl_btn', 'clickable'] },
+			{ classes: ['remove_pl_btn', 'clickable'], onclick: async(station) => {
+				const valid = await confirmation("Retrait", `Êtes-vous sûr de vouloir retirer ${station.title} de votre playlist ?`)
+				if (valid) {
+					popList(playlist, station.url)
+					loadPlaylist(playlist)
+				}
+			} },
 		],
 	});
 

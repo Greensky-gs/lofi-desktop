@@ -64,3 +64,4 @@ export class Diffuser {
 export const loadPlayingControler = (container: HTMLElement) => {}
 export const reloadCurrent = () => {}
 export const shuffle = <T>(a: T[]): T[] => [] as T[]
+export const popList = (list: hardPlaylistType, station: hardStation | string): 'dont exists' | 'ok' => 'ok';

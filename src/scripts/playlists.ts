@@ -76,3 +76,13 @@ const appendList = (list: hardPlaylistType, station: hardStation) => {
 	list.stations.push(station);
 	savePlaylist(list);
 };
+const popList = (list: hardPlaylistType, station: hardStation | string) => {
+	const st = typeof station === 'string' ? window.stations.find(x => x.url === station || x.downloadURL === station) : station
+	if (!st) return
+
+	if (!list.stations.find(x => x.url === st.url)) return 'dont exists'
+	list.stations = list.stations.filter(x => x.url !== st.url)
+
+	savePlaylist(list)
+	return 'ok'
+}

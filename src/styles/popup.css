@@ -82,6 +82,7 @@
 	align-items: center;
 	border-radius: 12px;
 	animation: fadingin 1s ease-in-out forwards;
+	text-align: center;
 }
 .confirm_choices {
 	position: absolute;
