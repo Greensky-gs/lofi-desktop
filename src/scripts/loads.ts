@@ -20,7 +20,7 @@ const loadSearch = () => {
 	Array.from(container.childNodes).map((x) => x.remove());
 	clearContainer(container);
 
-	setId('ls')
+	setId('ls');
 
 	const sp = document.createElement('div');
 	sp.style.height = '8vh';
@@ -75,32 +75,30 @@ const loadSearch = () => {
 const loadMain = () => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
-	clearContainer(container)
+	clearContainer(container);
 
-	setId('lm')
+	setId('lm');
 
-	
 	if (!window.diffuser.idle) {
-		const controlerContainer = document.createElement('div')	
-		controlerContainer.classList.add('controler_container')
+		const controlerContainer = document.createElement('div');
+		controlerContainer.classList.add('controler_container');
 
-		container.appendChild(controlerContainer)
-		loadPlayingControler(controlerContainer)
+		container.appendChild(controlerContainer);
+		loadPlayingControler(controlerContainer);
 	}
-	
-	const p = document.createElement('p')
-	p.innerText = 'Récents'
-	p.classList.add('recents')
 
-	container.append(p)
+	const p = document.createElement('p');
+	p.innerText = 'Récents';
+	p.classList.add('recents');
+
+	container.append(p);
 
 	const stationsContainer = (() => {
-		const d = document.createElement('div')
-		container.append(d)
+		const d = document.createElement('div');
+		container.append(d);
 
-		return d
+		return d;
 	})();
-
 
 	loadStations({
 		container: stationsContainer,
@@ -112,7 +110,7 @@ const loadMain = () => {
 };
 const loadPlaylists = () => {
 	const defaultImg = window.stations[window.stations.length - 1].img;
-	setId('lps')
+	setId('lps');
 
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
@@ -133,38 +131,55 @@ const loadPlaylists = () => {
 		title.classList.add('playlist_name');
 		title.innerText = playlist.name;
 
-		const buttons = document.createElement('div')
+		const buttons = document.createElement('div');
 		buttons.classList.add('playlist_buttons');
 
-		buttons.append(...([['play_icon', (playlist) => {
-			window.diffuser.play(playlist.stations[0].downloadURL)
-			playlist.stations.slice(1).forEach(st => {
-				window.diffuser.appendQueue(st.downloadURL)
-			})
-		}], ['shuffle', (playlist) => {
-			const shuffled = shuffle(playlist.stations.map(x => x.downloadURL))
-			window.diffuser.play(shuffled[0])
+		buttons.append(
+			...(
+				[
+					[
+						'play_icon',
+						(playlist) => {
+							window.diffuser.play(
+								playlist.stations[0].downloadURL,
+							);
+							playlist.stations.slice(1).forEach((st) => {
+								window.diffuser.appendQueue(st.downloadURL);
+							});
+						},
+					],
+					[
+						'shuffle',
+						(playlist) => {
+							const shuffled = shuffle(
+								playlist.stations.map((x) => x.downloadURL),
+							);
+							window.diffuser.play(shuffled[0]);
 
-			shuffled.slice(1).forEach(x => {
-				window.diffuser.appendQueue(x)
-			})
-		}]] as [string, (playlist: hardPlaylistType) => unknown][]).map(([icon, onclick]) => {
-			const btn = document.createElement('img')
-			btn.src = `../assets/${icon}.png`
-			
-			if (!playlist.stations.length) {
-				btn.style.opacity = '0.5'
-			} else {
-				btn.classList.add('clickable')
-				btn.onclick = (ev) => {
-					ev.stopPropagation()
-					onclick(playlist)
-					loadMain()
+							shuffled.slice(1).forEach((x) => {
+								window.diffuser.appendQueue(x);
+							});
+						},
+					],
+				] as [string, (playlist: hardPlaylistType) => unknown][]
+			).map(([icon, onclick]) => {
+				const btn = document.createElement('img');
+				btn.src = `../assets/${icon}.png`;
+
+				if (!playlist.stations.length) {
+					btn.style.opacity = '0.5';
+				} else {
+					btn.classList.add('clickable');
+					btn.onclick = (ev) => {
+						ev.stopPropagation();
+						onclick(playlist);
+						loadMain();
+					};
 				}
-			}
 
-			return btn
-		}))
+				return btn;
+			}),
+		);
 
 		div.append(title, buttons);
 
@@ -230,9 +245,9 @@ const loadStations = ({
 				{
 					classes: ['play_btn', 'clickable'],
 					onclick: () => {
-						window.diffuser.play(station.downloadURL)
-						loadMain()
-					}
+						window.diffuser.play(station.downloadURL);
+						loadMain();
+					},
 				},
 				{
 					classes: ['add_pl_btn', 'clickable'],
@@ -259,7 +274,7 @@ const loadStations = ({
 	return container;
 };
 const loadCreatePlaylist = (message?: string) => {
-	setId('lcp')
+	setId('lcp');
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
 	clearContainer(container);
@@ -354,14 +369,26 @@ const loadPlaylist = (playlist: hardPlaylistType) => {
 		stations: playlist.stations,
 		containerClass: 'playlist_songs_container',
 		buttons: [
-			{ classes: ['play_btn', 'clickable'], onclick: (station) => {window.diffuser.play(station.downloadURL); loadMain()} },
-			{ classes: ['remove_pl_btn', 'clickable'], onclick: async(station) => {
-				const valid = await confirmation("Retrait", `Êtes-vous sûr de vouloir retirer ${station.title} de votre playlist ?`)
-				if (valid) {
-					popList(playlist, station.url)
-					loadPlaylist(playlist)
-				}
-			} },
+			{
+				classes: ['play_btn', 'clickable'],
+				onclick: (station) => {
+					window.diffuser.play(station.downloadURL);
+					loadMain();
+				},
+			},
+			{
+				classes: ['remove_pl_btn', 'clickable'],
+				onclick: async (station) => {
+					const valid = await confirmation(
+						'Retrait',
+						`Êtes-vous sûr de vouloir retirer ${station.title} de votre playlist ?`,
+					);
+					if (valid) {
+						popList(playlist, station.url);
+						loadPlaylist(playlist);
+					}
+				},
+			},
 		],
 	});
 
@@ -412,61 +439,65 @@ const addToPlaylist = (station: hardStation) => {
 	container.append(title, choice, button);
 };
 const loadPlayingControler = (container: HTMLElement) => {
-	if (window.diffuser.idle) return
-	clearContainer(container)
-	const station = window.diffuser.station
+	if (window.diffuser.idle) return;
+	clearContainer(container);
+	const station = window.diffuser.station;
 
-	const controler = document.createElement('div')
-	controler.classList.add('controler')
-	const title = document.createElement('p')
-	title.innerText = station.title
+	const controler = document.createElement('div');
+	controler.classList.add('controler');
+	const title = document.createElement('p');
+	title.innerText = station.title;
 
-	const btns = document.createElement('div')
-	btns.classList.add('controler_buttons')
+	const btns = document.createElement('div');
+	btns.classList.add('controler_buttons');
 
-	const p = document.createElement('img')
-	p.src = `../assets/${window.diffuser.playing ? 'pause_icon' : 'play_icon'}.png`
-	const n = document.createElement('img')
+	const p = document.createElement('img');
+	p.src = `../assets/${
+		window.diffuser.playing ? 'pause_icon' : 'play_icon'
+	}.png`;
+	const n = document.createElement('img');
 	n.src = '../assets/next_icon.png';
 
 	p.onclick = () => {
-		if (window.diffuser.playing) window.diffuser.pause()
-		else window.diffuser.resume()
+		if (window.diffuser.playing) window.diffuser.pause();
+		else window.diffuser.resume();
 
-		reloadCurrent()
-	}
+		reloadCurrent();
+	};
 	n.onclick = () => {
-		window.diffuser.skip()
-	}
-	[p, n].forEach(x => x.classList.add('clickable'))
+		window.diffuser.skip();
+	};
+	[p, n].forEach((x) => x.classList.add('clickable'));
 
-	btns.append(p, n)
+	btns.append(p, n);
 
-	const left = document.createElement('div')
-	const right = document.createElement('div')
+	const left = document.createElement('div');
+	const right = document.createElement('div');
 
-	left.classList.add('ctrl_left')
-	right.classList.add('ctrl_right')
+	left.classList.add('ctrl_left');
+	right.classList.add('ctrl_right');
 
-	left.style.backgroundImage = `url('${station.img}')`
-	right.append(title, btns)
-	
-	controler.append(left, right)
-	container.append(controler)
-}
+	left.style.backgroundImage = `url('${station.img}')`;
+	right.append(title, btns);
+
+	controler.append(left, right);
+	container.append(controler);
+};
 
 const setId = (id: string) => {
-	document.getElementsByTagName('body')[0].setAttribute('current_page', id)
-}
+	document.getElementsByTagName('body')[0].setAttribute('current_page', id);
+};
 const reloadCurrent = () => {
-	const id = document.getElementsByTagName('body')[0].getAttribute('current_page')
+	const id = document
+		.getElementsByTagName('body')[0]
+		.getAttribute('current_page');
 
 	const table = {
 		ls: () => loadSearch(),
 		lm: () => loadMain(),
 		lps: () => loadPlaylists(),
-		lcp: () => loadCreatePlaylist()
-	}
-	const call = table[id as keyof typeof table]
-	if (!!call) call()
-}
+		lcp: () => loadCreatePlaylist(),
+	};
+	const call = table[id as keyof typeof table];
+	if (!!call) call();
+};

@@ -34,36 +34,44 @@ export class Diffuser {
 	public render() {}
 	public play(url: string, appendMode?: appendMode) {}
 	public pause() {
-		return true as boolean | void
+		return true as boolean | void;
 	}
 	public resume() {
-		return false as boolean | void
+		return false as boolean | void;
 	}
 	public skip() {}
 
 	public get playing() {
-		return true as boolean
+		return true as boolean;
 	}
 	public get idle() {
-		return true as boolean
+		return true as boolean;
 	}
 	public setVolume(value: number) {}
-	public get current(){
-		return 0
+	public get current() {
+		return 0;
 	}
-	public get duration() {return 0}
+	public get duration() {
+		return 0;
+	}
 	public get url() {
-		return ''
+		return '';
 	}
 	public get station() {
-		return null as hardStation
+		return null as hardStation;
 	}
 	public appendQueue(url: string) {}
 	public shuffleQueue() {}
 }
-export const loadPlayingControler = (container: HTMLElement) => {}
-export const reloadCurrent = () => {}
-export const shuffle = <T>(a: T[]): T[] => [] as T[]
-export const popList = (list: hardPlaylistType, station: hardStation | string): 'dont exists' | 'ok' => 'ok';
+export const loadPlayingControler = (container: HTMLElement) => {};
+export const reloadCurrent = () => {};
+export const shuffle = <T>(a: T[]): T[] => [] as T[];
+export const popList = (
+	list: hardPlaylistType,
+	station: hardStation | string,
+): 'dont exists' | 'ok' => 'ok';
 export const getSystemList = (): hardPlaylistType => null;
-export const appendSystemList = (cached: hardPlaylistType, station: hardStation) => {}
+export const appendSystemList = (
+	cached: hardPlaylistType,
+	station: hardStation,
+) => {};

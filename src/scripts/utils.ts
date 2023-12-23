@@ -150,4 +150,8 @@ const confirmation = (title: string, message: string): Promise<boolean> => {
 		};
 	});
 };
-const shuffle = <T>(x: T[]): T[] => x.map(y => [y, Math.random()]).sort((a, b) => (b[1] as number) - (b[0] as number)).map(y => y[0]) as T[]
+const shuffle = <T>(x: T[]): T[] =>
+	x
+		.map((y) => [y, Math.random()])
+		.sort((a, b) => (b[1] as number) - (b[0] as number))
+		.map((y) => y[0]) as T[];

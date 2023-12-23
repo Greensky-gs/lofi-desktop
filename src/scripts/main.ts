@@ -39,6 +39,6 @@ const callback = (stations: hardStation[]) => {
 };
 
 window.electron.ipcRenderer.on('data-fetched', (event, data: hardStation[]) => {
-	window.stations = data.filter(x => x.type === 'playlist');
+	window.stations = data.filter((x) => x.type === 'playlist');
 	callback(data);
 });

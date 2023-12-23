@@ -77,17 +77,22 @@ const appendList = (list: hardPlaylistType, station: hardStation) => {
 	savePlaylist(list);
 };
 const popList = (list: hardPlaylistType, station: hardStation | string) => {
-	const st = typeof station === 'string' ? window.stations.find(x => x.url === station || x.downloadURL === station) : station
-	if (!st) return
+	const st =
+		typeof station === 'string'
+			? window.stations.find(
+					(x) => x.url === station || x.downloadURL === station,
+				)
+			: station;
+	if (!st) return;
 
-	if (!list.stations.find(x => x.url === st.url)) return 'dont exists'
-	list.stations = list.stations.filter(x => x.url !== st.url)
+	if (!list.stations.find((x) => x.url === st.url)) return 'dont exists';
+	list.stations = list.stations.filter((x) => x.url !== st.url);
 
-	savePlaylist(list)
-	return 'ok'
-}
+	savePlaylist(list);
+	return 'ok';
+};
 const getSystemList = (): hardPlaylistType => {
-	const datas = JSON.parse(localStorage.getItem('system_pl') ?? '[]')
+	const datas = JSON.parse(localStorage.getItem('system_pl') ?? '[]');
 
 	return {
 		name: 'system',
@@ -98,17 +103,20 @@ const getSystemList = (): hardPlaylistType => {
 			),
 		),
 	};
-}
+};
 const appendSystemList = (cached: hardPlaylistType, station: hardStation) => {
-	const url = station.url
+	const url = station.url;
 
-	const test = cached.stations.find(x => x.url === url);
+	const test = cached.stations.find((x) => x.url === url);
 	if (!!test) {
-		cached.stations = [station, ...cached.stations.filter(x => x.url !== url)]
+		cached.stations = [
+			station,
+			...cached.stations.filter((x) => x.url !== url),
+		];
 	} else {
-		cached.stations = [station, ...cached.stations]
+		cached.stations = [station, ...cached.stations];
 	}
 
 	const saved = cached.stations.map((x) => x.url.split('v=')[1]);
-	localStorage.setItem('system_pl', JSON.stringify(saved))
-}
+	localStorage.setItem('system_pl', JSON.stringify(saved));
+};
