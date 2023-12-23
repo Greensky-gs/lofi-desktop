@@ -365,7 +365,12 @@ const loadPlaylist = (playlist: hardPlaylistType) => {
 	buttons.classList.add('playlist_title_buttons');
 	(
 		[
-			['pen', () => {}],
+			['pen', () => {
+				loadCreatePlaylist({
+					action: 'rename',
+					playlist
+				})
+			}],
 			[
 				'bin',
 				async () => {

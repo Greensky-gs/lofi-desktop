@@ -33,6 +33,7 @@
 	background-color: inherit;
 	font-size: 3em;
 	font-family: var(--love-ya);
+	text-align: center;
 }
 .color_dark_theme .create_input {
 	border-bottom: var(--dark-create-pl-color) 1px solid;
