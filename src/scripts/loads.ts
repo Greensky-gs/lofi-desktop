@@ -231,7 +231,7 @@ const loadStations = ({
 					classes: ['play_btn', 'clickable'],
 					onclick: () => {
 						window.diffuser.play(station.downloadURL)
-						reloadCurrent()
+						loadMain()
 					}
 				},
 				{
