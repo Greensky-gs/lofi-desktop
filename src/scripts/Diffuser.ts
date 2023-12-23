@@ -66,7 +66,10 @@ class Diffuser {
         }
     }
     public play(url: string, appendMode: appendMode = 'never') {
-        if (this.audio) this.audio.pause()
+        if (this.audio) {
+            if (!!this.station) appendSystemList(getSystemList(), this.station)
+            this.audio.pause()
+        }
         this.handleAppend(url, appendMode)
 
         const audio = document.createElement('audio')
