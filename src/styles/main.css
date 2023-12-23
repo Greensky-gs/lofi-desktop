@@ -103,12 +103,13 @@
 }
 
 .color_dark_theme .add_pl_container,
-.color_dark_theme .recents
+.color_dark_theme .recents 
 {
 	color: var(--dark-font-color);
 }
-.color_dark_theme .add_pl_container,
-.color_dark_theme .recents
+
+.color_light_theme .add_pl_container,
+.color_light_theme .recents 
 {
 	color: var(--light-font-color);
 }
