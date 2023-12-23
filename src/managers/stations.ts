@@ -73,7 +73,8 @@ export class Stations {
 	private checkReady() {
 		if (this.readyCount === 2) {
 			Object.entries(this.refs).forEach(([id, r]) => {
-				this.cache.get(id).downloadURL = r;
+				const st = this.cache.get(id);
+				if (!!st) st.downloadURL = r;
 			});
 			this.sync();
 		}

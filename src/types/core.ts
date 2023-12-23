@@ -14,7 +14,7 @@ export enum StorageKeys {
 }
 export type stationLoadButton = {
 	classes: string[];
-	onclick?: Function;
+	onclick?: (station: hardStation) => unknown;
 };
 export type stationsLoadOptions = {
 	container: HTMLElement;

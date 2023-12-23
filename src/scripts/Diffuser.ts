@@ -1,9 +1,12 @@
-import { diffuserState } from "../types/diffuser";
+import { hardStation } from "../types/station";
+import { appendMode, diffuserState } from "../types/diffuser";
+import { loadPlayingControler, reloadCurrent, shuffle } from "../types/definitions";
 
 class Diffuser {
     private _url: string;
     private state: diffuserState = 'idle'
     private audio: HTMLAudioElement
+    private queue: string[] = [];
 
     constructor() {}
 
@@ -22,9 +25,48 @@ class Diffuser {
     public get url() {
         return this._url;
     }
+    public get station() {
+        const val = window.stations.find(x => x.downloadURL === this._url)
+        if (!val) return
 
-    public play(url: string) {
-        if (!this.idle) this.audio.pause()
+        return val
+    }
+
+    private handleAppend(url: string, mode: appendMode) {
+        if (mode === 'force') {
+            this.queue.push(url)
+        } else if (mode === 'idleonly' && this.state === 'idle') {
+            this.queue.push(url)
+        } else if (mode === 'notidle' && this.state !== 'idle'){
+            this.queue.push(url)
+        } else if (mode === 'pauseonly' && this.state === 'paused') {
+            this.queue.push(url)
+        } else if (mode === 'playingonly' && this.state === 'playing') {
+            this.queue.push(url)
+        }
+    }
+    public appendQueue(url: string) {
+        this.queue.push(url)
+    }
+    public shuffleQueue() {
+        this.queue = shuffle(this.queue)
+    }
+    public skip() {
+        const next = this.queue[0] ?? window.stations[Math.floor(Math.random() * window.stations.length)]?.downloadURL
+        if (!next) return
+
+        this._url = next
+        this.play(next)
+        this.render()
+
+        if (this.queue.length > 0) {
+            this.queue = this.queue.splice(1)
+        }
+    }
+    public play(url: string, appendMode: appendMode = 'never') {
+        if (this.audio) this.audio.pause()
+        this.handleAppend(url, appendMode)
+
         const audio = document.createElement('audio')
         audio.controls = true
 
@@ -37,19 +79,30 @@ class Diffuser {
         audio.play()
 
         this.audio = audio
+
+        this.audio.onended = () => {
+            this.state = 'idle'
+            this.skip()
+        }
         this.state = 'playing'
     }
     public pause() {
+        if (this.state !== 'playing') return false
         this.state = 'paused'
         this.audio.pause()
     }
     public setVolume(value: number) {
         this.audio.volume = value
     }
+    public resume() {
+        if (this.state !== 'paused') return false
+
+        this.audio.play()
+        this.state = 'playing'
+    }
 
     public render() {
-        const container = document.getElementById('playing_container')
-        container.appendChild(this.audio)
+        reloadCurrent()
     }
 }
 

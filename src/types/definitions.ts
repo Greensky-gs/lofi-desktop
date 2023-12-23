@@ -2,6 +2,7 @@ import { IpcRenderer } from 'electron';
 import { hardStation } from './station';
 import { hardPlaylist as hardPlaylistType, playlist } from './playlists';
 import { stationsLoadOptions } from './core';
+import { appendMode } from './diffuser';
 
 export const importFile = (filePath: string, fileType: 'css' | 'js') => {};
 export const parseAuthors = (station: hardStation) => [''];
@@ -31,8 +32,14 @@ export class Diffuser {
 	constructor() {}
 
 	public render() {}
-	public play(url: string) {}
-	public pause() {}
+	public play(url: string, appendMode?: appendMode) {}
+	public pause() {
+		return true as boolean | void
+	}
+	public resume() {
+		return false as boolean | void
+	}
+	public skip() {}
 
 	public get playing() {
 		return true as boolean
@@ -48,4 +55,12 @@ export class Diffuser {
 	public get url() {
 		return ''
 	}
+	public get station() {
+		return null as hardStation
+	}
+	public appendQueue(url: string) {}
+	public shuffleQueue() {}
 }
+export const loadPlayingControler = (container: HTMLElement) => {}
+export const reloadCurrent = () => {}
+export const shuffle = <T>(a: T[]): T[] => [] as T[]
