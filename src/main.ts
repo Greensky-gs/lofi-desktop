@@ -75,5 +75,6 @@ declare global {
 		};
 		stations: hardStation[];
 		diffuser: Diffuser;
+		metaGetter: () => unknown
 	}
 }

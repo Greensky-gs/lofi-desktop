@@ -23,14 +23,14 @@ const hardPlaylist = (playlist: playlist): hardPlaylistType => {
 		),
 	};
 };
-const savePlaylist = (playlist: hardPlaylistType): playlist => {
+const savePlaylist = (playlist: hardPlaylistType, callCheck = true): playlist => {
 	const saved = {
 		name: playlist.name,
 		stations: playlist.stations.map((x) => x.url.split('v=')[1]),
 		key: playlist.key,
 	};
 
-	checkKey(playlist.name, playlist.key);
+	if (callCheck) checkKey(playlist.name, playlist.key);
 	localStorage.setItem(playlist.key, JSON.stringify(saved.stations));
 
 	return saved;
@@ -120,3 +120,18 @@ const appendSystemList = (cached: hardPlaylistType, station: hardStation) => {
 	const saved = cached.stations.map((x) => x.url.split('v=')[1]);
 	localStorage.setItem('system_pl', JSON.stringify(saved));
 };
+const renamePlaylist = (list: hardPlaylistType, name: string) => {
+	if (!!getPlaylists().find(x => x.name === name)) return 'exists'
+	const keys = JSON.parse(
+		localStorage.getItem('playlist_keys') ?? '{}',
+	) as Record<string, string>;
+
+	delete keys[list.name]
+	keys[name] = list.key
+
+	list.name = name
+
+	localStorage.setItem('playlist_keys', JSON.stringify(keys))
+
+	savePlaylist(list, false)
+}

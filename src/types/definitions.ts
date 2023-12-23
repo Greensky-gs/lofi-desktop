@@ -13,7 +13,7 @@ export const loadSearch = () => {};
 export const loadMain = () => {};
 export const getPlaylists = () => [] as playlist[];
 export const hardPlaylist = (playlist: playlist) => ({}) as hardPlaylistType;
-export const savePlaylist = (playlist: hardPlaylistType) => ({}) as playlist;
+export const savePlaylist = (playlist: hardPlaylistType, callCheck?: boolean) => ({}) as playlist;
 export const loadPlaylists = () => {};
 export const checkKey = (name: string, key: string) => {};
 export const createPlaylist = (name: string) => '' as 'already exists' | 'ok';
@@ -75,3 +75,4 @@ export const appendSystemList = (
 	cached: hardPlaylistType,
 	station: hardStation,
 ) => {};
+export const renamePlaylist = (list: hardPlaylistType, name: string): 'exists' | 'ok' => 'ok'

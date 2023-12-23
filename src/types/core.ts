@@ -1,3 +1,4 @@
+import { hardPlaylist } from './playlists';
 import { hardStation } from './station';
 
 export type If<C extends boolean, A extends any, B = any> = C extends true
@@ -23,3 +24,8 @@ export type stationsLoadOptions = {
 	buttons: stationLoadButton[];
 	useDefaultButtons?: boolean;
 };
+export type createPlaylistOptions = {
+	action: 'create' | 'rename';
+	playlist?: hardPlaylist;
+	message?: string;
+}
