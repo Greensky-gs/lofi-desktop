@@ -87,18 +87,20 @@ const loadMain = () => {
 		container.appendChild(controlerContainer)
 		loadPlayingControler(controlerContainer)
 	}
-	const stationsContainer = window.diffuser.idle ? container : (() => {
+	
+	const p = document.createElement('p')
+	p.innerText = 'Récents'
+	p.classList.add('recents')
+
+	container.append(p)
+
+	const stationsContainer = (() => {
 		const d = document.createElement('div')
 		container.append(d)
 
 		return d
 	})();
 
-	const p = document.createElement('p')
-	p.innerText = 'Récents'
-	p.classList.add('recents')
-
-	container.append(p)
 
 	loadStations({
 		container: stationsContainer,
