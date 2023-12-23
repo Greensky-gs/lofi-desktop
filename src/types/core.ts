@@ -28,4 +28,4 @@ export type createPlaylistOptions = {
 	action: 'create' | 'rename';
 	playlist?: hardPlaylist;
 	message?: string;
-}
+};

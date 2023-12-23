@@ -22,7 +22,7 @@ const loadSearch = () => {
 	clearContainer(container);
 
 	setId('ls');
-	resetGetter()
+	resetGetter();
 
 	const sp = document.createElement('div');
 	sp.style.height = '8vh';
@@ -80,7 +80,7 @@ const loadMain = () => {
 	clearContainer(container);
 
 	setId('lm');
-	resetGetter()
+	resetGetter();
 
 	if (!window.diffuser.idle) {
 		const controlerContainer = document.createElement('div');
@@ -114,7 +114,7 @@ const loadMain = () => {
 const loadPlaylists = () => {
 	const defaultImg = window.stations[window.stations.length - 1].img;
 	setId('lps');
-	resetGetter()
+	resetGetter();
 
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
@@ -201,9 +201,10 @@ const loadPlaylists = () => {
 	const img = document.createElement('img');
 	img.classList.add('playlist_create', 'clickable');
 
-	img.onclick = () => loadCreatePlaylist({
-		action: 'create'
-	});
+	img.onclick = () =>
+		loadCreatePlaylist({
+			action: 'create',
+		});
 
 	container.appendChild(img);
 	container.appendChild(playlistsContainer);
@@ -279,16 +280,20 @@ const loadStations = ({
 
 	return container;
 };
-const loadCreatePlaylist = ({ action, playlist, message }: createPlaylistOptions) => {
+const loadCreatePlaylist = ({
+	action,
+	playlist,
+	message,
+}: createPlaylistOptions) => {
 	setId(`lcp-${action}`);
 	setMetaGetter(() => {
-		if (!playlist) return null
+		if (!playlist) return null;
 
-		const soft = getPlaylists().find(x => x.key === playlist.key)
-		if (!soft) return 'invalid'
+		const soft = getPlaylists().find((x) => x.key === playlist.key);
+		if (!soft) return 'invalid';
 
-		return hardPlaylist(soft)
-	})
+		return hardPlaylist(soft);
+	});
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
 	clearContainer(container);
@@ -308,7 +313,9 @@ const loadCreatePlaylist = ({ action, playlist, message }: createPlaylistOptions
 	const btn = document.createElement('button');
 	btn.classList.add('create_button', 'clickable');
 
-	btn.appendChild(document.createTextNode(action === 'create' ? 'Créer' : 'Renommer'));
+	btn.appendChild(
+		document.createTextNode(action === 'create' ? 'Créer' : 'Renommer'),
+	);
 
 	btn.onclick = () => {
 		const val = (
@@ -316,19 +323,23 @@ const loadCreatePlaylist = ({ action, playlist, message }: createPlaylistOptions
 				'create_input',
 			)[0] as HTMLInputElement
 		)?.value;
-		if (!val) return loadCreatePlaylist({
-			message: 'Veuillez spécifier un nom valide',
-			action,
-			playlist
-		});
+		if (!val)
+			return loadCreatePlaylist({
+				message: 'Veuillez spécifier un nom valide',
+				action,
+				playlist,
+			});
 
-		const res = action === 'create' ? createPlaylist(val) : renamePlaylist(playlist, val);
+		const res =
+			action === 'create'
+				? createPlaylist(val)
+				: renamePlaylist(playlist, val);
 
 		if (res === 'already exists' || res === 'exists')
 			return loadCreatePlaylist({
 				message: 'Cette playlist existe déjà',
 				action,
-				playlist
+				playlist,
 			});
 		loadPlaylists();
 	};
@@ -349,13 +360,13 @@ const loadPlaylist = (playlist: hardPlaylistType) => {
 	Array.from(container.childNodes).map((x) => x.remove());
 	clearContainer(container);
 
-	setId('lpl')
+	setId('lpl');
 	setMetaGetter(() => {
-		const soft = getPlaylists().find(x => x.key === playlist.key)
-		if (!soft) return 'invalid'
+		const soft = getPlaylists().find((x) => x.key === playlist.key);
+		if (!soft) return 'invalid';
 
-		return hardPlaylist(soft)
-	})
+		return hardPlaylist(soft);
+	});
 
 	const title = document.createElement('p');
 	title.classList.add('playlist_title');
@@ -365,12 +376,15 @@ const loadPlaylist = (playlist: hardPlaylistType) => {
 	buttons.classList.add('playlist_title_buttons');
 	(
 		[
-			['pen', () => {
-				loadCreatePlaylist({
-					action: 'rename',
-					playlist
-				})
-			}],
+			[
+				'pen',
+				() => {
+					loadCreatePlaylist({
+						action: 'rename',
+						playlist,
+					});
+				},
+			],
 			[
 				'bin',
 				async () => {
@@ -441,8 +455,8 @@ const addToPlaylist = (station: hardStation) => {
 	clearContainer(container);
 	container.classList.add('add_pl_container');
 
-	setId('atp')
-	setMetaGetter(() => window.stations.find(x => x.url === station.url))
+	setId('atp');
+	setMetaGetter(() => window.stations.find((x) => x.url === station.url));
 
 	const title = document.createElement('p');
 	title.innerText = 'Ajouter à une playlist';
@@ -525,27 +539,32 @@ const loadPlayingControler = (container: HTMLElement) => {
 const setId = (id: string) => {
 	document.getElementsByTagName('body')[0].setAttribute('current_page', id);
 };
-const setMetaGetter = (getter: () => unknown) => window.metaGetter = getter 
-const resetGetter = (): void => window.metaGetter = null;
+const setMetaGetter = (getter: () => unknown) => (window.metaGetter = getter);
+const resetGetter = (): void => (window.metaGetter = null);
 const reloadCurrent = () => {
 	const id = document
 		.getElementsByTagName('body')[0]
 		.getAttribute('current_page');
 
-	const meta = !!window.metaGetter ? window.metaGetter() : null
+	const meta = !!window.metaGetter ? window.metaGetter() : null;
 	const table = {
 		ls: (meta?: unknown) => loadSearch(),
 		lm: (meta?: unknown) => loadMain(),
 		lps: (meta?: unknown) => loadPlaylists(),
-		'lcp-create': (meta?: unknown) => loadCreatePlaylist({ action: 'create' }),
-		'lcp-rename': (meta?: unknown) => loadCreatePlaylist({ action: 'rename', playlist: meta as hardPlaylistType }),
+		'lcp-create': (meta?: unknown) =>
+			loadCreatePlaylist({ action: 'create' }),
+		'lcp-rename': (meta?: unknown) =>
+			loadCreatePlaylist({
+				action: 'rename',
+				playlist: meta as hardPlaylistType,
+			}),
 		atp: (meta?: unknown) => addToPlaylist(meta as any as hardStation),
-		lpl: (meta?: unknown) => loadPlaylist(meta as any as hardPlaylistType)
+		lpl: (meta?: unknown) => loadPlaylist(meta as any as hardPlaylistType),
 	};
 
-	if (meta === 'invalid') return table.lm()
+	if (meta === 'invalid') return table.lm();
 
 	const call = table[id as keyof typeof table];
 	if (!!call && !!meta) call(meta);
-	if (!!call && !meta) call()
+	if (!!call && !meta) call();
 };
