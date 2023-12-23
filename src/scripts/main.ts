@@ -35,10 +35,10 @@ const callback = (stations: hardStation[]) => {
 		unpopup();
 	});
 
-	loadMain(shuffle(stations.filter((x) => x.type === 'playlist')));
+	loadMain();
 };
 
 window.electron.ipcRenderer.on('data-fetched', (event, data: hardStation[]) => {
-	window.stations = data;
+	window.stations = data.filter(x => x.type === 'playlist');
 	callback(data);
 });

@@ -15,7 +15,7 @@ importFile('loads.js', 'js');
 	iconsContainer.classList.add('bottom_icons_container');
 	const icons: [string, string, () => void][] = [
 		['playlists_icon', 'playlists.png', () => loadPlaylists()],
-		['home_icon', 'home.png', () => loadMain(window.stations)],
+		['home_icon', 'home.png', () => loadMain()],
 		['glass_icon', 'loupe.png', () => loadSearch()],
 	];
 

@@ -139,12 +139,7 @@
 	left: 25%;
 	right: 25%;
 }
-.color_dark_theme .add_pl_container {
-	color: var(--dark-font-color);
-}
-.color_light_theme .add_pl_container {
-	color: var(--light-font-color);
-}
+
 .add_to_pl_title {
 	font-family: var(--dancing-script);
 	font-size: 3vh;

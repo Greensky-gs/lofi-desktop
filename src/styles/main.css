@@ -95,3 +95,20 @@
 .color_light_theme .controler {
 	background-color: var(--light-playing);
 }
+.recents {
+    text-align: left;
+    font-size: 170%;
+    margin-left: 1%;
+    font-family: var(--love-ya);
+}
+
+.color_dark_theme .add_pl_container,
+.color_dark_theme .recents
+{
+	color: var(--dark-font-color);
+}
+.color_dark_theme .add_pl_container,
+.color_dark_theme .recents
+{
+	color: var(--light-font-color);
+}

@@ -10,7 +10,7 @@ export const popup = (station: hardStation) => {};
 export const unpopup = () => {};
 export const loadStations = (options: stationsLoadOptions) => {};
 export const loadSearch = () => {};
-export const loadMain = (stations: hardStation[]) => {};
+export const loadMain = () => {};
 export const getPlaylists = () => [] as playlist[];
 export const hardPlaylist = (playlist: playlist) => ({}) as hardPlaylistType;
 export const savePlaylist = (playlist: hardPlaylistType) => ({}) as playlist;
@@ -65,3 +65,5 @@ export const loadPlayingControler = (container: HTMLElement) => {}
 export const reloadCurrent = () => {}
 export const shuffle = <T>(a: T[]): T[] => [] as T[]
 export const popList = (list: hardPlaylistType, station: hardStation | string): 'dont exists' | 'ok' => 'ok';
+export const getSystemList = (): hardPlaylistType => null;
+export const appendSystemList = (cached: hardPlaylistType, station: hardStation) => {}

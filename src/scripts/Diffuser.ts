@@ -1,6 +1,6 @@
 import { hardStation } from "../types/station";
 import { appendMode, diffuserState } from "../types/diffuser";
-import { loadPlayingControler, reloadCurrent, shuffle } from "../types/definitions";
+import { appendSystemList, getSystemList, loadPlayingControler, reloadCurrent, shuffle } from "../types/definitions";
 
 class Diffuser {
     private _url: string;
@@ -52,6 +52,8 @@ class Diffuser {
         this.queue = shuffle(this.queue)
     }
     public skip() {
+        if (!!this.station) appendSystemList(getSystemList(), this.station)
+
         const next = this.queue[0] ?? window.stations[Math.floor(Math.random() * window.stations.length)]?.downloadURL
         if (!next) return
 

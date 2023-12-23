@@ -86,3 +86,29 @@ const popList = (list: hardPlaylistType, station: hardStation | string) => {
 	savePlaylist(list)
 	return 'ok'
 }
+const getSystemList = (): hardPlaylistType => {
+	const datas = JSON.parse(localStorage.getItem('system_pl') ?? '[]')
+
+	return {
+		name: 'system',
+		key: 'system_pl',
+		stations: datas.map((x: string) =>
+			window.stations.find(
+				(y) => y.url === `https://www.youtube.com/watch?v=${x}`,
+			),
+		),
+	};
+}
+const appendSystemList = (cached: hardPlaylistType, station: hardStation) => {
+	const url = station.url
+
+	const test = cached.stations.find(x => x.url === url);
+	if (!!test) {
+		cached.stations = [station, ...cached.stations.filter(x => x.url !== url)]
+	} else {
+		cached.stations = [station, ...cached.stations]
+	}
+
+	const saved = cached.stations.map((x) => x.url.split('v=')[1]);
+	localStorage.setItem('system_pl', JSON.stringify(saved))
+}

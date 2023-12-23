@@ -5,6 +5,7 @@ import {
 	createPlaylist,
 	deleteList,
 	getPlaylists,
+	getSystemList,
 	hardPlaylist,
 	importFile,
 	popList,
@@ -71,7 +72,7 @@ const loadSearch = () => {
 	});
 	loadEvent();
 };
-const loadMain = (stations: hardStation[]) => {
+const loadMain = () => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
 	clearContainer(container)
@@ -93,10 +94,16 @@ const loadMain = (stations: hardStation[]) => {
 		return d
 	})();
 
+	const p = document.createElement('p')
+	p.innerText = 'Récents'
+	p.classList.add('recents')
+
+	container.append(p)
+
 	loadStations({
 		container: stationsContainer,
 		containerClass: 'stations_container',
-		stations: stations,
+		stations: getSystemList().stations,
 		buttons: [],
 		useDefaultButtons: true,
 	});
@@ -150,7 +157,7 @@ const loadPlaylists = () => {
 				btn.onclick = (ev) => {
 					ev.stopPropagation()
 					onclick(playlist)
-					loadMain(shuffle(window.stations))
+					loadMain()
 				}
 			}
 
@@ -345,7 +352,7 @@ const loadPlaylist = (playlist: hardPlaylistType) => {
 		stations: playlist.stations,
 		containerClass: 'playlist_songs_container',
 		buttons: [
-			{ classes: ['play_btn', 'clickable'], onclick: (station) => {window.diffuser.play(station.downloadURL); loadMain(window.stations)} },
+			{ classes: ['play_btn', 'clickable'], onclick: (station) => {window.diffuser.play(station.downloadURL); loadMain()} },
 			{ classes: ['remove_pl_btn', 'clickable'], onclick: async(station) => {
 				const valid = await confirmation("Retrait", `Êtes-vous sûr de vouloir retirer ${station.title} de votre playlist ?`)
 				if (valid) {
@@ -454,7 +461,7 @@ const reloadCurrent = () => {
 
 	const table = {
 		ls: () => loadSearch(),
-		lm: () => loadMain(window.stations),
+		lm: () => loadMain(),
 		lps: () => loadPlaylists(),
 		lcp: () => loadCreatePlaylist()
 	}
