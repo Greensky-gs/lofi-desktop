@@ -26,6 +26,7 @@
     "typescript": "^5.3.3"
   },
   "build": {
-    "appId": "com.draverindustries.lofimobile"
+    "appId": "com.draverindustries.lofimobile",
+    "icon": "./out/assets/lofi_girl_logo.ico"
   }
 }
