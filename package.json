@@ -27,6 +27,7 @@
   },
   "build": {
     "appId": "com.draverindustries.lofimobile",
-    "icon": "./out/assets/lofi_girl_logo.ico"
+    "icon": "./out/assets/lofi_girl_logo.ico",
+    "productName": "Lofi Desktop"
   }
 }
