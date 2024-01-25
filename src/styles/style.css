@@ -62,13 +62,16 @@ img#theme_icon {
 	content: url(../assets/dark_theme_icon.png);
 }
 
+.btn__w,
+.play_btn,
+.add_pl_btn {
+	width: 5vh;
+}
 .play_btn {
 	content: url(../assets/play_icon.png);
-	width: 5vh;
 }
 .add_pl_btn {
 	content: url(../assets/add_to_playlist.png);
-	width: 5vh;
 }
 
 .clickable:hover {

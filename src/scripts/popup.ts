@@ -54,13 +54,24 @@ const popup = (station: hardStation) => {
 	iconsContainer.classList.add('popup_icons');
 
 	const play = document.createElement('img');
-	play.classList.add('play_btn', 'clickable');
+	play.classList.add('clickable', 'btn__w');
+
+	play.src = `../assets/${
+		window.diffuser.playing && window.diffuser.station.url === station.url ? 'pause_icon' : 'play_icon'
+	}.png`
+
 	const addToPlaylistButton = document.createElement('img');
 	addToPlaylistButton.classList.add('add_pl_btn', 'clickable');
 
 	addToPlaylistButton.onclick = () => addToPlaylist(station);
-	play.onclick = () => {
-		window.diffuser.play(station.downloadURL)
+	play.onclick = (ev) => {
+		ev.stopPropagation()
+		if (window.diffuser.station?.url === station.url) {
+			if (window.diffuser.playing) window.diffuser.pause()
+			else window.diffuser.resume()
+		} else {
+			window.diffuser.play(station.downloadURL)
+		}
 		loadMain()
 	}
 
