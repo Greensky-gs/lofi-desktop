@@ -510,13 +510,15 @@ const loadPlayingControler = (container: HTMLElement) => {
 	const n = document.createElement('img');
 	n.src = '../assets/next_icon.png';
 
-	p.onclick = () => {
+	p.onclick = (ev) => {
 		if (window.diffuser.playing) window.diffuser.pause();
 		else window.diffuser.resume();
-
+		
+		ev.stopPropagation()
 		reloadCurrent();
 	};
-	n.onclick = () => {
+	n.onclick = (ev) => {
+		ev.stopPropagation()
 		window.diffuser.skip();
 	};
 	[p, n].forEach((x) => x.classList.add('clickable'));
@@ -533,6 +535,7 @@ const loadPlayingControler = (container: HTMLElement) => {
 	right.append(title, btns);
 
 	controler.append(left, right);
+	controler.onclick = () => popup(window.diffuser.station)
 	container.append(controler);
 };
 
