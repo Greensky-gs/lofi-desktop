@@ -1,4 +1,4 @@
-import { addToPlaylist, parseAuthors } from '../types/definitions';
+import { addToPlaylist, loadMain, parseAuthors } from '../types/definitions';
 import { hardStation } from '../types/station';
 
 const blacker = (action: 'enable' | 'disable') => {
@@ -59,6 +59,10 @@ const popup = (station: hardStation) => {
 	addToPlaylistButton.classList.add('add_pl_btn', 'clickable');
 
 	addToPlaylistButton.onclick = () => addToPlaylist(station);
+	play.onclick = () => {
+		window.diffuser.play(station.downloadURL)
+		loadMain()
+	}
 
 	iconsContainer.appendChild(play);
 	iconsContainer.appendChild(addToPlaylistButton);
