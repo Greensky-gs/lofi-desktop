@@ -2,6 +2,7 @@ import {
 	importFile,
 	loadMain,
 	loadPlaylists,
+	loadPomodoro,
 	loadSearch,
 } from '../types/definitions';
 
@@ -17,6 +18,7 @@ importFile('loads.js', 'js');
 		['playlists_icon', 'playlists.png', () => loadPlaylists()],
 		['home_icon', 'home.png', () => loadMain()],
 		['glass_icon', 'loupe.png', () => loadSearch()],
+		['pomodoro_icon', 'timer.png', () => loadPomodoro()]
 	];
 
 	for (const [icon, path, loader] of icons) {

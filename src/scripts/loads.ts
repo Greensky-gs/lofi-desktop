@@ -563,6 +563,7 @@ const reloadCurrent = () => {
 			}),
 		atp: (meta?: unknown) => addToPlaylist(meta as any as hardStation),
 		lpl: (meta?: unknown) => loadPlaylist(meta as any as hardPlaylistType),
+		lpm: (meta?: unknown) => loadPomodoro()
 	};
 
 	if (meta === 'invalid') return table.lm();
@@ -571,3 +572,78 @@ const reloadCurrent = () => {
 	if (!!call && !!meta) call(meta);
 	if (!!call && !meta) call();
 };
+const loadPomodoro = () => {
+	importFile('pmd.css', 'css')
+	setId('lpm')
+	resetGetter();
+
+	const container = document.getElementById('container');
+	Array.from(container.childNodes).map((x) => x.remove());
+	clearContainer(container);
+	
+	const defaultSessionValue = 25;
+
+	const pomodoro = document.createElement('div')
+	pomodoro.classList.add('pomodoro')
+	
+	const clock = document.createElement('div')
+	clock.classList.add('clock')
+
+	const clockInternal = document.createElement('div')
+	clockInternal.classList.add('clock_internal')
+	clockInternal.innerText = `${defaultSessionValue}:00`
+
+	clock.append(clockInternal)
+
+	const sessions = document.createElement('div')
+	sessions.classList.add('sessions')
+
+	const datas = [['session', 'Session', defaultSessionValue], ['break', "Pause", 5], ['long', "Pause longue", 10]]
+	for (const [id, titleName, defaultValue] of datas) {
+		const session = document.createElement('div')
+		session.classList.add('session')
+		session.id = `pomodoro_session_${id}`;
+		
+		const title = document.createElement('p')
+		title.classList.add('pmd_title')
+		title.innerText = titleName as string;
+		
+		const bottom = document.createElement('div')
+		bottom.classList.add('pmd_bottom')
+
+		const left = document.createElement('img')
+		left.classList.add('pmd_left', 'clickable')
+		const right = document.createElement('img')
+		right.classList.add('pmd_right', 'clickable')
+
+		const duration = document.createElement('p')
+		duration.id = `pomodoro_text_${id}`
+		duration.classList.add('pmd_text')
+		duration.setAttribute("selected_time", defaultValue.toString())
+		
+		bottom.append(left, duration, right)
+		
+		session.append(title, bottom)
+		sessions.append(session);
+
+		// Control logic
+		[left, right].forEach((x, i) => {
+			x.onclick = (ev) => {
+				const time = Math.min(Math.max(0, parseInt(duration.getAttribute('selected_time')) + 1 * (i === 0 ? -1 : 1)), 60);
+				duration.setAttribute("selected_time", time.toString())
+
+				duration.style.setProperty('--selected-time', time.toString());
+				if (id === "session") {
+					clockInternal.innerText = `${time}:00`
+				}
+				ev.stopPropagation()
+			}
+		})
+	}
+
+	const btn = document.createElement('button')
+	btn.classList.add('clickable', 'pmd_btn')
+
+	pomodoro.append(sessions, clock, btn)
+	container.appendChild(pomodoro)
+}

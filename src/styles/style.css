@@ -82,3 +82,9 @@ body {
 	transition: background-color 0.3s ease-in-out;
 	overflow-x: hidden;
 }
+button {
+	border: none;
+}
+button:focus {
+	outline: none;
+}

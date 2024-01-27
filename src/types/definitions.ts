@@ -80,3 +80,4 @@ export const renamePlaylist = (
 	list: hardPlaylistType,
 	name: string,
 ): 'exists' | 'ok' => 'ok';
+export const loadPomodoro = () => {}

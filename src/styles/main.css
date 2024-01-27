@@ -103,11 +103,17 @@
 }
 
 .color_dark_theme .add_pl_container,
-.color_dark_theme .recents {
+.color_dark_theme .recents,
+.color_dark_theme .session,
+.color_dark_theme .clock_internal,
+.color_dark_theme .pmd_btn {
 	color: var(--dark-font-color);
 }
 
 .color_light_theme .add_pl_container,
-.color_light_theme .recents {
+.color_light_theme .recents,
+.color_light_theme .session,
+.color_light_theme .clock_internal,
+.color_light_theme .pmd_btn {
 	color: var(--light-font-color);
 }

@@ -1,0 +1,93 @@
+.sessions {
+    display: grid;
+    height: 50vh;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width: fit-content;
+    top: 25%;
+    bottom: 20%;
+    grid-row: 2;
+    grid-column: 1;
+}
+.session {
+    font-family: var(--love-ya);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--pmd-session-color);
+    margin-bottom: 50px;
+    border-radius: 13px;
+    height: fit-content;
+}
+.pmd_right, .pmd_left {
+    background-color: var(--pmd-btn-color);
+    border-radius: 100%;
+    content: url(../assets/pmd_arrow.png);
+}
+.pmd_right {
+    transform: scale(0.5);
+}
+.pmd_left {
+    content: url(../assets/pmd_arrow.png);
+    transform: rotate(180deg) scale(0.5);
+}
+.pmd_title {
+    margin-bottom: 0;
+}
+.pmd_bottom {
+    display: flex;
+    align-items: center;
+}
+.pmd_text::before {
+    content: attr(selected_time) " min.";
+}
+.pomodoro {
+    display: grid;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+.clock {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3;
+    grid-row: 2;
+}
+.clock_internal {
+    background-color: black;
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    color: white;
+    font-family: var(--love-ya);
+    font-size: 2rem;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.pmd_btn:hover {
+    transform: translateX(6px) translateY(-6px);
+    box-shadow: black -10px 10px;
+}
+.pmd_btn {
+    font-family: var(--love-ya);
+    grid-row: 3;
+    grid-column: 2;
+    background-color: #FE5163;
+    border: none;
+    width: fit-content;
+    color: white;
+    padding: 3% 12%;
+    border-radius: 13px;
+    font-size: 120%;
+    transition: transform, box-shadow .6s, .6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
