@@ -5,6 +5,7 @@ import { stations } from './cache/stations';
 import { wait } from './utils/toolbox';
 import { hardStation } from './types/station';
 import { Diffuser } from './types/definitions';
+import { Pomodoro } from './types/definitions';
 const path = require('path');
 
 config({ path: path.join(__dirname, '../.env') });
@@ -75,6 +76,7 @@ declare global {
 		};
 		stations: hardStation[];
 		diffuser: Diffuser;
+		pomodoro: Pomodoro;
 		metaGetter: () => unknown;
 	}
 }

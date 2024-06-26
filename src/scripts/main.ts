@@ -9,6 +9,7 @@ import { hardStation } from '../types/station';
 importFile('playlists.js', 'js');
 importFile('popup.js', 'js');
 importFile('navs.js', 'js');
+importFile('Pomodoro.js', 'js');
 
 const shuffle = <T = any>(array: T[]): T[] => {
 	return array

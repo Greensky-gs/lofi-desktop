@@ -3,6 +3,7 @@ import { hardStation } from './station';
 import { hardPlaylist as hardPlaylistType, playlist } from './playlists';
 import { stationsLoadOptions } from './core';
 import { appendMode } from './diffuser';
+import { PomodoroTimesType, pomodoroState } from './managers';
 
 export const importFile = (filePath: string, fileType: 'css' | 'js') => {};
 export const parseAuthors = (station: hardStation) => [''];
@@ -81,3 +82,21 @@ export const renamePlaylist = (
 	name: string,
 ): 'exists' | 'ok' => 'ok';
 export const loadPomodoro = () => {}
+export class Pomodoro {
+	constructor() {}
+	public get step(): number {
+		return 0
+	}
+	public get running(): boolean {
+		return false
+	}
+	public get state(): pomodoroState {
+		return 'idle'
+	}
+
+	public start(times: PomodoroTimesType) {
+
+	}
+	public stop() {}
+	public resume() {}
+}

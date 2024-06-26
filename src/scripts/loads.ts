@@ -598,6 +598,8 @@ const loadPomodoro = () => {
 	const sessions = document.createElement('div')
 	sessions.classList.add('sessions')
 
+	const selectors: HTMLParagraphElement[] = []
+
 	const datas = [['session', 'Session', defaultSessionValue], ['break', "Pause", 5], ['long', "Pause longue", 10]]
 	for (const [id, titleName, defaultValue] of datas) {
 		const session = document.createElement('div')
@@ -621,6 +623,8 @@ const loadPomodoro = () => {
 		duration.classList.add('pmd_text')
 		duration.setAttribute("selected_time", defaultValue.toString())
 		
+		selectors.push(duration)
+
 		bottom.append(left, duration, right)
 		
 		session.append(title, bottom)
@@ -641,8 +645,26 @@ const loadPomodoro = () => {
 		})
 	}
 
+	const btnContent = () => window.pomodoro.state === 'paused' ? 'Resume' : window.pomodoro.state === 'idle' ? 'Start studying' : 'Pause'
+
 	const btn = document.createElement('button')
+	btn.innerText = btnContent()
 	btn.classList.add('clickable', 'pmd_btn')
+
+	btn.onclick = (() => {
+		if (window.pomodoro.state === 'paused') {
+			window.pomodoro.resume()
+		} else if (window.pomodoro.state === 'idle') {
+			const [session, short, long] = selectors.map(x => parseInt(x.getAttribute('selected_time')) * 60000)
+	
+			window.pomodoro.start({
+				session, short, long
+			})
+		} else {
+			window.pomodoro.stop();
+		}
+		btn.innerText = btnContent()
+	})
 
 	pomodoro.append(sessions, clock, btn)
 	container.appendChild(pomodoro)
