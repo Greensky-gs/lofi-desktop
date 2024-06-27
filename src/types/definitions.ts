@@ -2,7 +2,7 @@ import { IpcRenderer } from 'electron';
 import { hardStation } from './station';
 import { hardPlaylist as hardPlaylistType, playlist } from './playlists';
 import { stationsLoadOptions } from './core';
-import { appendMode } from './diffuser';
+import { appendMode, stationsCallback } from './diffuser';
 
 export const importFile = (filePath: string, fileType: 'css' | 'js') => {};
 export const parseAuthors = (station: hardStation) => [''];
@@ -32,6 +32,7 @@ export const appendList = (
 export class Diffuser {
 	constructor() {}
 
+	public setCallback(callback: stationsCallback) {}
 	public render() {}
 	public play(url: string, appendMode?: appendMode) {}
 	public pause() {

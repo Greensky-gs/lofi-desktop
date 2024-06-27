@@ -22,4 +22,5 @@ export type hardStation = {
 	title: string;
 	img: string;
 	downloadURL: string;
+	tracks: tracksType
 };

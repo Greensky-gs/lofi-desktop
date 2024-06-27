@@ -1,5 +1,5 @@
 import { hardStation } from '../types/station';
-import { appendMode, diffuserState } from '../types/diffuser';
+import { appendMode, diffuserState, stationsCallback } from '../types/diffuser';
 import {
 	appendSystemList,
 	getSystemList,
@@ -13,9 +13,42 @@ class Diffuser {
 	private state: diffuserState = 'idle';
 	private audio: HTMLAudioElement;
 	private queue: string[] = [];
+	private _callback: stationsCallback
 
 	constructor() {}
 
+	public setCallback(callback: stationsCallback) {
+		this._callback = callback;
+
+		setInterval(this.check.bind(this), 2000)
+
+	}
+	private check() {
+		if (this.state === 'playing') {
+			const now = this.audio.currentTime;
+			const tracks = this.station.tracks
+
+			if (!tracks) return this._callback("Musique inconnue")
+			const tracksList = Object.keys(tracks).map((x) => {
+				const numbers = x.split(/\:/g).map(x => parseInt(x))
+				if (numbers.length === 3) {
+					const [hours, minutes, seconds] = numbers
+					return hours * 3600 + minutes * 60 + seconds
+				} else {
+					const [minutes, seconds] = numbers
+					return minutes * 60 + seconds
+				}
+			})
+
+			const index = tracksList.findIndex((x, i) => {
+				const next = tracksList[i + 1]
+				if (!next) return false;
+
+				return x <= now && now <= next
+			})
+			return this._callback(Object.values(tracks)[index])
+		}
+	}
 	public get playing() {
 		return this.state === 'playing';
 	}

@@ -6,3 +6,4 @@ export type appendMode =
 	| 'pauseonly'
 	| 'idleonly'
 	| 'notidle';
+export type stationsCallback = (songName: string) => unknown | void

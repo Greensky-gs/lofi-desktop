@@ -16,6 +16,14 @@ import {
 import { hardStation } from '../types/station';
 import { createPlaylistOptions, stationsLoadOptions } from '../types/core';
 
+window.diffuser.setCallback((song) => {
+	if (document.body.getAttribute('current_page') != 'lm') return;
+	if (!window.diffuser.idle) {
+		const p = document.getElementsByClassName('controler_track')[0] as HTMLParagraphElement
+		if (p) p.innerText = song
+	}
+})
+
 const loadSearch = () => {
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
@@ -505,6 +513,8 @@ const loadPlayingControler = (container: HTMLElement) => {
 	controler.classList.add('controler');
 	const title = document.createElement('p');
 	title.innerText = station.title;
+	const track = document.createElement('p')
+	track.classList.add('controler_track')
 
 	const btns = document.createElement('div');
 	btns.classList.add('controler_buttons');
@@ -538,7 +548,7 @@ const loadPlayingControler = (container: HTMLElement) => {
 	right.classList.add('ctrl_right');
 
 	left.style.backgroundImage = `url('${station.img}')`;
-	right.append(title, btns);
+	right.append(title, track, btns);
 
 	controler.append(left, right);
 	controler.onclick = () => popup(window.diffuser.station)

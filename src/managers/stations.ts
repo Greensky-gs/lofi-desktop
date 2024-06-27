@@ -46,6 +46,7 @@ export class Stations {
 			url: x.url,
 			img: x.img,
 			downloadURL: x.downloadURL,
+			tracks: x.tracks
 		}));
 	}
 

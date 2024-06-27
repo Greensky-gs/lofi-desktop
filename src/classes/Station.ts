@@ -23,6 +23,7 @@ export class Station {
 	 * Returns title without emoji
 	 */
 	public get softTitle() {
+		// @ts-ignore
 		return this.fullTitle.replace(/\p{Emoji}/u, '').replace(/ +/g, ' ');
 	}
 	public get title() {

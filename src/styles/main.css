@@ -89,6 +89,11 @@
 	justify-content: space-around;
 	width: 100%;
 }
+.controler_track {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    font-size: .9rem;
+}
 .color_dark_theme .controler {
 	background-color: var(--dark-playing);
 }
