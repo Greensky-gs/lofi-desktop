@@ -221,6 +221,7 @@ const loadStations = ({
 	Array.from(container.childNodes).map((x) => x.remove());
 
 	stations.forEach((station) => {
+		if (!station) return
 		const div = document.createElement('div');
 		div.classList.add('song');
 		div.onclick = () => popup(station);

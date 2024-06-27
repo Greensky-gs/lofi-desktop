@@ -39,6 +39,7 @@ export class Stations {
 	public get hardStations(): (hardStation & { feedbacks: [] })[] {
 		return Array.from(this.cache.values()).map((x) => ({
 			title: x.softTitle,
+			// @ts-ignore
 			emoji: x.title.split(' ').find((x) => /\p{Emoji}/u.test(x)) ?? '',
 			feedbacks: [],
 			type: 'playlist',
@@ -55,7 +56,7 @@ export class Stations {
 	private async fillCache() {
 		onValue(ref(this.ref, 'stations'), async (snap) => {
 			const values = snap.val() as Record<string, station<true>>;
-			Object.values(values).forEach((val) => {
+			Object.values(values).forEach((val, i) => {
 				this.pushStation(val);
 			});
 
