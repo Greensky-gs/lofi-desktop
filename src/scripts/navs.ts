@@ -41,7 +41,7 @@ importFile('loads.js', 'js');
 	const withIcon = (upperNav.getAttribute('displayIcon') ?? '1') === '1';
 
 	const title = document.createElement('h3');
-	title.innerText = 'Lofi Mobile';
+	title.innerText = 'Lofi Desktop';
 	title.classList.add('dance');
 
 	upperNav.appendChild(title);
