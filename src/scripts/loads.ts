@@ -75,6 +75,11 @@ const loadSearch = () => {
 	loadEvent();
 };
 const loadMain = () => {
+	window.scrollTo({
+		top: 0,
+		behavior: 'smooth',
+	});
+
 	const container = document.getElementById('container');
 	Array.from(container.childNodes).map((x) => x.remove());
 	clearContainer(container);
